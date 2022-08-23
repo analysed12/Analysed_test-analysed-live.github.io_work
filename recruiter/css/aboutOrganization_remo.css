@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'MetroM' !important;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+
+
+@font-face {
+    font-family: 'CeraB';
+    src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+/* ***********************y_code*********************** */
+.small_container {
+    max-width: 80vw;
+    font-family: 'CeraB';
+}
+
+.see-all-jobs-ekam0-recruiter-organization {
+    width: 100pt;
+    height: 30pt;
+    font-family: 'CeraB';
+}
+
+input {
+    font-size: 16px;
+    font-family: 'CeraB';
+}
+
+/* ***********************y_code_ends*********************** */
+
+.organization-main-container-recruiter {
+    background-color: #2D3E50;
+    border-radius: 8px;
+    padding: 40px 20px;
+    position: relative;
+    min-height: 350px;
+    font-family: 'CeraB';
+}
+
+.see-all-jobs-ekam0-recruiter-organization {
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 8px;
+    background-color: #297FB8;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    font-family: 'CeraB';
+}
+
+.absolute-center-div-image-recruiter-organization {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'CeraB';
+}
+
+.absolute-center-div-image-recruiter-organization h2 {
+    margin: 20px 0px 10px 0px;
+    font-size: 36px;
+    font-family: 'CeraB';
+}
+
+.absolute-center-div-image-recruiter-organization {
+    font-size: 18px;
+    font-family: 'CeraB';
+}
+
+.organization-details-recruiter-ekam {
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    /* padding: 0px 40px; */
+    font-size: 18px;
+    /* margin-top: 30px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'CeraB';
+}
+
+.single-organization-details-ekam-recruiter p {
+    margin: 30px 0px;
+}
+
+.about-us-organization-container-recruiter {
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.pie-chart-info-right-side-about-us-organization {
+    box-shadow: 1px 3px 10px #00000033;
+}
+
+.left-side-about-us-organization-container-recruiter {
+    /* width: 100%; */
+    flex-basis: 70%;
+    box-shadow: 1px 3px 10px #00000033;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.about-us-para-1-left-side-about-us-organization-container-recruiter h2,
+.about-us-para-2-left-side-about-us-organization-container-recruiter h2 {
+    margin: 20px 0px;
+    font-size: 27px;
+    font-weight: 500;
+    color: #3598DB;
+}
+
+.about-us-para-1-left-side-about-us-organization-container-recruiter p,
+.about-us-para-2-left-side-about-us-organization-container-recruiter p {
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.right-side-about-us-organization-container-recruiter {
+    /* width: 100%; */
+    background-color: white;
+    flex-basis: 25%;
+
+    border-radius: 8px;
+}
+
+.social-links-info-after-pie-chart-right-side-about-us {
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+}
+
+.languages-info-after-pie-chart-right-side-about-us p {
+    margin: 8px;
+}
+
+.social-links-info-after-pie-chart-right-side-about-us {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social-links-info-after-pie-chart-right-side-about-us p {
+    color: #3598DB;
+    margin: 10px 0px;
+    font-size: 19px;
+}
+
+.social-linl-single-after-pie-chart-right-side-about-us {
+    font-size: 35px;
+}
+
+.social-signs-recruiter-organization-ekam-last {
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.pencil-for-editing-about-us-organization {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #333333;
+}
+
+.pie-chart {
+    background:
+        radial-gradient(circle closest-side,
+            transparent 66%,
+            white 0),
+        conic-gradient(#51c46d 0,
+            #51c46d 38%,
+            #0f9d58 0,
+            #0f9d58 61%,
+            #51c46d 0,
+            #51c46d 77%,
+            #97ed8a 0,
+            #97ed8a 87%,
+            #0f9d58 0,
+            #0f9d58 93%,
+            #51c46d 0,
+            #51c46d 100%);
+    position: relative;
+    min-width: 300px;
+    min-height: 350px;
+    margin: 0;
+    /* outline: 1px solid #ccc; */
+}
+
+.pie-chart span:after {
+    display: inline-block;
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.4em;
+    height: 0.8em;
+    border-radius: 0.2em;
+    background: currentColor;
+}
+
+.languages-info-after-pie-chart-right-side-about-us p span {
+    background-color: #51C46D;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+.single-organization-details-ekam-recruiter p i {
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1250px) {
+    .left-side-about-us-organization-container-recruiter {
+        flex-basis: 60%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .left-side-about-us-organization-container-recruiter {
+        flex-basis: 100%;
+    }
+
+    .right-side-about-us-organization-container-recruiter {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+
+    .organization-details-recruiter-ekam {
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .absolute-center-div-image-recruiter-organization {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0);
+        margin-bottom: 50px;
+    }
+
+    .organization-details-recruiter-ekam {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0);
+    }
+
+    /* ***********************y_code*********************** */
+    .small_container {
+        max-width: 90vw;
+    }
+
+    .organization-details-recruiter-ekam {
+        padding: 0px 20px;
+    }
+
+    .single-organization-details-ekam-recruiter {
+        margin-top: -30px;
+    }
+
+    .organization-main-container-recruiter {
+        padding: 60px 20px;
+    }
+
+    .see-all-jobs-ekam0-recruiter-organization {
+        bottom: 20px;
+        width: 90pt;
+        height: 25pt;
+    }
+
+    /* ***********************y_code_ends*********************** */
+}

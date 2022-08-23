@@ -1,0 +1,64 @@
+.applied-in-iD{
+    margin: 20px 0px 7px 0px;
+    color: #333333;
+    font-family: MetroM;
+    font-size: 20px;
+}
+.jobStatus-interviewDone{
+    color: #333333;
+    font-family: Metro;
+    font-size: 18px;
+}
+.jobStatus-interviewDone.notactive span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #333333;
+    border-radius: 100%;
+}
+.jobStatus-interviewDone.active span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #36B948;
+    border-radius: 100%;
+}
+.jobStatus-interviewDone.active{
+    margin-left: 50px;
+}
+.upcomingInterviews-p{
+    margin-top: 20px;
+    font-family: MetroM;
+    font-size: 18px;
+}
+.upcomingInterviews-p p:nth-child(1){
+    color: #333333;
+}
+.upcomingInterviews-p p:nth-child(2){
+    color: #979797;
+    font-family: Metro;
+    margin:8px 0px 20px 0px;
+}
+.resumepdfDownload{
+    font-size: 18px;
+    display: block;
+    font-family: Metro;
+    margin: 10px 0px 30px 0px; 
+    color: #3598DB;
+}
+.candidate-status-jobs.Completed{
+    background: #D8FFD5;
+}
+.candidate-status-jobs.Unfinished{
+    background: #D7D7D7;
+}
+.candidate-status-jobs.Active {
+    background: #FDE8E2;
+}
+    @media screen and (max-width:1120px) {
+        .jobStatus-interviewDone.active {
+            margin-left: 0px;
+            margin-top: 10px;
+            width: 100%;
+        }
+    }

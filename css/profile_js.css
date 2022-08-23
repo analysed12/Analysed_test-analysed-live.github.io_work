@@ -1,0 +1,419 @@
+
+
+.profileContainer {
+  display: flex!important;
+  align-items: flex-start;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+}
+.leftArea-profileContainer {
+  flex-basis: 30%;
+  width: 38%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.profilepic-profileContainer {
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+.name_profileContactInfo-profileContainer {
+  color: #333333;
+  font-size: 20px;
+  align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.designation_profileContactInfo-profileContainer {
+  color: #3598db;
+  margin-top: 10px;
+  align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.location_profileContactInfo-profileContainer {
+  color: #979797;
+  margin-top: 10px;
+}
+.phone_profileContactInfo-profileContainer {
+  margin-top: 17px;
+  color: #333333;
+}
+.email_profileContactInfo-profileContainer {
+  margin-top: 15px;
+  color: #333333;
+}
+.skillsInfo-profileContainer {
+  margin-top: 30px;
+  color: #333333;
+}
+.skillsInfo-profileContainer p {
+  margin-bottom: 10px;
+}
+.skillsInfo-profileContainer p i {
+  color: #3598db;
+}
+.skillsInfo-profileContainer span {
+  margin-top: 10px;
+  border: 1px solid #333333;
+  padding: 5px;
+  border-radius: 6px;
+}
+.socialProfiles-profileContainer {
+  margin-top: 50px;
+}
+.singleItem_socialProfiles-profileContainer {
+  display: flex;
+  align-items: center;
+}
+.singleItem_socialProfiles-profileContainer i {
+  font-size: 40px;
+  margin-right: 10px;
+  text-align: left;
+  color: #333333;
+  text-decoration: none;
+  list-style: none;
+  margin-top: -23%;
+}
+#git,#linkedin,#twitter{
+      position: relative;
+    top: -38px;
+}
+.singleItem_socialProfiles-profileContainer span {
+  text-align: left;
+}
+.singleItem_socialProfiles-profileContainer span p:nth-child(1) {
+  color: #3598db;
+}
+.singleItem_socialProfiles-profileContainer span p:nth-child(2) {
+  color: #333333;
+  font-size: 14px;
+}
+.profilepic-profileContainer {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.contactInfo-profileContainer {
+  padding: 0px 25px;
+}
+
+/*.rightArea-profileContainer {
+  flex-basis: 75%;
+}*/
+.heading-profileContainer {
+  color: #333333;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.detailed-profileContainer h2 a i {
+  color: #3598db;
+  font-size: 22px;
+}
+.para-profileContainer {
+  color: #333333;
+  line-height: 26px;
+}
+.para-profileContainer span {
+  margin: 5px 0px;
+  display: block;
+}
+.para-profileContainer span a {
+  text-decoration: none;
+  color: #333333;
+}
+.buttonForProfileInfo {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #3598db;
+  border-radius: 6px;
+  border: 1px solid #3598db;
+}
+.buttonForProfileInfo.active {
+  background-color: #3598db;
+  color: white;
+}
+.detailed-profileContainer {
+  margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*padding: 10px;*/
+    padding: 20px 24px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px lightgrey;
+    width: 88%;
+}
+#edit,.form-input{
+  padding-top: 8px;
+    margin-top: 33px;
+    display: flex;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #3598db;
+    border: 1px solid #3598db;
+    border-radius: 5px;
+}
+#edit:hover, #btn1:hover{
+  background-color:#3598db;
+  color: white;
+}
+::placeholder{
+  color: #3598db;
+  font-size: 15px;
+  padding-bottom: 6px;
+  list-style: none;
+  text-decoration: none;
+}
+.form-input{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 7px;
+  text-decoration: none;
+  list-style: none;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    font-weight: 600;
+}
+#edit_pencil{
+      display: flex;
+    float: right;
+}
+.rightArea-profileContainer {
+    flex-basis: 77%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+      margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px lightgrey;
+    width: 88%;
+        height: auto;
+   justify-content: space-around;
+}
+.table_heading{
+  display: flex;
+  font-size: 23px;
+  cursor: pointer;
+
+}
+#btn1{
+  display: flex;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #3598db;
+    border: 1px solid #3598db;
+    width: 88%;
+}
+.section3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+}
+.socialProfiles-profileContainer {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px lightgrey;
+    color: black;
+    width: 89%;
+    padding: 20px 24px;
+
+}
+.por{
+  display: flex;
+}
+.portion1{
+  display: flex;
+  flex-direction: column;
+}
+.portion2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab {
+  overflow: hidden;
+      border: none;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  display: flex;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  width: 100%;
+  border: none;
+}
+.btn2{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: white;
+    background-color:#3598db;
+    border: 1px solid #3598db;
+    width: 230px;
+    position: relative;
+    top: 0;
+    left: 63%;
+    border-radius: 5px;
+}
+.btn2:hover{
+  background-color:white;
+  color: #3598db;
+}
+#Education{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.edu1{
+  display: flex;
+      flex-direction: column;
+}
+.edu2{
+  display: flex;
+  flex-direction: column;
+
+}
+#edit_pencil{
+      display: flex;
+    float: right;
+        color: #3598db;
+    font-size: 22px;
+}
+.heading-profileContainer {
+    color: #333333;
+    font-size: 27px;
+    padding-bottom: 0px;
+}
+.exp_img{
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+      margin-left: 41px;
+      margin-top: 6px;
+}
+.exp1,.exp2,.exp3{
+  display: flex;
+  flex-direction: column;
+  margin-left: 161px;
+   position: relative;
+      top: 16px;
+
+}
+#edu_para{
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 600;
+    color: #3598db;
+}
+#ed1,#ed2{
+  display: flex;
+  flex-direction: column;
+}
+#btn2{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: white;
+    background-color:#3598db;
+    border: 1px solid #3598db;
+    width: 230px;
+    height: 36px;
+    float: right;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+        margin: -16px;
+        text-decoration: none;
+
+}
+#btn2:hover{
+  background-color:white;
+  color: #3598db;
+}
+@media screen and (max-width:1400px){
+  .leftArea-profileContainer{
+    width: 30%;
+    flex-basis: auto;
+  }
+  .rightArea-profileContainer{
+    width: 60%;
+    flex-basis: auto;
+  }
+}
+@media screen and (max-width:1000px){
+  .leftArea-profileContainer{
+    width: 40%;
+    flex-basis: auto;
+  }
+  .rightArea-profileContainer{
+    width: 55%;
+    flex-basis: auto;
+  }
+}
+@media screen and (max-width:750px){
+  .notificationsDiv{
+    left: 20%!important;
+  }
+    .leftArea-profileContainer {
+        flex-basis: 95%;
+        margin-bottom: 60px;
+      }
+      .rightArea-profileContainer {
+        flex-basis: 95%;
+      }
+}

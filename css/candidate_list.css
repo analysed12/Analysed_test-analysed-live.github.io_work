@@ -1,0 +1,196 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+}
+
+@font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+
+@font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+
+.database
+{
+  margin-top: 50px;
+    margin-left: 100px;
+top: 290px;
+left: 218px;
+font: normal normal normal 40px/19px CeraB;
+color:black;
+}
+.search
+{
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 450px;
+    height: 45px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px #00000029;
+   border-radius: 31px;
+   opacity: 1;
+}
+.search svg{
+    margin-left:20px;
+
+    margin-top:20px;
+}
+.add
+{
+margin-top: -40px;
+margin-left: 780px;
+width: 70px;
+height: 35px;
+background: var(--unnamed-color-3598db) 0% 0% no-repeat padding-box;
+background: #3598DB 0% 0% no-repeat padding-box;
+box-shadow: 1px 3px 10px #00000033;
+border-radius: 8px;
+opacity: 1;
+}
+.add button{
+    margin-top:8px;
+    margin-left: 10px;
+    width: 30px;
+    height: 18px;
+    font: normal normal normal 15px/22px Metro;
+    background-color: #3598DB;
+    border: #3598DB;
+    color: #FFFFFF;
+  
+}
+.sort
+{
+    margin-top: -70px;
+    margin-left: 880px;  
+    font: normal normal normal 15px/19px Metro;
+ 
+}
+.sort select{
+    width: 170px;
+    height: 31px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-3598db);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #3598DB;
+    opacity: 1;
+}
+.radio
+{
+     margin-top: 30px;
+     margin-left: 880px;
+     font: normal normal normal 15px/19px Metro;
+}
+.radio select{
+  width: 187px;
+  height: 31px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-3598db);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #3598DB;
+    opacity: 1;
+}
+.radio select option{
+    color:#979797;
+}
+.radio input{
+   
+    width: 21px;
+    height: 21px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-3598db);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #3598DB;
+    opacity: 1;
+}
+.qual
+{
+ margin-top: 0px;
+ margin-left: 70px;
+font: normal normal normal 15px/19px MetroM;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+.qual select,input
+{
+
+width: 254px;
+height: 40px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-3598db);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #3598DB;
+opacity: 1;
+}
+.cont 
+{
+    margin-top:-400px;
+    margin-left: 400px;
+}
+.cont .list
+{
+    
+margin-top: 20px;
+margin-left: -10px;
+width: 950px;
+height: 100px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 1px 3px 10px #00000033;
+border-radius: 8px;
+opacity: 1;
+}
+.list input {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 21px;
+    height: 21px;
+    border: 1px solid var(--unnamed-color-3598db);
+    border: 1px solid #3598DB;
+    opacity: 1;
+}
+
+.list .added {
+    margin-top: -30px;
+    margin-left: 60px;
+    font: normal normal normal 15px/24px Metro;
+
+}
+.list img {
+    margin-top: -60px;
+    margin-left: 190px;
+}
+
+.list .uploaded {
+    margin-top: -60px;
+    margin-left: 270px;
+    font: normal normal normal 15px/24px Metro;
+
+}
+.list .added1 {
+    margin-top: -50px;
+    margin-left: 420px;
+    font: normal normal normal 15px/24px Metro;
+
+}
+.list .added2 {
+    margin-top: -50px;
+    margin-left: 600px;
+    font: normal normal normal 15px/24px Metro;
+    color:red;
+}
+.list p{
+     margin-top: -30px;
+     margin-left: 722px;
+     font: normal normal normal 15px/24px Metro;
+color:#3598DB;
+}

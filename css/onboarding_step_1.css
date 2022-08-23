@@ -1,0 +1,143 @@
+.container-1 {
+    margin-left: 100px;
+}
+
+
+.name {
+    margin-top: 50px;
+    margin-left: 30px;
+    font: normal normal normal 30px/40px CeraB;
+    color: black;
+    opacity: 1;
+}
+.name p{
+    margin-top:-50px;
+    margin-left:700px;
+font: normal normal normal 15px/30px MetroM;
+color:#979797;
+}
+.nav{
+    margin-top:50px;
+ margin-left:100px;
+}
+.nav ul{
+    color:#3589db;
+    font: normal normal normal 15px/30px MetroM;
+}
+a{
+    text-decoration: none;
+ color:#3589db;
+}
+.box
+{
+ margin-left:300px;
+ margin-top: -80px;
+}
+.step
+{
+   
+     font: normal normal bold 18px/30px MetroM;
+}
+.step p{
+    font: normal normal normal 15px/30px MetroM;
+    color:#979797;
+   
+}
+.content label{
+    font: normal normal medium 18px/22px Metropolis;
+    margin-top: 20px;
+}
+.content input{
+    margin-top: 20px;
+    width: 500px;
+    height: 53px;
+    border: 1px solid var(--unnamed-color-3598db);
+    border: 1px solid #3598DB;
+    border-radius: 7px;
+}
+.content1
+{
+    margin-left: 550px;
+    margin-top:-95px;
+}
+.content1 label {
+    font: normal normal medium 18px/22px MetroM;
+    margin-top: 20px;
+}
+
+.content1 input {
+    margin-top: 20px;
+    width: 500px;
+    height: 53px;
+    border: 1px solid var(--unnamed-color-3598db);
+    border: 1px solid #3598DB;
+    border-radius: 7px;
+}
+.radio
+{
+    font: normal normal normal 18px/22px MetroM;
+    margin-top: -30px;
+}
+.editor
+{
+    font: normal normal bold 27px/34px MetroM;
+    margin-top:50px;
+    color:#3589db;
+}
+.editor p{
+    padding:20px;
+     font: normal normal normal 15px/34px MetroM;
+     color:black;
+     margin-left:-20px;
+}
+.text
+{
+    width: 900px;
+    height: 500px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px dashed var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px dashed #707070;
+    border-radius: 8px;
+    opacity: 1;
+}
+.text .text1
+{
+    margin-top: -1px;
+    margin-left:-1px;
+    width: 900px;
+    height: 60px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 1;
+}
+.text .text1 p{
+    padding:10px;
+    text-align: center;
+    font: normal normal normal 18px/30px MetroM;
+}
+.text p{
+    width: 870px;
+    height: 300px;
+    font: normal normal normal 15px/25px MetroM;
+ padding: 0px 10px;
+}
+.button button
+{
+    margin-top: 20px;
+    margin-left:680px;
+    padding:10px;
+    width: 218px;
+    height: 49px;
+   
+    background: #3598DB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px white;
+    border-radius: 6px;
+    opacity: 1;
+    border-color: #FFFFFF;
+     font: normal normal normal 15px/25px MetroM;
+  color:#FFFFFF;
+}

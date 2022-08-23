@@ -1,0 +1,170 @@
+.name-and-image-top-div span{
+    margin-left: 10px;
+}
+.Applicationstatusname{
+    font-size: 26px;
+    font-family: MetroM;
+    color: #333333;
+}
+.designationApplicationstatus{
+    color: #979797;
+    font-size: 18px;
+    margin-top: 8px;
+    font-family: Metro;
+}
+.about-joband-main-content{
+    margin-top: 50px;
+    font-family: Metro;
+    align-items: flex-start!important;
+}
+.left-side-container-appstatus-1{
+    flex-basis: 55%;
+}
+.right-side-container-appstatus-1{
+    flex-basis: 40%;
+}
+.aboutjob-and-current-status-appstatus-1{
+    align-items: flex-start!important;
+    justify-content: flex-start!important;
+}
+.aboutjob-content{
+    flex-basis: 40%;
+}
+.currentstatus-content{
+    margin-left: 100px;
+}
+.aboutjob-content p:nth-child(1),.currentstatus-content p:nth-child(1){
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+.aboutjob-content p:nth-child(2){
+    font-size: 17px;
+    color: #979797;
+    margin-bottom: 8px;
+}
+.currentstatus-content p:nth-child(2){
+    color: #FDCA3B;
+    font-size: 17px;
+    
+    margin-bottom: 8px;
+}
+.status-div-application-status{
+    margin-top: 30px;
+}
+.status-div-application-status .status-heading{
+    margin: 8px 0px;
+    font-size: 24px;
+    color: #333333;
+}
+.card-single-item-status{
+    flex-basis: 40%;
+    width: 290px;
+    max-width: unset;
+}
+.timeline-div{
+    margin-top: 40px;
+
+}
+.timeline-start{
+    position: relative;
+}
+.timeline-start::after{
+        content: '';
+        position: absolute;
+        width: 8px;
+        background-color: #D7D7D7;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin-left: -3px;
+}
+.timeline-start::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    background-color: #0F9D58;
+    top: 0;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    margin-left: -3px;
+    z-index: 1;
+}
+.timeline-start .status-1{
+    margin-left: 40px;
+    position: relative;
+    margin-top: 45px;
+}
+
+.status-1.completed::before,.status-1.pending::before,.status-1.unassigned::before{
+        content: "";
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: -52px;
+        border: 4px solid #0F9D58;
+        top: 0px;  
+        border-radius: 50%;
+        z-index: 1;
+}
+.status-1.completed::before{
+    background-color:  #0F9D58;
+    border: 4px solid #0F9D58;
+}
+.status-1.pending::before{
+    background-color:  #FDCA3B ;
+    border: 4px solid #FDCA3B;
+}
+.status-1.unassigned::before{
+    background-color: #979797;
+    border: 4px solid #cccccc;
+}
+.status-1 .content-timeline p{
+    font-size: 20px;
+    color: #333333;
+}
+.status-1 .content-timeline ul{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.status-1 .content-timeline ul li{
+    margin-top: 8px;
+}
+.card-upcoming-task-main-1{
+    width: 50%!important;
+}
+@media screen and (max-width:1300px){
+    .card-upcoming-task-main-1{
+        width: 70%!important;
+    }
+}
+@media screen and (max-width:1000px){
+    .card-upcoming-task-main-1{
+        width: 100%!important;
+    }
+}
+@media screen and (max-width:950px){
+    .left-side-container-appstatus-1{
+        flex-basis: 100%;
+    }
+    .right-side-container-appstatus-1{
+        flex-basis: 100%;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:700px){
+    .status-1.completed::before,.status-1.pending::before,.status-1.unassigned::before{
+        left: -33px;
+}
+    .timeline-start .status-1{
+        margin-left: 20px;
+    }
+    .aboutjob-content{
+        flex-basis: 100%;
+    }
+    .currentstatus-content{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+}

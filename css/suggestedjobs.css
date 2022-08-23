@@ -1,0 +1,215 @@
+.sugjob_breadcrumb_container .sugjob_breadcrumb_container_ul {
+  list-style: none;;
+}
+
+.sugjob_breadcrumb_container .sugjob_breadcrumb_container_ul .sugjob_breadcrumb_container_li{
+  display: inline;
+}
+
+.sugjob_breadcrumb_container .sugjob_breadcrumb_container_ul .sugjob_breadcrumb_container_li+.sugjob_breadcrumb_container_li:before {
+  padding: 8px;
+  color: #3598DB;
+  content: ">";
+}
+
+.sugjob_breadcrumb_container .sugjob_breadcrumb_container_ul .sugjob_breadcrumb_container_li a{
+  color: #3598DB;
+}
+
+.mainParaDash p{
+    display: inline;
+}
+
+.mainParaDash select{
+    border:none;
+}
+
+.main_sugjob_container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sugjob_flex_item{
+     padding-top:30px;
+}
+.sugjob_cards{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.sugjob_carditem{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.icons{
+  float: right;
+}
+.company{
+  display: flex;
+  margin-top: 50px;
+  clear: both;
+}
+
+.aligned{
+  display: flex;
+  align-items:center;
+}
+
+.designation{
+  padding-top: 40px;
+}
+
+.job_content{
+margin:20px;
+}
+.designation{
+font-family: sans-serif;
+font-weight: 600;
+}
+
+progress{
+width: 60%;
+float: left;
+}
+.days{
+color: #979797;
+float:right;
+}
+.skills{
+color: #3598DB;
+font-style: italic;
+margin-top: 30px;
+font-weight: lighter;
+margin-bottom: 30px;
+}
+
+.last_job_content #first{
+float:left;
+margin-top: 10px;
+font-size: smaller;
+font-family: sans-serif;
+color: #979797;
+}
+
+.last_job_content #second{
+text-decoration: none;
+float: right;
+border: 1px solid #3598DB;
+border-radius: 20px;
+padding:5px;
+color:#3598DB;
+font-size: smaller;
+font-family: sans-serif;
+}
+
+
+
+
+
+.forms{
+  margin-left: 65px;
+}
+.forms p{
+  margin-top:15px; 
+  font-family: sans-serif;
+}
+
+.loc{
+border: 1px solid var(--unnamed-color-979797);
+border: 1px solid #979797;
+border-radius: 7px;
+opacity: 1;
+margin-top: 10px;
+height: 53px;
+width:286px;
+}
+.salary{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+ #t1, #t2{
+  height: 53px;
+  width:135px;
+  border-radius: 7px;
+  opacity: 1;
+  border: 1px solid var(--unnamed-color-979797);
+  border: 1px solid #979797;
+}
+
+.sel{
+  width: 286px;
+  height: 53px;
+  border: 1px solid #3598DB;
+  border-radius: 7px;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.chip {
+  display: inline-block;
+  padding:5px 15px;
+  border-radius: 5px;
+  background-color:#f5f5f5;
+  font-size: smaller;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width:918px) and (max-width:1190px) {
+  .sugjob_cards{
+      width: 60%;
+  }
+}
+
+@media screen and (min-width:801px) and (max-width:918px) {
+  .sugjob_cards{
+      width: 55%;
+  }
+}
+
+
+@media screen and (min-width:0px) and (max-width:801px) {
+  .main_sugjob_container{
+      flex-direction: column;
+  }
+  .sugjob_cards {
+    width: 100%;
+  }
+  .sugjob_cards {
+      width: 100%;
+    }
+  .sugjob_breadcrumb_container {
+      padding-left: 17px;
+  }
+  .sugjob_breadcrumb_container .sugjob_breadcrumb_container_ul .sugjob_breadcrumb_container_li+.sugjob_breadcrumb_container_li:before{
+      padding: 3px;
+  }
+  .sugjob_filter{
+      width:100%;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width:585px) {
+  .sugjob_cards .sugjob_carditem {
+      width: 100%;
+    }
+}
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

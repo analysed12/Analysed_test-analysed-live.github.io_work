@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    background: white;
+  }
+
+  .title {
+      position:relative;
+      right:-240;
+      bottom:-60;
+  }
+
+  .title h2{
+      font-size:38px;
+      font-weight: lighter;
+
+  }
+
+  .title p{
+      color:#3598db;
+      position:relative;
+      top:-10;
+  }
+  .form-popup{
+   
+    position:relative;
+    bottom:-70;
+    right: -240;
+    border:1px solid white;
+    box-sizing:content-box;
+    width:70%;
+    height:85%;
+    z-index: 9;
+    background-color: white;
+    word-wrap:break-word;
+    box-shadow:5px 10px 18px #888888;
+}
+
+.form-popup .img{
+    position:relative;
+    bottom:-20;
+}
+
+.form-popup label{
+    font-family: calibri;
+    
+}
+
+.form-popup input[type=text], .form-popup input[type=email], .form-popup input[type=tel]{
+      border: 1px solid #3598db;
+    border-radius:5px;
+  color: #979797;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+background: #ffffff;
+  width: 20%;
+    position:relative;
+    bottom:-10;
+}
+
+.first-name label{
+    position:relative;
+    right:-450;
+    top:-230;
+}
+#first-name{
+    position:relative;
+    right:-365;
+    top:-180;
+}
+
+.last-name label{
+    position:relative;
+    right:-750;
+    top:-289;
+}
+
+#last-name{
+    position:relative;
+    top:-240;
+    right:-668;
+}
+
+.email label{
+    position:relative;
+    right:-450;
+    top:-220;
+}
+
+#email{
+    position:relative;
+    right: -399;
+    top:-175;
+    width:50%;
+}
+
+.phone label{
+    position:relative;
+    right:-450;
+    top:-170;
+}
+
+#phone{
+    position:relative;
+    right:-330;
+    top:-125;
+    width:50%;
+}
+
+.message label{
+    position:relative;
+    top:-120;
+    right:-450;
+}
+
+#message{
+    position:relative;
+    right:-380;
+    top:-76;
+    width:50%;
+}
+
+ .location{
+    position:relative;
+    top:-100;
+    right:-30;
+}
+
+.location p{
+    position:relative;
+    top:-130;
+    right:-70;
+    font-weight: lighter;
+}
+
+.general-support{
+    position:relative;
+    top:-135;
+    right:-110;
+}
+
+.general-support p{
+    position:relative;
+    top:-155;
+    right:-140;
+    font-weight: lighter;
+}
+
+.contact{
+    position:relative;
+    top:-110;
+    right:-30;
+}
+
+.contact p{
+    position:relative;
+    top:-140;
+    right:-70;
+    font-weight: lighter;
+}
+
+#sendBtn{
+    padding:10;
+    width:160px;
+    background-color:#51c36d;
+    border:none;
+    border-radius:6px;
+    color:white;
+    font-size:15;
+    cursor:pointer;
+    position:relative;
+    top:-220;
+    right:-800;
+}
+
+.sendBtn img{
+    position:relative;
+    top:-215;
+    right:-775;
+    height:20px;
+    width:20px;
+}

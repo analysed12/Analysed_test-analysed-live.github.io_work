@@ -1,0 +1,115 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+  .addFilesMyTasks1 {
+    display: flex;
+    right: 2%;
+    background-color: #fff;
+    /* padding: 8px 16px; */
+    border: 1px solid #fff;
+    text-align: center;
+    color:#333333;
+  font-size: 27px;
+  font-family: CeraM;
+  }
+.main_body{
+    /* display:flex; */
+    margin-left: 150px;
+    overflow-x: hidden;
+}
+.a1{
+    color: #333333;
+    font-family: CeraM;
+    font-size: 45px;
+}
+.a2{
+    color: #3598DB;
+    font-family: Metro;
+    font-size: 16px;
+}
+.b1 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  align-items: center;
+  width: auto;
+  height: 47px;
+}
+.c1{
+  color:#333333;
+  font-size: 27px;
+  font-family: CeraM;
+}
+.c2{
+  color: #3598DB;
+  font-size: 25px;
+  font-family: CeraM;
+}
+.c3{
+  color: #979797;
+  font-size: 16px;
+  font-family: Metro;
+}
+#ac{
+  color: #3598DB;
+}
+#nac{
+  color:#979797;
+}
+
+
+.fullclick li{
+  list-style: none;
+  margin: 1em 0;
+  padding: 20px 10px;
+  background: #fff;
+  position: relative;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  width: 850px;
+  height: 154px;
+  margin-right: 50px;
+}
+.fullclick a.main {
+  color: #85baff;
+  text-align: right;
+  display: block;
+  z-index: 1;
+}
+.fullclick li a.main::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: ' ';
+}

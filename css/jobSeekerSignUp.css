@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    background: white;
+  }
+  
+  .title{
+    position:relative;
+    bottom:-70;
+    left:76;
+
+  }
+  .title p{
+    color:grey;
+  }
+
+  .title h2{
+    color:#3598db;
+  }
+
+
+  .personal-details p{
+    color:grey;
+    position:relative;
+    right:-200;
+    bottom:-25;
+  }
+
+.personal-details{
+  flex-basis: 45%;
+  width: 100%;
+  position:relative;
+  right:-500;
+  top:70;
+}
+
+
+
+.personal-details label{
+  display:block;
+  font-size: black;
+  margin-bottom: 9px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.personal-details input {
+  position:relative;
+  border: 1px solid #3598db;
+  border-radius: 5px;
+  background: #fafbff;
+  color: #3598db;
+  padding:10px;
+  margin-bottom: 20px;
+  width: 17%;
+  z-index:1000;
+}
+
+.personal-details .name{
+  position:relative;
+  top:95;
+}
+.personal-details .first-name{
+  display:block;
+  position:relative;
+  top:100;
+  right:-1;
+}
+.personal-details .last-name{
+    position:relative;
+    right:-300;
+    top:43;
+}
+.personal-details .phone{
+    position:relative;
+    right:-300;
+    top:-30;
+}
+
+.personal-details .email{
+    position:relative;
+    top:54;
+    
+}
+.personal-details .address{
+    width:225%;
+    position:relative;
+    top:-20;
+  }
+  
+.personal-details .qualification{
+    position:relative;
+    top:70;
+}
+
+
+.personal-details .year-of-passing{
+    position:relative;
+    top:-13;
+    right:-300;
+}
+
+
+.personal-details .skills{
+    position:relative;
+    top:-80;
+}
+
+
+.personal-details .experience{
+    position:relative;
+    top:3;
+    right:-300;
+}
+
+
+
+
+ #qualification-options{
+    border: 1px solid #3598db;
+  color: #979797;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+background: #ffffff;
+  width: 17%;
+ }
+
+ #year-of-passing-options{
+    border: 1px solid #3598db;
+  color: #979797;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+background: #ffffff;
+  width: 17%;
+ }
+
+
+ #skills{
+    width:248px;
+    height:70px;
+}
+
+
+ #experience-options{
+    border: 1px solid #3598db;
+  color: #979797;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+background: #ffffff;
+  width: 17%;
+ }
+
+
+
+ .resume{
+    position:relative;
+    right:-810;
+    top:-30;
+}
+
+.personal-details .choose-a-password{
+    position:relative;
+     top:67;;
+  }
+  
+  .personal-details .repeat-password{
+     position:relative;
+     left:300;
+     top:-15;
+  }
+
+  button{
+    background-color: #3598db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border-radius:6px;
+  }
+  
+  button:hover{
+    opacity:0.8;
+  }
+  
+  #prevBtn{
+    background-color:#bbbbbb;
+    position:relative;
+      right:60;
+  }
+  
+  .step{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    position:relative;
+    top:80;
+    left:21;
+  }
+  
+  .step.active{
+    opacity:1;
+  }
+  
+  .step.finish{
+    background-color:#3598db;
+  }
+  
+  .tab{
+    display:none;
+  }
+  
+  #nextBtn{
+    position:relative;
+    right:60;
+  }
+  .submitBtn input{
+    position:relative;
+    right:-700;
+    cursor:pointer;
+      background-color: #3598db;
+     color:white;
+      padding:10px 20px;
+      border:none;
+      font-size: 17px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-radius:6px;
+  }

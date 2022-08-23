@@ -1,0 +1,38 @@
+.nameandDesignation-container-mymessages.border-bottom{
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 20px;
+}
+.para-companydescription-main-content-right-side-myMessages{
+    margin-top: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #979797;
+    line-height: 24px;
+}
+.flexitem-company-nameand-info{
+    display:flex;
+    align-items: center;
+}
+.flexitem-company-nameand-info img{
+margin-right: 10px;
+}
+.company-info-websiteand-details-right-side-myMessages span{
+    display: flex;
+    align-items: center;
+    margin:8px 0px;
+    color: #3598DB;
+    font-size: 16px;
+}
+.company-info-websiteand-details-right-side-myMessages span i{
+    margin-right: 8px;
+}
+.seeallJobs_right-side-mymessages{
+    margin-top: 40px;
+    color: white;
+    background-color:#3598DB;
+    padding: 5px 12px;
+    border-radius: 7px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}

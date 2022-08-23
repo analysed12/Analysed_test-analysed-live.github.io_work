@@ -1,0 +1,419 @@
+@font-face {
+  font-family: CeraB;
+  src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: MetroB;
+  src: url(../fonts/metropolis/Metropolis-Bold.woff);
+}
+
+@font-face {
+  font-family: CeraM;
+  src: url(../fonts/CeraPRO-Medium.ttf);
+}
+
+@font-face {
+  font-family: Metro;
+  src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+
+@font-face {
+  font-family: MetroM;
+  src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+
+@font-face {
+  font-family: MetroS;
+  src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+}
+
+@font-face {
+  font-family: MetroMI;
+  src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+}
+
+.small_container {
+  margin-left: 27px;
+}
+
+.infoicon {
+  margin-left: 27px;
+}
+
+.options {
+  margin-top: 50px;
+  /* margin-left: 70px;   */
+}
+
+.options p {
+  margin-top: 15px;
+  /* margin-left: 10px; */
+  color: var(--unnamed-color-3598db);
+  letter-spacing: 0px;
+  color: #979797;
+  opacity: 1;
+}
+
+.options a {
+  text-decoration: none;
+  color: #979797;
+}
+
+.options-card {
+  margin-top: -135px;
+  /* margin-left: 230px; */
+  width: 500px;
+  height: 200px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.indi1 {
+  color: #297fb8;
+  font-family: Metro;
+  font-size: 18px;
+}
+
+.indi2 {
+  color: #000000;
+  font-family: Metro;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.b1 {
+  color: #979797;
+  font-size: 13px;
+  text-align: left;
+  line-height: 2px;
+}
+
+.b2 {
+  color: #333333;
+  font-size: 15px;
+  text-align: center;
+  font-family: Metro;
+}
+
+.b3 {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: Metro;
+}
+
+.m1 {
+  color: #3598db;
+  font-family: CeraM;
+  font-size: 20px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 6px;
+  border: 2px solid #2d3e50;
+  background-color: #fff;
+  font-size: smaller;
+}
+
+#te1 {
+  font-size: 18px;
+  font-family: Metro;
+}
+
+#box_12 {
+  font-size: 15px;
+  font-family: MetroB;
+  color: #333333;
+}
+
+#r1 {
+  color: #333333;
+  font-family: MetroM;
+  font-size: 17px;
+}
+
+#card-1-of-2 {
+  height: 307px;
+  width: 420px;
+}
+
+#right-side-col {
+  height: auto;
+  width: 250px;
+}
+
+#summ {
+  color: #979797;
+  font-size: 12px;
+  padding-left: 130px;
+}
+
+#cards {
+  height: 70px;
+}
+
+#exp-card {
+  height: auto;
+}
+
+.requiredblock {
+  width: 290px;
+  height: 300px;
+}
+
+@media (min-width:651px) {
+  #right-side-col {
+    width: 270px !important;
+  }
+}
+
+/* *********************y_code******************** */
+@media (max-width:2500px) and (min-width:1100px) {
+  .small_container {
+    max-width: 83vw;
+    margin-left: 4.5%;
+  }
+
+  .container {
+    max-width: 92% !important;
+    margin-left: 7% !important;
+  }
+
+  .bread-crumbs_Mytools-recruiter {
+    margin-top: 0px;
+  }
+
+  .heading_dash {
+    margin-top: -10px !important;
+  }
+
+  .singletask_myTasks {
+    width: 95%;
+  }
+
+  #btn-align {
+    margin-left: 75%;
+  }
+
+  .sort-by-container {
+    margin-left: 73%;
+  }
+
+  .col-4 {
+    flex: 0 0 26% !important;
+  }
+
+  .addnew {
+    margin-left: 95%;
+  }
+
+  .bread-crumbs_Mytools-recruiter {
+    margin-left: 1%;
+    /* margin-top: 40px; */
+  }
+
+  .profileInNav {
+    flex-basis: 17% !important;
+  }
+
+  /* .nav_main {
+    margin-left: 10%;
+  } */
+}
+
+@media (max-width: 1100px) and (min-width:900px) {
+  .left-section-shortlisted-jobs {
+    flex-basis: 60%;
+  }
+
+  .right-section-shortlisted-jobs {
+    flex-basis: 40%;
+  }
+
+  .single-item-shortlisted-jobs {
+    margin: 20px 0px;
+  }
+
+  .col-4 {
+    flex: 0 0 26% !important;
+  }
+
+  .addnew {
+    margin-left: 95%;
+  }
+
+  .bread-crumbs_Mytools-recruiter {
+    margin-left: 2%;
+    margin-top: 40px;
+  }
+
+  .profileInNav {
+    flex-basis: 17% !important;
+  }
+
+}
+
+/* *********************y_code_ends******************** */
+
+@media screen and (max-width: 650px) {
+  .small_container {
+    margin: -35px auto;
+  }
+
+  .bread-crumbs_Mytools-recruiter,
+  .p1 {
+    display: none;
+  }
+
+  .small_container {
+    margin-left: 2px;
+  }
+
+  .options {
+    font-size: 22px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #card-of-2 {
+    position: relative;
+    display: block;
+  }
+
+  #right-side-col {
+    position: relative;
+    align-items: center;
+    display: none;
+  }
+
+  #package {
+    /* width: 1035px;
+    position: relative; */
+    display: grid;
+  }
+
+  #cards {
+    width: 350px;
+    margin-top: 20px;
+    height: 106px;
+  }
+
+  #experience {
+
+    position: relative;
+    display: list-item;
+  }
+
+  .b1,
+  .b2,
+  .b3 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  #exp-card {
+    margin-bottom: 30px;
+    width: 327px;
+  }
+
+  .indi1,
+  .indi2 {
+    position: relative;
+    font-size: 25px;
+  }
+
+  #right-side-body {
+    position: relative;
+    font-size: 22px;
+  }
+
+  #box_12 {
+    position: relative;
+    font-size: 22px;
+  }
+
+  #summ {
+    font-size: 16px;
+    padding-left: 57px;
+  }
+
+  /* p ,span{
+    position: relative;
+    font-size: 22px;
+  }
+  .Industry{
+    position: relative;
+    font-size: 22px;
+  } */
+  #card-1-of-2 {
+    position: relative;
+    left: -1px;
+    width: 362px;
+    height: 398px;
+  }
+
+  /* #card of required{
+    position: relative;
+    top:20px;
+  } */
+  #experience .col-4 {
+    max-width: 100% !important;
+  }
+
+  .requiredblock {
+    width: 350px !important;
+    height: 125px !important;
+  }
+
+  .options {
+    position: relative;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-bottom: 5px;
+    padding-left: 250px;
+  }
+
+  .options p {
+    margin-left: 30px;
+  }
+}
+
+/******************** NAMAN_CODE ****************/
+@media screen and (min-width:1000px) and (max-width:1300px) {
+  
+
+.card{
+  min-width: 180 !important;
+}
+#right-side-col{
+  width: 220px !important;
+}
+.requiredblock{
+  width: 20% !important;
+  margin-left: 65px;
+}
+}
+
+@media screen and (min-width:1000px) {
+  
+
+  .card{
+    min-width: 180 !important;
+  }
+}
+
+
+
+
+
+
+
+
+/******************** NAMAN_CODE_END ********************/

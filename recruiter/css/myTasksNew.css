@@ -1,0 +1,228 @@
+.row-myTasksNew {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.input-task-name-container,
+.tasks-headings-name-container {
+  justify-content: space-between;
+}
+.tasks-headings-name-container{
+  align-items: flex-start;
+}
+.input-div-myTasksNew {
+  flex-basis: 20%;
+  position: relative;
+}
+.abs-button {
+  position: absolute;
+  bottom: 20%;
+  outline: none;
+  background: transparent;
+  border: none;
+  right: 20px;
+  cursor: pointer;
+}
+.abs-button img {
+  width: 15px;
+}
+.input-div-myTasksNew.button {
+  flex-basis: 5% !important;
+}
+.input-div-myTasksNew label {
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: medium;
+  display: block;
+}
+.input-div-myTasksNew select {
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+}
+.input-div-myTasksNew input,
+.input-div-myTasksNew select {
+  background: white;
+  width: 100%;
+  padding: 8px;
+  min-height: 40px;
+  outline: none;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+}
+.search-btn-tasks-new {
+  background: #3598db;
+  border-radius: 5px;
+  padding: 14px 20px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+/* headings tasks */
+.tasks-headings-name-container {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.upcoming{ 
+     flex-basis: 31%;
+    }
+.tasks-div-heading-child {
+  box-shadow: 1px 2px 6px #00000029;
+  border-radius: 8px;
+  background-color: white;
+  color: #333333;
+  padding: 20px;
+  font-size: 20px;
+  color: #333333;
+  justify-content: space-between;
+}
+.tasks-div-heading-child.upcoming{
+    border-top: 6px solid #FDCA3B;
+}
+.tasks-div-heading-child.active{
+    border-top: 6px solid #F27C59;
+}
+
+.tasks-div-heading-child.completed{
+    border-top: 6px solid #149800;
+}
+/* single-card */
+.tasks-main-container-1{
+    justify-content: space-between;
+
+}
+.upcoming-tasks-container{
+    margin-top: 30px;
+}
+.card-upcoming-task-main-1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 2px 6px #00000029;
+    border-radius: 8px; 
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.name-and-image{
+    margin-bottom: 18px;
+}
+.name-and-website-myTasks{
+    margin-left: 10px;
+    color: #333333;
+    display: inline-block;
+}
+.name-and-website-myTasks p{
+    font-size: 20px;
+    color: #333333;
+}
+.name-and-website-myTasks span{
+    font-size: 16px;
+    color: #979797;
+}
+.message-text-outline{
+    margin-bottom: 18px;
+}
+.message-text-outline span{
+    display: inline-block;
+    margin-left: 20px;
+    background: #FFF7E0;
+    border-radius: 8px;
+    color: #FDCA3B;
+    padding: 8px 14px;
+}
+
+.message-text-outline span.active{
+  color: #F27C59;
+  background: #FDE8E2;
+}
+.message-text-outline span.done{
+  color: #0F9D58;
+  background: #E5FFE2;
+}
+.progressbar-parent {
+    justify-content: space-between;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 18px;
+}
+.progress-bar span{
+  background-color:#3598db;
+  display:block ;
+  height: 8px;
+  border-radius: 4px;
+}
+.progress-bar{
+    width: 320px;
+    background-color: #00000029;
+    height: 8px;
+    display:inline-block ;
+    /* display: block; */
+    box-shadow: 1px 2px 6px #00000029;
+border-radius: 4px;
+}
+.imagesfocard-1{
+    justify-content: space-between;
+}
+.images-bottom img{
+    width: 40px;
+    margin-right: -15px;
+    border-radius: 100%;
+    border: 3px solid white;
+
+}
+.new-tasks-bottom-one{
+    background: #F5F5F5;
+    border-radius: 100%;
+    padding: 10px;
+    color: #3598db;
+}
+@media screen and (max-width:1400px){
+  .upcoming{
+    flex-basis: 45%;
+  }
+}
+@media screen and (max-width:1150px){
+  .progress-bar{
+    width: 250px;
+  }
+}
+@media screen and (max-width:1000px){
+  .upcoming{
+    flex-basis: 49%;
+  }
+}
+@media screen and (max-width:850px){
+  .upcoming{
+    flex-basis: 70%;
+  }
+  .tasks-headings-name-container{
+    justify-content: center;
+  }
+  .input-div-myTasksNew{
+    flex-basis: 45%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width:500px){
+  .input-div-myTasksNew{
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  .upcoming{
+    flex-basis: 100%;
+  }
+  .name-and-image img{
+    width: 50px;
+  }
+  .name-and-website-myTasks{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .progressbar-parent p{
+    margin-top: 10px;
+  }
+}

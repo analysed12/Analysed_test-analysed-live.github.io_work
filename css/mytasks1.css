@@ -1,0 +1,179 @@
+.categories-mytasks-1-active{
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #979797;
+  font-size: 18px;
+}
+.category-mytasks1{
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  width: 10%;
+  padding: 20px;
+}
+.category-mytasks1.active{
+  border-bottom: 3px solid #3598DB;
+  color: #3598DB;
+  width: 10%;
+  padding: 20px;
+  font-weight: 500;
+
+}
+
+.row-mytasks-1-container{
+  display: flex;
+}
+.row-first-ekam-categories {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.row-mytasks-1-container.active{
+  display: flex;
+}
+
+.card-item-mytasks-1{
+  flex-basis: 30%;
+  box-shadow: 1px 3px 10px #00000033;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.row-name-and-image-mytasks-1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+ 
+}
+.card-item-mytasks-1{
+  position: relative;
+}
+.row-name-and-image-mytasks-1 span{
+  margin-left: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+.row-mytasks-1-ekam{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.twodaysleft-mytasks-1{
+  width: 40%;
+  color: #3598DB;
+  padding: 8px 15px;
+  border: 1px solid #3598DB;
+  border-radius: 4px;
+  background-color: #3598DB26;
+  text-align: center;
+}
+.default-para-mytasks1-ekam{
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.progress-bar-mytasks1{
+  width: 50%;
+  background-color: #D5D5D5;
+  border-radius: 3px;
+  height: 8px;
+  display: inline-block;
+}
+.progress-bar-mytasks1 span{
+  background: #3598DB;display:inline-block;
+  width:93%;
+  height: 8px;
+}
+.row-subrow-mytasks-1-item{
+  margin-top: 30px;
+  justify-content: center!important;
+}
+.todoInprocess-mytasks-1{
+  flex-basis: fill;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  padding: 20px;
+}
+.todoInprocess-mytasks-1 span{
+  color: #979797;
+  font-size: 16px;
+}
+.todoInprocess-mytasks-1 p{
+  color: #333333;
+  font-size: 18px;
+}
+.row-subrow-images-cta-mytasks-1-item{
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.row-subrow-images-cta-mytasks-1-item button{
+  padding: 5px 12px;
+  border-radius: 7px;
+  background-color: #3598DB;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.imgs-cta-container-mytasks-1 img{
+  border: 4px solid #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: -20px;
+}
+.imgs-cta-container-mytasks-1 img:first-child{
+margin: 0px;
+
+}
+@media screen and (max-width:800px){
+  .card-item-mytasks-1{
+    flex-basis: 95%;
+  }
+  .category-mytasks1{
+    width: 20%;
+  }
+  .category-mytasks1.active{
+    width: 20%;
+  }
+}
+@media screen and (max-width:500px){
+  .card-item-mytasks-1{
+
+  }
+  .category-mytasks1{
+    width: 100%;
+  }
+  .category-mytasks1.active{
+    width: 100%;
+  }
+  .small_container{
+    width: 100%;
+    margin: 80px 0px;
+  }
+  .row-name-and-image-mytasks-1{
+    width: 40%;
+  }
+  .card-item-mytasks-1{
+    padding: 12px 6px;
+    flex-basis: 100%;
+  }
+  .row-first-ekam-categories{
+    width: 95vw;
+  }
+  .todoInprocess-mytasks-1{
+    flex-basis: 20%;
+    padding: 8px;
+  }
+  .twodaysleft-mytasks-1{
+    width: 30%;
+  }
+  .card-item-mytasks-1 .row-mytasks-1-ekam{
+    justify-content: space-around;
+  }
+}

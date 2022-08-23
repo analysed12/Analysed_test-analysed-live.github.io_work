@@ -1,0 +1,53 @@
+.position-absolute-image-upload-e{
+    position: absolute;
+    top: 50px;
+}
+.label-for-image-upload-ekam-1client p{
+    margin: 0px;
+}
+.default-input-for-add-client-1,.default-select-for-add-client-1{
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    background: #FAFBFF;
+}
+.default-select-for-add-client-1{
+    color: #D7D7D7;
+}
+.input-para-add-client-ekam-1.right-side::after,.select-for-select-image-box-below-inputs::after,.calendar-input-addContact-1::after{
+    position:absolute;
+    right: 10px;
+    top: 55px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    content:"";
+    border-top: 8px solid #D7D7D7;
+}
+.desired-salary{
+    width: 200px;
+    margin: 0px 10px;
+}
+.span-class-file-upload{
+    border-radius: 4px!important;
+}
+.talents{
+    flex-basis: 60%!important;
+}
+.input-para-add-client-ekam-1.right-side::before, .select-for-select-image-box-below-inputs::before, .calendar-input-addContact-1::before{
+    content:"";
+    width: 20px;
+    height: 100%;
+    background: black;
+}
+.unactive-breadcrumb-link{
+    color: #979797;
+}
+.active-breadcrumb-link{
+    color: #3598DB;
+}
+@media screen and (max-width:1000px){
+    .talents{
+        flex-basis: 100%!important;
+    }
+}

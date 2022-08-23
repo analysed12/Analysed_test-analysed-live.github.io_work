@@ -1,0 +1,124 @@
+.container-1
+{
+margin-left:100px;
+}
+.nav
+{
+    width:1450px;
+    height:60px;
+    display:flex;
+    background: #F5F5F5;
+    margin-left:-15px;
+    margin-top:50px;
+}
+.nav l{
+    padding:20px;
+    width:250px;
+    height:60px;
+  
+  border: 2px solid #f1f1f1;
+  border-radius: 8px;
+  opacity: 1;
+ 
+}
+.nav l a{
+    text-decoration: none;
+    padding-left: 20px;
+    color:#3589db;
+    font: normal normal normal 15px/22px Metro;
+    word-spacing: 50px;
+}
+.name
+{
+    margin-top:50px;
+    margin-left:30px;
+    font: normal normal normal 30px/40px CeraB;
+    color:black;
+    opacity: 1;
+}
+.search
+{
+margin-top: 50px;
+margin-left: 100px;
+    width: 572px;
+    height: 50px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 31px;
+    opacity: 1;
+}
+.search p
+{
+padding:15px 100px;
+font: normal normal normal 18px/19px MetroM;
+letter-spacing: 0px;
+color: #979797;
+opacity: 1;
+}
+.box1
+{
+    display: flex;
+    margin-left: 900px;
+    margin-top: -45px;
+   
+}
+.box1 .box
+{
+margin-left:20px;
+    width: 49px;
+    height: 49px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+}
+.box1 .box svg{
+    color:#3589db;
+margin-left: 15px;
+margin-top: 15px;
+}
+.frequent
+{
+    padding:0px 50px;
+    padding-top: 30px;
+    
+    font: normal normal normal 18px/19px MetroM;
+}
+.cards
+{
+    margin-left:50px;
+    display: flex;
+   margin-top: 50px;
+}
+.cards .card1
+{ 
+    margin-left:50px;
+    width: 380px;
+    height: 70px;
+        box-shadow: 0px 3px 6px #00000029;
+}
+.cards .card1 .card2{
+   margin-left: 20px;
+   margin-top:10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    opacity: 1px;
+}
+.cards .card1 .card2 svg{
+    margin-left:10px;
+    margin-top:10px;
+}
+.cards .card1 .words
+{
+    margin-top: -50px;
+    margin-left: 90px;
+    font: normal normal normal 18px/22px CeraB;
+    color: #3598DB;
+    opacity: 1;
+}
+.cards .card1 a
+{
+    text-decoration: none;
+}

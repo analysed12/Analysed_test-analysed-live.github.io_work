@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Cera;
+    src: url(../../fonts/CeraPro-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: Metro;
+    src: url(../../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background: white;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 0px 50px;
+    max-width: 90vw;
+    margin: 0px auto;
+  }
+  .row-signup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  /* Navigation bar */
+  
+  .navigation-bar-signup {
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .analysed-logo-signup {
+    color: #2d3e50;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Cera;
+  }
+  .analysed-navigation-items {
+    font-family: Metro;
+    font-size: 20px;
+    list-style: none;
+  }
+  .analysed-navigation-items li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .analysed-navigation-items li a {
+    color: #333333;
+    font-weight: 600;
+  }
+  
+  /* Hero section */
+  .hero-section-justify-content {
+    margin-top: 120px;
+    justify-content: space-between;
+  }
+  .left-side-flex-container-signup,
+  .right-side-flex-container-signup {
+    flex-basis: 45%;
+  }
+  .right-side-flex-container-signup img {
+    width: 100%;
+  }
+  .personal-details-heading {
+    margin: 8px 0px 8px 0px;
+    font-family: Metro;
+    color: #333333;
+    font-size: 45px;
+  }
+  .input-signup-div {
+    flex-basis: 80%;
+    width: 100%;
+  }
+  .input-signup-div label {
+    display: block;
+    font-size: #333333;
+    margin-bottom: 9px;
+    font-family: Metro;
+  }
+  .input-signup-div input:focus {
+    border: 1px solid #3598db;
+  }
+  .input-signup-div input {
+    border: 1px solid #d7d7d7;
+    background: #fafbff;
+    color: #333333;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .back-to-sign-in-link{
+    color: #3598db;
+    font-family: Metro;
+  }
+.light-grey-para-forgot-p{
+    font-family: Metro;
+    color: #979797;
+    margin-bottom: 40px;
+}
+  
+  .submit-signup-button {
+    /* background: #3598db 0% 0% no-repeat padding-box;
+    box-shadow: 1px 2px 6px #3598db;
+    border-radius: 28px; */
+    opacity: 1;
+    border: none;
+    outline: none;
+    /* padding: 40px 24px; */
+    cursor: pointer;
+    color: white;
+    margin-top: 50px;
+  }
+
+  .navigation-menu-signup {
+    display: none;
+  }
+  .input-section-row {
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .right-side-flex-container-signup {
+      display: none;
+    }
+    .left-side-flex-container-signup {
+      flex-basis: 100%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .right-side-flex-container-signup {
+      display: none;
+    }
+    .left-side-flex-container-signup {
+      flex-basis: 100%;
+    }
+    .input-section-row {
+      width: 100%;
+    }
+    .input-signup-div input {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    /* navigation bar */
+    .navigation-menu-signup {
+      position: relative;
+      z-index: 3;
+      display: block;
+    }
+    .navigation-menu-signup.active {
+      color: white;
+      transition: all 0.7s;
+    }
+    .analysed-navigation-items {
+      position: absolute;
+      transform: translateY(-200%);
+      z-index: 2;
+      background: #3598db;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      transition: all 0.4s;
+    }
+    .analysed-navigation-items.active {
+      transform: translateY(0px);
+    }
+    .analysed-navigation-items li {
+      display: block;
+      text-align: center;
+      padding: 20px;
+    }
+    .analysed-navigation-items li a {
+      color: white;
+    }
+    .input-signup-div {
+      flex-basis: 100%;
+    }
+  }
+  

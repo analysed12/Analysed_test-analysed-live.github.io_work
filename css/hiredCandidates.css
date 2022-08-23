@@ -1,0 +1,40 @@
+.skill-job-candiate.hiredCandidates-p1{
+    color: #333333;
+    font-size: 18px;
+    font-family: Metro;
+}
+.email-id-and-experience{
+    align-items: flex-start!important;
+    font-size: 18px;
+    font-family: Metro;
+    margin: 10px 0px;
+    margin-bottom: 30px;
+}
+.email-id-and-experience img{
+    margin-right: 10px;
+}
+.grey-email-id{
+    color: #979797;
+}
+.name-dark-id{
+    color: #333333;
+    margin-top: 8px;
+}
+.span-experience-1{
+    width: 80%;
+}
+.candidate-status-jobs.hiredCandidates-img{
+    top: -10px;
+    right: 5px;
+}
+.candidate-status-jobs.hiredCandidates-img p{
+    color: white;
+    font-family: Metro;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.single-container-cards-DasboardJobs.candidatesjobs-applied.hiredCandiates-div-card{
+    min-height: 440px;
+}

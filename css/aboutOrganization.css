@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    background: white;
+    
+  }
+  .title {
+      position:relative;
+      right:-240;
+      bottom:-60;
+  }
+
+  .title h2{
+      font-size:38px;
+      font-weight: lighter;
+
+  }
+
+  .title p{
+      color:#3598db;
+      position:relative;
+      top:-10;
+  }
+
+  .info{
+    position:relative;
+    right:-240;
+    bottom:-100;
+    border:none;
+    border-radius: 10px;
+  box-sizing:content-box;
+  width:68%;
+  height:50%;
+  z-index: 9;
+  background-color: #2c3d50;
+  word-wrap:break-word;
+  box-shadow:1px 5px 20px #888888;
+}
+
+.info #logo{
+  position:relative;
+  right:-430;
+  bottom:-135;
+}
+
+.email{
+  position: relative;
+  right:-150;
+  bottom:-30;
+}
+
+.email p{
+  position: relative;
+  top:-23;
+  right:-33;
+}
+
+.phone{
+  position: relative;
+  right:-150;
+  bottom:-80;
+}
+
+.phone p{
+  position: relative;
+  top:-23;
+  right:-33;
+}
+
+.recruiter{
+  position: relative;
+  right:-690;
+  bottom:60;
+}
+
+.recruiter p{
+  position: relative;
+  top:-23;
+  right:-33;
+}
+
+.contact{
+  position: relative;
+  right:-690;
+  bottom:10;
+}
+
+.contact p{
+  position: relative;
+  top:-23;
+  right:-33;
+}
+
+.location{
+  position:relative;
+  right:-430;
+  top:-30;
+}
+
+.location h2{
+  font-weight: lighter;
+  font-size: x-large;
+  position:relative;
+  top:-20;
+  right:15;
+}
+
+.location p{
+  position: relative;
+  right:-40;
+  top:-5;
+}
+
+.location #location{
+  position: relative;
+  bottom:-45;
+  right:-10;
+}
+
+.info input{
+  position:relative;
+  right:-850;
+  bottom: 35;
+  border: none;
+border-radius: 5px;
+background: #3598db;
+color: white;
+padding:7px;
+margin-bottom: 20px;
+width: 10%;
+
+cursor:pointer;
+}
+
+.about{
+  position:relative;
+  right:-240;
+  bottom:-150;
+  border:none;
+  border-radius: 10px;
+box-sizing:content-box;
+width:47%;
+height:55%;
+z-index: 9;
+background-color: white;
+word-wrap:break-word;
+box-shadow:1px 5px 20px #888888;
+}
+
+.about img{
+  position: relative;
+  bottom:-30;
+  right:-640;
+}
+
+.about-us h2{
+  font-weight: lighter;
+  font-size: x-large;
+  position: relative;
+  right:-20;
+  bottom:-10;
+}
+
+.about-us p{
+  font-weight: lighter;
+  font-size: 14px;
+  position:relative;
+  right:-20;
+  bottom:-40;
+ 
+}
+
+.industry{
+  position:relative;
+  bottom:-90;
+}
+.industry h2{
+  font-weight: lighter;
+  font-size: x-large;
+  position: relative;
+  right:-20;
+  bottom:-10;
+}
+
+.industry p{
+  font-weight: lighter;
+  font-size: 14px;
+  position:relative;
+  right:-20;
+  bottom:-40;
+ 
+}
+
+.languages{
+  position:relative;
+  right:-950;
+  bottom:250;
+  border:none;
+  border-radius: 10px;
+box-sizing:content-box;
+width:19%;
+height:33%;
+z-index: 9;
+background-color: white;
+word-wrap:break-word;
+box-shadow:1px 5px 20px #888888;
+}
+
+.languages #languages-we-speak{
+  font-weight: lighter;
+  position:relative;
+bottom: -15;
+right:-55;
+}
+
+.piechart{
+ 
+            display: block;
+            position: relative;
+            right:-70;
+            bottom:-25;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+              #3ba156 40deg, 
+              #55c974 0 80deg, 
+              #53db77 0 150deg,
+              #14752e 0 260deg,
+              #0aa132 0 250deg);
+}
+
+.languages .circle1{
+  height:15px;
+  width:15px;
+  border-radius: 50%;
+  border:none;
+  background-color:#3ba156 ;
+  position:relative;
+  right:-20;
+  bottom:-30;
+}
+
+#language1{
+  font-weight: lighter;
+  position:relative;
+  right:-45;
+  bottom:43;
+  font-size: xx-small;
+
+}
+
+.languages .circle2{
+  height:15px;
+  width:15px;
+  border-radius: 50%;
+  border:none;
+  background-color:#55c974 ;
+  position:relative;
+  right:-100;
+  bottom:-17;
+}
+
+#language2{
+  font-weight: lighter;
+  position:relative;
+  right:-128;
+  bottom:49;
+  font-size: xx-small;
+
+}
+
+.languages .circle3{
+  height:15px;
+  width:15px;
+  border-radius: 50%;
+  border:none;
+  background-color:#53db77 ;
+  position:relative;
+  right:-180;
+  bottom:-1;
+}
+
+.languages .circle4{
+  height:15px;
+  width:15px;
+  border-radius: 50%;
+  border:none;
+  background-color:#14752e ;
+  position:relative;
+  right:-20;
+  bottom:-20;
+}
+
+.languages .circle5{
+  height:15px;
+  width:15px;
+  border-radius: 50%;
+  border:none;
+  background-color:#0aa132 ;
+  position:relative;
+  right:-100;
+  bottom:-3;
+}
+
+#language3{
+  font-weight: lighter;
+  position:relative;
+  right:-200;
+  bottom:60;
+  font-size: xx-small;
+
+}
+
+#language4{
+  font-weight: lighter;
+  position:relative;
+  right:-43;
+  bottom:39;
+  font-size: xx-small;
+
+}
+
+#language5{
+  font-weight: lighter;
+  position:relative;
+  right:-119;
+  bottom:48;
+  font-size: xx-small;
+
+}
+
+.social{
+  position:relative;
+  right:-950;
+  bottom:225;
+  border:none;
+  border-radius: 10px;
+box-sizing:content-box;
+width:19%;
+height:18%;
+z-index: 9;
+background-color: white;
+word-wrap:break-word;
+box-shadow:1px 5px 20px #888888;
+}
+
+.social h2{
+  font-weight: lighter;
+  font-size: large;
+  position: relative;
+  right:-20;
+  bottom:-10;
+}
+
+#linkedin{
+  position: relative;
+  bottom:-40;
+  right:-20; 
+}
+
+#twitter{
+  position: relative;
+  bottom:-40;
+  right:-50; 
+}
+
+#instagram{
+  position: relative;
+  bottom:-40;
+  right:-77; 
+}
+
+#facebook{
+  position: relative;
+  bottom:-40;
+  right:-98; 
+} 

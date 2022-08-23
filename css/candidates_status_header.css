@@ -1,0 +1,131 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+}
+
+@font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+
+@font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+
+.profile-img {
+
+    margin-top: 0px;
+    margin-left: 90px;
+    background: transparent url('img/Ellipse 148.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.profile-img h1 {
+    font-family: CeraB;
+    margin-top: -150px;
+    margin-left: 180px;
+}
+
+.profile-img h1 p1 {
+    font-family: Metro;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.profile-img h2 {
+
+    font-family: Metro;
+    margin-left: 180px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.profile-img h4 {
+    font-family: Metro;
+    margin-left: 180px;
+    font-size: 15px;
+    font-weight: 100;
+    color:#979797;
+}
+
+.button button {
+    font-family: CeraB;
+    color: #3598DB;
+    background-color: white;
+    margin-top: -100px;
+    margin-left: 1100px;
+    width: 173px;
+    height: 47px;
+    border: 1px solid var(--unnamed-color-3598db);
+    box-shadow: 0px 3px 6px #f5f2f2ee;
+    border: 1px solid #3598DB;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+
+
+.status {
+    font-family: CeraB;
+    margin-top: 40px;
+    margin-left: 1120px;
+    width: 270px;
+    height: 1000px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.status1 {
+    margin-top: -970px;
+    margin-left: 1125px;
+    color: #333333;
+
+}
+
+.status-name {
+    margin-top: 0px;
+    margin-left: 1165px;
+    font-family: CeraB;
+    font-size: 30px;
+}
+
+.status-name p {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-family: CeraM;
+    font-size: 15px;
+}
+
+.status-name u {
+    margin-top: 0px;
+    margin-left: -20px;
+    font-family: CeraB;
+    font-size: 15px;
+}
+
+.displayname {
+    margin-top: 10px;
+    margin-left: 1150px;
+    font-family: Metro;
+    font-size: 15px;
+}
+
+.employeement {
+    margin-left: 1180px;
+    color: #979797;
+}
+
+.employeement p {
+    margin-left: 10px;
+    color: #3598DB;
+}

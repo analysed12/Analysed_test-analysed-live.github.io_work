@@ -1,0 +1,271 @@
+.save_button_addClient{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.container-for-add-client-main{
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.left-side-row-for-add-client-container-1{
+    flex-basis: 25%;
+}
+.links-for-add-client-low-side-row-for-add-client a{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+}
+.links-for-add-client-low-side-row-for-add-client a.active{
+    color: #3598DB;
+}
+.right-side-row-for-add-client-container-1{
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+.heading-for-general-information-right-side-add-client-container,.heading-for-general-information-right-side-add-client-container-1,.heading-for-general-information-right-side-add-client-container-2{
+    font-size: 27px;
+    color: #333333;
+}
+.heading-for-general-information-right-side-add-client-container-2 i{
+    color: #51C46D;
+    background-color:#D6F8D1;
+    padding: 20px;
+    font-size: 40px;
+    margin-right: 10px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+.heading-for-general-information-right-side-add-client-container.heading-addContact-3 i{
+    color: #51C46D;
+    background-color: #D6F8D1;
+    padding: 20px 30px;
+}
+.heading-for-general-information-right-side-add-client-container.heading-addContact-2 i{
+    color: #3598DB;
+    background-color: #D3EEFF;
+    padding: 20px 30px;
+}
+.heading-for-general-information-right-side-add-client-container.heading-addContact-1 i{
+    color: #E84BC4;
+    background-color: #E84BC429;
+}
+.heading-for-general-information-right-side-add-client-container-1 i{
+    color: #E84BC4;
+    background-color:#E84BC429;
+    padding: 20px;
+    font-size: 40px;
+    margin-right: 10px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+.heading-for-general-information-right-side-add-client-container i{
+    color: #FFBD06;
+    background-color: #FFF5D6;
+    padding: 20px;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+}
+.image-box-right-side-add-client{
+
+    justify-content: space-between;
+}
+.input-image-upload-ekam-1-add-client{
+    display: none;
+}
+.left-side-image-box-add-client-1{
+    flex-basis: 20%;
+}
+.right-side-image-box-right-add-client-1{
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+.label-for-image-upload-ekam-1client{
+    background-color: white;
+    position: relative;
+}
+.label-for-image-upload-ekam-1client h2{
+    padding: 40px;
+    box-shadow: 1px 8px 20px #00000033;
+    border-radius: 100%;
+    width: min-content;
+}
+.label-for-image-upload-ekam-1client p{
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.label-for-image-upload-ekam-1client p i{
+    padding: 10px;
+    border-radius: 100%;
+    background: #3598DB;
+    color: white; 
+
+}
+.label-for-image-upload-ekam-1client h2 i{
+    color: #3598DB;
+    font-size: 70px;
+}
+.default-input-for-add-client-1{
+    outline: none;
+    border: 1px solid #3598DB;
+    font-size: 14px;
+    color: #979797;
+    padding: 12px 12px;
+    border-radius: 8px;
+    width: 100%;
+
+}
+.sub-divs-image-box-right-side-add-client{
+    justify-content: space-between;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+.default-select-for-add-client-1{
+    outline: none;
+    border: 1px solid #3598DB;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: #3598DB;
+    background-color: white;
+    /* border:none; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+}
+.input-para-add-client-ekam-1 {
+    width: 50%;
+}
+.input-para-add-client-ekam-1 label,.inputs-for-add-client-below-image-box label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.input-para-add-client-ekam-1.right-side{
+    margin-left: 20px;
+    width: 45%;
+    position: relative;
+}
+.inputs-for-add-client-below-image-box p{
+    position: relative;
+}
+.calendar-input-addContact-1 input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-inner-spin-button{
+    display: none;
+}
+.input-para-add-client-ekam-1.right-side::after,.select-for-select-image-box-below-inputs::after,.calendar-input-addContact-1::after{
+    position:absolute;
+    right: 10px;
+    top: 55px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    content:"";
+    border-top: 8px solid #3598DB;
+}
+.input-para-add-client-ekam-1.right-side select{
+    width: 100%;
+}
+.inputs-for-add-client-below-image-box{
+    justify-content: space-between;
+}
+.inputs-for-add-client-below-image-box p{
+    flex-basis: 45%;
+    margin-bottom: 20px;
+}
+
+.inputs-for-add-client-below-image-box p select{
+    width: 100%;
+}
+.textarea-div-default-select-no7{
+    flex-basis: 100%!important;
+}
+.text-area-for-company-description-add-client{
+    width: 100%;
+    padding: 40px;
+    border: 1px solid #3598DB;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.fx-city-name,.fx-zipcode{
+    flex-basis: 25%!important;
+}
+.fx-city-name-1{
+    flex-basis: 30%!important;
+}
+.position-absolute-label-ekam-addclient{
+    top: 120px;
+    right: 20px;
+    position: absolute;
+}
+@media screen and (max-width:1300px){
+
+    .right-side-image-box-right-add-client-1{
+        flex-basis: 70%;
+        flex-grow: 0;
+    }
+}
+@media screen and (max-width:1200px){
+    .input-para-add-client-ekam-1.right-side{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1000px){
+    .left-side-image-box-add-client-1{
+        flex-basis: 100%;
+        justify-self: center;
+    }
+    .right-side-image-box-right-add-client-1{
+        flex-basis: 100%;
+        flex-grow: 0;
+    }
+    .fx-city-name-1{
+        flex-basis: 100%!important;
+        margin-bottom: 20px;
+    }
+    .fx-city-name,.fx-zipcode{
+        flex-basis: 45%!important;
+    }
+}
+@media screen and (max-width:900px){
+    .position-absolute-label-ekam-addclient{ position: relative;
+    top: 0px;
+right: 0px;}
+}
+@media screen and (max-width:650px){
+    .heading-for-general-information-right-side-add-client-container{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .heading-for-general-information-right-side-add-client-container i{
+       margin-bottom: 10px;
+    }
+
+    .input-para-add-client-ekam-1.right-side{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .input-para-add-client-ekam-1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inputs-for-add-client-below-image-box p{
+        flex-basis: 100%;
+    }
+    .right-side-row-for-add-client-container-1,.left-side-row-for-add-client-container-1{
+        flex-basis: 100%;
+    }
+    .left-side-row-for-add-client-container-1{
+        text-align:center;
+    }
+    .save_button_addClient{
+        top: -50px;
+        right: 0px;
+    }
+}

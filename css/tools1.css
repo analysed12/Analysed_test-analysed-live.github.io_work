@@ -1,0 +1,64 @@
+.container-1 {
+    margin-left: 100px;
+}
+
+.nav {
+    width: 1450px;
+    height: 60px;
+    display: flex;
+    background: #F5F5F5;
+    margin-left: -15px;
+    margin-top: 50px;
+}
+
+.nav l {
+    padding: 20px;
+    width: 250px;
+    height: 60px;
+
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+    opacity: 1;
+
+}
+
+.nav l a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: #3589db;
+    font: normal normal normal 15px/22px Metro;
+    word-spacing: 50px;
+}
+
+.name {
+    margin-top: 50px;
+    margin-left: 30px;
+    font: normal normal normal 30px/40px CeraB;
+    color: black;
+    opacity: 1;
+}
+
+.nav1 {
+  margin-left:300px;
+    display: flex;
+}
+.nav1 l a{
+    padding:0px 100px;
+    color:#979797;
+    font: normal normal normal 18px/24px MetroM;
+    text-decoration: none;
+}
+.book
+{
+    display:flex;
+}
+.book .book1
+{
+    margin-top:50px;
+    margin-left: 100px;
+    width: 500px;
+    height: 150px;
+    opacity: 1;
+    font: normal normal normal 18px/26px MetroM;
+    color:#3589db;
+}

@@ -1,0 +1,154 @@
+.left-side-container-DashboardJ {
+  flex-basis: 75%;
+}
+.right-side-container-DashboardJ {
+  flex-basis: 20%;
+}
+.Dashboard-main-container-jobs {
+  margin-top: 60px;
+}
+.jobsCreateaDashboard-jobs {
+  font-size: 45px;
+  font-family: CeraM;
+  color: #2d3e50;
+  margin-bottom: 30px;
+}
+.jobsCreateaDashboard-jobs span {
+  color: #979797;
+  font-family: Metro;
+  font-size: 24px;
+}
+.single-container-cards-DasboardJobs {
+  flex-basis: 30%;
+  margin-top: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 2px 6px #00000029;
+  border-radius: 8px;
+  padding: 20px;
+}
+.single-container-cards-DasboardJobs a {
+  text-decoration: none;
+}
+.job-headingnname {
+  font-family: MetroM;
+  font-size: 20px;
+  color: #333333;
+  margin: 10px 0px;
+}
+.companyname-and-salary {
+  font-size: 18px;
+  font-family: Metro;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.job-desc-dashboard-jobs {
+  margin: 10px 0px;
+  color: #979797;
+  font-family: Metro;
+}
+.skills-div {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.skills-div p {
+  /* margin: ; */
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background: #eaf5fc 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  color: #3598db;
+  font-size: 18px;
+  font-family: Metro;
+  padding: 5px;
+}
+.date-created-jobsDashboard {
+  font-size: 18px;
+  color: #979797;
+  font-family: Metro;
+}
+.justifycontent-flex-end{
+    justify-content: flex-end;
+}
+.sortbyText{
+    color: #979797;
+    font-size: 20px;
+    font-family: Metro;
+}
+.sortbySelect{
+    background: transparent;
+    font-size: 20px;
+    color: #979797;
+    outline: none;
+    font-family: Metro;
+    border:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none; 
+}
+.filter-heading{
+    font-size: 24px;
+    color: #131523;
+    font-family: MetroM;
+    margin: 20px 0px;
+}
+.heading-filter-dj {
+  margin: 10px 0px;
+  display: block;
+  color: #333333;
+  font-size: 20px;
+  font-family: MetroM;
+  cursor: pointer;
+}
+.category-filters .row-flex-jobs-j {
+  margin: 10px 0px;
+}
+.category-filters .row-flex-jobs-j span label {
+  color: #333333;
+  font-size: 20px;
+  font-family: Metro;
+}
+.category-filters .row-flex-jobs-j p {
+  color: #3598db;
+  font-size: 18px;
+  font-family: MetroM;
+  background: #eaf5fc 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  padding: 2px;
+}
+.category-filters{
+    display: none;
+}
+.category-filters.active{
+    display: block;
+}
+@media screen and (max-width:1350px){
+    .single-container-cards-DasboardJobs{
+        flex-basis: 45%;
+    }
+}
+@media screen and (max-width:1250px){
+    .left-side-container-DashboardJ{
+        flex-basis: 65%;
+    }
+    .right-side-container-DashboardJ{
+        flex-basis: 30%;
+    }
+}
+@media screen and (max-width:900px){
+    .left-side-container-DashboardJ{
+        flex-basis: 100%;
+    }
+    .right-side-container-DashboardJ{
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:700px){
+    .single-container-cards-DasboardJobs{
+        flex-basis: 100%;
+    }
+}

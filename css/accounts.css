@@ -1,0 +1,197 @@
+.row_for_accounts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pricing_cards_for_accounts {
+  margin-top: 80px;
+}
+.card_single_item_pricing_cards {
+  flex-basis: 23%;
+  padding: 40px;
+  color: #2d3e50;
+  box-shadow: 1px 4px 10px #00000029;
+  min-height: 400px;
+  border-radius: 3px;
+}
+.card_single_item_pricing_cards.active-card {
+  background: linear-gradient(162deg, #3598db 0%, #2980b9 100%, #297fb8 100%);
+  color: white;
+}
+.card_single_item_pricing_cards.active-card a {
+  background: white;
+  border: none;
+}
+.card_heading_single_item_pricing_cards {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+.large_price_card_single_item {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.price_card_single_item_desc {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.list_item_price_card_single_item {
+  font-size: 14px;
+  margin: 16px 0px;
+  display: flex;
+}
+.list_item_price_card_single_item i {
+  margin-right: 10px;
+}
+.signup_price_Card_single_item {
+  margin: 50px auto;
+  display: block;
+  width: 100%;
+  border: 1px solid #2d3e50;
+  color: #2d3e50;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 3px 6px #00000029;
+  text-decoration: none;
+  border-radius: 7px;
+}
+.add_account_for_accounts {
+  margin-top: 75px;
+}
+.add_account_for_accounts .mainHeadingDash {
+  font-size: 39px;
+  margin-bottom: 40px;
+}
+.filter_for_accounts {
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 10px;
+  flex-basis: 45%;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.select_filter_for_accounts {
+  border: none;
+  background-color: transparent;
+  border-right: 0.5px solid #979797;
+  padding: 3px 20px;
+  color: #3598db;
+  margin-right: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+}
+.input_for_searching_users_for_accounts {
+  border: 0px;
+  outline: none;
+  padding: 8px;
+  color: #979797;
+  max-width: 100%;
+  width: 60%;
+}
+.button_for_searching_users_for_accounts {
+  float: right;
+  border: 0px;
+  outline: none;
+  padding: 8px;
+  background-color: transparent;
+  color: #297fb8;
+  cursor: pointer;
+}
+.add_button_for_accounts {
+  background: #6ec5ff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+}
+.exisiting_users_for_accounts{
+    margin-top: 80px;
+    color: #2D3E50;
+}
+.existing_users_heading_container{
+    font-size: 18px;
+}
+.exisiting_users_for_accounts .row_for_accounts{
+    margin-top: 40px;
+    justify-content: left;
+}
+.card_item_users_accounts{
+    box-shadow: 1px 3px 10px #00000033;
+    text-align: center;
+    position: relative;
+    flex-basis: 18%;
+    padding: 10px 20px;
+    margin: 0px 10px;
+}
+.card_item_users_accounts button{
+    outline: none;
+    border: none;
+}
+.trash_can_for_deleting_user{
+    position:absolute;
+    top: 5%;
+    color: red;
+    left: 3%;
+    cursor: pointer;
+}
+.profile_link_for_user{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    text-decoration: none;
+    color: #6EC5FF;
+}
+.user_profile_img_for_accounts{
+    margin-top: 50px;
+    border-radius: 100px;
+    width: 150px;
+    box-shadow: 1px 3px 10px #00000033;
+    height: 150px;
+}
+.username_for_accounts{
+    margin-top: 30px;
+    color: #333333;
+    font-size: 18px;
+}
+.online_status_for_accounts{
+    margin-top: 10px;
+}
+.online_status_for_accounts span{
+    color: #979797;
+
+}
+@media screen and (max-width:1400px){
+  .card_single_item_pricing_cards {
+      flex-basis: 45%;
+      margin-bottom: 20px;
+  }
+}
+@media screen and (max-width:609px){
+    .card_single_item_pricing_cards {
+        flex-basis: 95%;
+        margin-bottom: 20px;
+    }
+    .card_item_users_accounts{
+        flex-basis: 95%;
+        margin-bottom: 20px;
+    }
+    .column_flex_for_filter{
+        flex-direction: column;
+    }
+    .filter_for_accounts{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .select_filter_for_accounts{
+        padding: 3px 6px;
+    }
+}

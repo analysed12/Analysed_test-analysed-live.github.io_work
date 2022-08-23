@@ -1,0 +1,251 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+
+.main_body{
+    /* display:flex; */
+    margin-left: 140px;
+}
+/* #col5 {
+  position: relative;
+  bottom: 216px;
+  right: 62px;
+}
+#col7 {
+  position: relative;
+  bottom: 214px;
+}
+#coll5 {
+  position: relative;
+  bottom: 353px;
+  right: 62px;
+}
+.col-4{
+  position:relative;
+  bottom:335px;
+} */
+/* #col44{
+  position:relative;
+  bottom:477px;
+}
+#col4{
+  position:relative;
+  bottom:622px;
+} */
+.a1{
+    color: #333333;
+    font-family: CeraM;
+    font-size: 45px;
+}
+.a2{
+    color: #3598DB;
+    font-family: Metro;
+    font-size: 16px;
+}
+.b1 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  align-items: center;
+  width: auto;
+  height: 47px;
+}
+.b5{
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000029;
+  border-radius: 8px;
+  background-color: #51C46D;
+  padding: 8px 16px;
+  border: 1px solid #51C46D;
+  align-items: center;
+  color:#fff;
+  width: 151px;
+  height: 39px;
+}
+.c1{
+  color:#333333;
+  font-size: 27px;
+  font-family: CeraM;
+}
+.c2{
+  color: #3598DB;
+  font-size: 25px;
+  font-family: CeraM;
+}
+.c3{
+  color: #979797;
+  font-size: 18px;
+  font-family: Metro;
+  margin-right:50px; 
+}
+.c4,.c4_1,.c4_2,.c4_3,.c4_4,.c4_5,.c4_6,.c4_7,.c4_8{
+    color: #333333;
+    font-size: 18px;
+    font-family: MetroM;
+}
+#ac{
+  color: #3598DB;
+}
+#nac{
+  color:#979797;
+}
+.f2,.f2_1,.f2_2,.f2_3{
+    height: 53px;
+    width:350px;
+    border-radius: 7px;
+    border: 1px solid #3598DB;
+    margin-right: 20px;
+  }
+  .f4,.f4_1,.f4_2,.f4_3{
+    height: 53px;
+    width:300px;
+    border-radius: 7px;
+    border: 1px solid #3598DB;
+    margin-right: 20px;
+  }
+  .f5{
+    height: 53px;
+    width:275px;
+    border-radius: 7px;
+    border: 1px solid #3598DB;
+    margin-right: 20px;
+  }
+  #f6,#f6_1{
+    height: 53px;
+    width:270px;
+    border-radius: 7px;
+    border: 1px solid #3598DB;
+    margin-right: 20px;
+    color: #3598DB;
+  }
+.m1{
+    color: #3598DB;
+    font-size: 19px;
+    font-family: Metro;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+}
+.back_img,.last_img{
+  display: none;
+}
+
+@media screen and (max-width: 670px){ 
+  .main_body{
+    /* display:flex; */
+    margin-left: 26px;
+}
+.b1{
+  flex-direction: row;
+}
+#ac {
+  position: relative;
+  bottom: 144px;
+  left: 237px;
+  white-space: nowrap;
+}
+#nac {
+  color: #979797;
+  position: relative;
+  left: 51px;
+  bottom: 47px;
+  white-space: nowrap;
+}
+#nnac {
+  color: #979797;
+  position: relative;
+  left: 147px;
+  bottom: 97px;
+  white-space: nowrap;
+}
+#fcolumn {
+  margin-left: -43px;
+}
+.f2, .f2_1, .f2_2, .f2_3 {
+  height: 61px;
+  width: 298px;
+}
+#col5 {
+  position: relative;
+  bottom: -199px;
+  right: 219px;
+}
+#col7 {
+  position: relative;
+  bottom: -87px;
+}
+#col444 {
+  position: relative;
+  /* bottom: 4px; */
+  right: -1px;
+  top: 140px;
+}
+#col4 {
+  position: relative;
+  bottom: -355px;
+  right: 247px;
+}
+#col44 {
+  position: relative;
+  right: 123px;
+  top: 245px;
+}
+#col {
+  position: relative;
+  top: 400px;
+  right: 125px;
+}
+#coll {
+  position: relative;
+  top: 485px;
+  right: 248px;
+}
+#colll {
+  position: relative;
+  top: 291px;
+  right: 0px;
+}
+#col10{
+  position: relative;
+  top: 419px;
+}
+#button2 {
+  position: relative;
+  right: 238px;
+  top: 512px;
+}
+ }

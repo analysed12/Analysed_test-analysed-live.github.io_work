@@ -1,0 +1,122 @@
+.addcan_breadcrumb_container .addcan_breadcrumb_container_ul {
+  list-style: none;
+}
+
+.addcan_breadcrumb_container
+  .addcan_breadcrumb_container_ul
+  .addcan_breadcrumb_container_li {
+  display: inline;
+}
+
+.addcan_breadcrumb_container
+  .addcan_breadcrumb_container_ul
+  .addcan_breadcrumb_container_li
+  + .addcan_breadcrumb_container_li:before {
+  padding: 8px;
+  color: #3598db;
+  content: ">";
+}
+
+.addcan_breadcrumb_container
+  .addcan_breadcrumb_container_ul
+  .addcan_breadcrumb_container_li
+  a {
+  color: #3598db;
+}
+
+.addcan_main_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.addcan_left_container {
+  margin-top: 30px;
+  width: 45%;
+}
+
+.addcan_right_container {
+  margin-top: 30px;
+  width: 45%;
+}
+
+.addcan_uploadcontent{
+  display: flex;
+  flex-direction: column;
+  border:1px dashed #707070;
+  padding: 50px;
+  
+}
+.addcan_uploadimg{
+  padding: 10px;
+}
+
+.addcan_uploadtext{
+  padding: 10px;
+
+  color: #979797;
+}
+
+.addcan_uploadcontent1{
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+  
+}
+.addcan_heading {
+  color: #3598db;
+  font-weight: bold;
+}
+
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+.file-input label {
+  border: 1px solid #3598DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#3598DB;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 40%;
+  padding:10px;
+  margin-left: 50px;
+}
+.addcan_select{
+  border: 1px solid #3598DB;
+border-radius: 7px;
+padding:10px;
+}
+
+.addcan_button{
+  background: #3598DB 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.addcan_select optgroup{
+  border: 1px solid #3598DB;
+}
+.addcan_right_small p{
+  color: #3598DB;
+  font-weight: bold;
+}
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  .addcan_left_container {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .addcan_right_container {
+    margin-top: 30px;
+    width: 100%;
+  }
+}

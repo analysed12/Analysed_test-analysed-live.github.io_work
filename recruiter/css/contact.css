@@ -1,0 +1,219 @@
+.contact-us-section-box{
+    box-shadow: 1px 6px 10px #0000004A;
+    background: #fff;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 30px;
+    align-items: flex-start!important;
+}
+.left-flex-contact-us-section-box{
+    width: 50%;
+}
+.contact-info-left-flex-contact-us-section-box{
+    justify-content: space-between;
+    padding:10px 50px;
+}
+.contact-us-svg-recruiter{
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+}
+.grey-small-text-contact-us{
+    color: #979797;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.black-text-contact-us-image-below{
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.right-flex-contact-us-section-box{
+    width: 50%;
+    padding: 20px;
+}
+#contact-us-recruiter span input{
+    border: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px;
+    border: 1px solid #3598DB;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #555;
+    height: 40px;
+    width: 100%;
+}
+.input-labels-contact-us{
+    justify-content: space-between;
+}
+.input-labels-contact-us span{
+    flex-basis: 45%;
+    width: 100%!important;
+}
+.input-labels-contact-us span input{
+    width: 100%;
+}
+#contact-us-recruiter span textarea{
+    border: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px;
+    border: 1px solid #3598DB;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #555;
+    height: 40px;
+    width: 100%;
+}
+.button-recruiter-contact-us-submit{
+    border: none;
+    outline: none;
+    color: #ffff;
+    background-color: #51c46d;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px auto;
+    border-radius: 8px;
+    display: block;
+    cursor: pointer;
+}
+@media screen and (max-width:1200px){
+    .contact-info-left-flex-contact-us-section-box{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:710px){
+    .contact-info-left-flex-contact-us-section-box{
+        padding: 20px;
+    }
+    .right-flex-contact-us-section-box{
+        width: 100%;
+    }
+    .left-flex-contact-us-section-box{
+        width: 100%;
+    }
+    .contact-us-section-box{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 609px){
+    #img-1 img{
+        display: none;
+    }
+    .mainHeadingDash{
+        top: -95px;
+    font-size: 25px;
+    position: relative;
+    }
+    .mainParaDash{
+        color: black;
+    position: relative;
+    top: -98px;
+    font-size: 12px;
+    }
+    .contact-us-section-box{
+        box-shadow: none;
+        height: auto;
+    }
+    #fn{
+            position: relative;
+    top: -149px;
+    left: -48px;
+    }
+    .fn-1{
+            position: relative;
+    top: -150px;
+    left: -49px;
+
+    }
+    #ln{
+            position: relative;
+       top: -147px;
+    left: -48px;
+    }
+    .ln-1{
+            position: relative;
+        top: -148px;
+    left: -49px;
+    }
+    #next-header{
+    position: relative;
+    top: -148px;
+    left: -46px;
+    }
+    button{
+            position: relative;
+    top: -52px;
+    width: 254px;
+    left: -30px;
+    }
+    #below {
+        display: flex;
+        /* max-height: 100%; */
+        display: flex;
+        height: 200px;
+        position: relative;
+        top: -134px;
+        /* left: -34px; */
+        width: 134%;
+        background-color: #3598DB;
+        right: 87px;
+    }
+    .grey-small-text-contact-us,.black-text-contact-us-image-below{
+        color: white;
+        font-size: 15.5px;
+    }
+    .button-recruiter-contact-us-submit{
+            background-color: #3598DB;
+    position: relative;
+    top: -143px;
+    }
+    #contact-us-recruiter span input{
+        width: 286px;
+    }
+    .small_container {
+        position: relative;
+        left: 37px;
+    }
+    .support {
+        position: relative;
+        right: 200px;
+        /* top: 28px; */
+    }
+    .address {
+        position: relative;
+        left: 11px;
+        bottom: 46px;
+    }
+    #bt1 {
+        position: relative;
+        left: 147px;
+        bottom: 17px;
+    }
+    #bt2 {
+        position: relative;
+        left: 150px;
+        bottom: 20px;
+    }
+    #bt3 {
+        position: relative;
+        left: 150px;
+        bottom: 18px;
+    }
+    .contact {
+        position: relative;
+        bottom: 230px;
+        /* left: -58px; */
+        right: 77px;
+    }
+    .number { 
+        position: relative;
+        bottom: 246px;
+        /* right: 56px; */ 
+        left: 74px;
+    }
+}

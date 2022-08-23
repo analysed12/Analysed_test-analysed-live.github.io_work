@@ -1,0 +1,82 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+}
+
+@font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+
+@font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+.nav
+{
+    background: #3589db;
+    width:1535px;
+    height:80px;
+    margin-top:-10px;
+    margin-left: -8px;
+    display:flex;
+    font-family:MetroM;
+    font-size:18px;
+}
+.nav img{
+    padding:10px;
+    padding-right: 500px;
+    padding-left: 200px;
+    width:180px;
+    height:60px;
+}
+.nav a{
+    text-decoration: none;
+    font:MetroM;
+    padding:30px;
+    color:white;
+}
+.signup
+{
+    font-family: CeraB;
+    font-size:30px;
+    margin-left:200px;
+    margin-top:50px;
+}
+.image1
+{
+    display:flex;
+}
+.image img
+{
+    margin-top:50px;
+    margin-left:150px;
+    width:350px;
+    height:350px;
+}
+.image button{
+    margin-left:250px;
+    margin-top:30px;
+width: 128px;
+height: 48px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-3598db);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 2px 3px 10px #00000033;
+border: 2px solid #3598DB;
+border-radius: 8px;
+opacity: 1;
+color:#3589db;
+text-decoration: none;
+font-family:MetroM;
+font-size:18px;
+}
+.image button a {
+    text-decoration: none;
+    color:#3589db;
+}

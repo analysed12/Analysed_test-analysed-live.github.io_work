@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="698.83" height="713" viewBox="0 0 698.83 713">
+  <defs>
+    <filter id="Path_461" x="433.291" y="375.145" width="265.539" height="136.649" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_461-2" x="68.751" y="268.148" width="265.539" height="136.649" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1509" x="236.5" y="0" width="435" height="448" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-3"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.443" y1="-0.274" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b372bd"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.102"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="-1.065" x2="0.567" y2="0.883" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3598db" stop-opacity="0.349"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.31"/>
+    </linearGradient>
+    <filter id="Rectangle_1516" x="0" y="49.5" width="315" height="259" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur-4"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2128" data-name="Rectangle 2128" width="241" height="28" rx="14" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_2127" x="22.5" y="9" width="271" height="191.333" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1930" x="32.5" y="351" width="409" height="362" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-6"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1461" data-name="Group 1461" transform="translate(-988.5 -216)">
+    <g id="Group_644" data-name="Group 644" transform="translate(1435.791 603.145)">
+      <g transform="matrix(1, 0, 0, 1, -447.29, -387.15)" filter="url(#Path_461)">
+        <path id="Path_461-3" data-name="Path 461" d="M5.982,0H229.557c3.3,0,5.982,4.226,5.982,9.439V97.21c0,5.213-2.678,9.439-5.982,9.439H5.982c-3.3,0-5.982-4.226-5.982-9.439V9.439C0,4.226,2.678,0,5.982,0Z" transform="translate(447.29 387.15)" fill="#fff"/>
+      </g>
+      <g id="Group_641" data-name="Group 641" transform="translate(15.161 30.981)">
+        <text id="Tasks_Created" data-name="Tasks Created" transform="translate(0.048 9.874)" fill="#979797" font-size="12" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Tasks Created</tspan></text>
+        <text id="_437" data-name="437" transform="translate(16.048 39.874)" fill="#333" font-size="24" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">437</tspan></text>
+      </g>
+      <g id="Group_642" data-name="Group 642" transform="translate(139.743 16.479)">
+        <text id="_13_" data-name="+13%" transform="translate(23.466 41.376)" fill="#8c60eb" font-size="12" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">+13%</tspan></text>
+        <path id="Path_466" data-name="Path 466" d="M246.421,633.208a34.213,34.213,0,1,1-24.192,10.021,33.989,33.989,0,0,1,24.192-10.021m0-2.708a36.921,36.921,0,1,0,36.921,36.921A36.921,36.921,0,0,0,246.421,630.5Z" transform="translate(-209.5 -630.5)" fill="rgba(140,96,235,0.31)"/>
+        <path id="Path_467" data-name="Path 467" d="M346.195,667.536a37.174,37.174,0,0,1-37.824,36.8q-1.548-.033-3.065-.192c-.492-.049-.981-.11-1.468-.181a1.532,1.532,0,0,1,.366-2.683q.7.1,1.4.173a34.861,34.861,0,0,0,3.566.182,34.213,34.213,0,1,0-20.222-61.859q-.606.441-1.191.91a1.51,1.51,0,0,1-.221.016,1.532,1.532,0,0,1-1.389-2.194c.366-.291.739-.576,1.115-.85a37.043,37.043,0,0,1,58.929,29.88Z" transform="translate(-272.231 -630.5)" fill="#8c60eb"/>
+      </g>
+    </g>
+    <g id="Group_643" data-name="Group 643" transform="translate(1071.251 496.148)">
+      <g transform="matrix(1, 0, 0, 1, -82.75, -280.15)" filter="url(#Path_461-2)">
+        <path id="Path_461-4" data-name="Path 461" d="M5.982,0H229.557c3.3,0,5.982,4.226,5.982,9.439V97.21c0,5.213-2.678,9.439-5.982,9.439H5.982c-3.3,0-5.982-4.226-5.982-9.439V9.439C0,4.226,2.678,0,5.982,0Z" transform="translate(82.75 280.15)" fill="#fff"/>
+      </g>
+      <g id="Group_641-2" data-name="Group 641" transform="translate(15.161 30.981)">
+        <text id="Applied_candidattes" data-name="Applied candidattes" transform="translate(-0.412 8.871)" fill="#979797" font-size="11" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Applied candidattes</tspan></text>
+        <text id="_250" data-name="250" transform="translate(15.588 38.871)" fill="#333" font-size="23" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">250</tspan></text>
+      </g>
+      <g id="Group_642-2" data-name="Group 642" transform="translate(139.743 16.479)">
+        <text id="_5_" data-name="+5%" transform="translate(24.006 41.372)" fill="#fdca3b" font-size="12" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">+5%</tspan></text>
+        <path id="Path_466-2" data-name="Path 466" d="M246.421,633.208a34.213,34.213,0,1,1-24.192,10.021,33.989,33.989,0,0,1,24.192-10.021m0-2.708a36.921,36.921,0,1,0,36.921,36.921A36.921,36.921,0,0,0,246.421,630.5Z" transform="translate(-209.5 -630.5)" fill="rgba(255,199,60,0.25)"/>
+        <path id="Path_467-2" data-name="Path 467" d="M346.195,667.536a37.174,37.174,0,0,1-37.824,36.8q-1.548-.033-3.065-.192c-.492-.049-.981-.11-1.468-.181a1.532,1.532,0,0,1,.366-2.683q.7.1,1.4.173a34.861,34.861,0,0,0,3.566.182,34.213,34.213,0,1,0-20.222-61.859q-.606.441-1.191.91a1.51,1.51,0,0,1-.221.016,1.532,1.532,0,0,1-1.389-2.194c.366-.291.739-.576,1.115-.85a37.043,37.043,0,0,1,58.929,29.88Z" transform="translate(-272.231 -630.5)" fill="#fdca3b"/>
+      </g>
+    </g>
+    <g id="Group_670" data-name="Group 670" transform="translate(1061 -717)">
+      <g transform="matrix(1, 0, 0, 1, -72.5, 933)" filter="url(#Rectangle_1509)">
+        <g id="Rectangle_1509-2" data-name="Rectangle 1509" transform="translate(271.5 24)" fill="#fff" stroke="rgba(151,151,151,0.15)" stroke-width="1">
+          <rect width="363" height="376" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="362" height="375" rx="7.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_668" data-name="Group 668" transform="translate(219.995 1000.221)">
+        <g id="Group_650" data-name="Group 650" transform="translate(0 0)">
+          <g id="Switch_On" data-name="Switch On" transform="translate(52.773 0.2)">
+            <path id="Path_471" data-name="Path 471" d="M3.817,0H9.543a3.817,3.817,0,1,1,0,7.635H3.817A3.817,3.817,0,0,1,3.817,0Z" transform="translate(0 0)" fill="#8c60eb"/>
+            <g id="Path_473" data-name="Path 473" transform="translate(6.203 0)" fill="#fff">
+              <path d="M 3.578680038452148 7.134518623352051 C 1.881090044975281 7.134518623352051 0.5000000596046448 5.753428936004639 0.5000000596046448 4.055839061737061 L 0.5000000596046448 3.578678846359253 C 0.5000000596046448 1.881088852882385 1.881090044975281 0.4999988377094269 3.578680038452148 0.4999988377094269 C 5.276269912719727 0.4999988377094269 6.657360076904297 1.881088852882385 6.657360076904297 3.578678846359253 L 6.657360076904297 4.055839061737061 C 6.657360076904297 5.753428936004639 5.276269912719727 7.134518623352051 3.578680038452148 7.134518623352051 Z" stroke="none"/>
+              <path d="M 3.578680038452148 0.9999990463256836 C 2.156790256500244 0.9999990463256836 1 2.15678882598877 1 3.578678607940674 L 1 4.055838584899902 C 1 5.477728843688965 2.156790256500244 6.634518623352051 3.578680038452148 6.634518623352051 C 5.000570297241211 6.634518623352051 6.157360076904297 5.477728843688965 6.157360076904297 4.055838584899902 L 6.157360076904297 3.578678607940674 C 6.157360076904297 2.15678882598877 5.000570297241211 0.9999990463256836 3.578680038452148 0.9999990463256836 M 3.578680038452148 -9.5367431640625e-07 C 5.555130004882812 -9.5367431640625e-07 7.157360076904297 1.60222864151001 7.157360076904297 3.578678607940674 L 7.157360076904297 4.055838584899902 C 7.157360076904297 6.032288551330566 5.555130004882812 7.634518623352051 3.578680038452148 7.634518623352051 C 1.602230072021484 7.634518623352051 0 6.032288551330566 0 4.055838584899902 L 0 3.578678607940674 C 0 1.60222864151001 1.602230072021484 -9.5367431640625e-07 3.578680038452148 -9.5367431640625e-07 Z" stroke="none" fill="#979797"/>
+            </g>
+          </g>
+          <text id="Applications" transform="translate(0 6)" fill="#333" font-size="7" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Applications</tspan></text>
+        </g>
+        <g id="Group_650-2" data-name="Group 650" transform="translate(80.162 0)">
+          <g id="Switch_On-2" data-name="Switch On" transform="translate(45.616 0.2)">
+            <path id="Path_472" data-name="Path 472" d="M3.817,0H9.543a3.817,3.817,0,1,1,0,7.635H3.817A3.817,3.817,0,0,1,3.817,0Z" transform="translate(0 0)" fill="#3598db"/>
+            <g id="Path_484" data-name="Path 484" transform="translate(6.203 0)" fill="#fff">
+              <path d="M 3.578680038452148 7.134518623352051 C 1.881090044975281 7.134518623352051 0.5000000596046448 5.753428936004639 0.5000000596046448 4.055839061737061 L 0.5000000596046448 3.578678846359253 C 0.5000000596046448 1.881088852882385 1.881090044975281 0.4999988377094269 3.578680038452148 0.4999988377094269 C 5.276269912719727 0.4999988377094269 6.657360076904297 1.881088852882385 6.657360076904297 3.578678846359253 L 6.657360076904297 4.055839061737061 C 6.657360076904297 5.753428936004639 5.276269912719727 7.134518623352051 3.578680038452148 7.134518623352051 Z" stroke="none"/>
+              <path d="M 3.578680038452148 0.9999990463256836 C 2.156790256500244 0.9999990463256836 1 2.15678882598877 1 3.578678607940674 L 1 4.055838584899902 C 1 5.477728843688965 2.156790256500244 6.634518623352051 3.578680038452148 6.634518623352051 C 5.000570297241211 6.634518623352051 6.157360076904297 5.477728843688965 6.157360076904297 4.055838584899902 L 6.157360076904297 3.578678607940674 C 6.157360076904297 2.15678882598877 5.000570297241211 0.9999990463256836 3.578680038452148 0.9999990463256836 M 3.578680038452148 -9.5367431640625e-07 C 5.555130004882812 -9.5367431640625e-07 7.157360076904297 1.60222864151001 7.157360076904297 3.578678607940674 L 7.157360076904297 4.055838584899902 C 7.157360076904297 6.032288551330566 5.555130004882812 7.634518623352051 3.578680038452148 7.634518623352051 C 1.602230072021484 7.634518623352051 0 6.032288551330566 0 4.055838584899902 L 0 3.578678607940674 C 0 1.60222864151001 1.602230072021484 -9.5367431640625e-07 3.578680038452148 -9.5367431640625e-07 Z" stroke="none" fill="#3598db"/>
+            </g>
+          </g>
+          <text id="shortlisted" transform="translate(0 6)" fill="#333" font-size="7" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">shortlisted</tspan></text>
+        </g>
+        <g id="Group_650-3" data-name="Group 650" transform="translate(152.69 0)">
+          <g id="Switch_On-3" data-name="Switch On" transform="translate(37.504 0.2)">
+            <g id="Path_475" data-name="Path 475" fill="#fff">
+              <path d="M 9.543143272399902 7.134518623352051 L 3.817262887954712 7.134518623352051 C 1.988122940063477 7.134518623352051 0.5000029802322388 5.646399021148682 0.5000029802322388 3.817258834838867 C 0.5000029802322388 1.988118886947632 1.988122940063477 0.4999988377094269 3.817262887954712 0.4999988377094269 L 9.543143272399902 0.4999988377094269 C 11.37228298187256 0.4999988377094269 12.86040306091309 1.988118886947632 12.86040306091309 3.817258834838867 C 12.86040306091309 5.646399021148682 11.37228298187256 7.134518623352051 9.543143272399902 7.134518623352051 Z" stroke="none"/>
+              <path d="M 3.817262649536133 0.9999990463256836 C 2.263822555541992 0.9999990463256836 1.000002861022949 2.263818740844727 1.000002861022949 3.817258834838867 C 1.000002861022949 5.370698928833008 2.263822555541992 6.634518623352051 3.817262649536133 6.634518623352051 L 9.543143272399902 6.634518623352051 C 11.09658241271973 6.634518623352051 12.36040306091309 5.370698928833008 12.36040306091309 3.817258834838867 C 12.36040306091309 2.263818740844727 11.09658241271973 0.9999990463256836 9.543143272399902 0.9999990463256836 L 3.817262649536133 0.9999990463256836 M 3.817262649536133 -9.5367431640625e-07 L 9.543143272399902 -9.5367431640625e-07 C 11.65136337280273 -9.5367431640625e-07 13.36040306091309 1.709048748016357 13.36040306091309 3.817258834838867 C 13.36040306091309 5.925468921661377 11.65136337280273 7.634518623352051 9.543143272399902 7.634518623352051 L 3.817262649536133 7.634518623352051 C 1.709042549133301 7.634518623352051 2.86102294921875e-06 5.925468921661377 2.86102294921875e-06 3.817258834838867 C 2.86102294921875e-06 1.709048748016357 1.709042549133301 -9.5367431640625e-07 3.817262649536133 -9.5367431640625e-07 Z" stroke="none" fill="#ccc"/>
+            </g>
+            <g id="Path_474" data-name="Path 474" fill="#f5f5f5">
+              <path d="M 3.578680038452148 7.134518623352051 C 1.881090044975281 7.134518623352051 0.5000000596046448 5.753428936004639 0.5000000596046448 4.055839061737061 L 0.5000000596046448 3.578678846359253 C 0.5000000596046448 1.881088852882385 1.881090044975281 0.4999988377094269 3.578680038452148 0.4999988377094269 C 5.276269912719727 0.4999988377094269 6.657360076904297 1.881088852882385 6.657360076904297 3.578678846359253 L 6.657360076904297 4.055839061737061 C 6.657360076904297 5.753428936004639 5.276269912719727 7.134518623352051 3.578680038452148 7.134518623352051 Z" stroke="none"/>
+              <path d="M 3.578680038452148 0.9999990463256836 C 2.156790256500244 0.9999990463256836 1 2.15678882598877 1 3.578678607940674 L 1 4.055838584899902 C 1 5.477728843688965 2.156790256500244 6.634518623352051 3.578680038452148 6.634518623352051 C 5.000570297241211 6.634518623352051 6.157360076904297 5.477728843688965 6.157360076904297 4.055838584899902 L 6.157360076904297 3.578678607940674 C 6.157360076904297 2.15678882598877 5.000570297241211 0.9999990463256836 3.578680038452148 0.9999990463256836 M 3.578680038452148 -9.5367431640625e-07 C 5.555130004882812 -9.5367431640625e-07 7.157360076904297 1.60222864151001 7.157360076904297 3.578678607940674 L 7.157360076904297 4.055838584899902 C 7.157360076904297 6.032288551330566 5.555130004882812 7.634518623352051 3.578680038452148 7.634518623352051 C 1.602230072021484 7.634518623352051 0 6.032288551330566 0 4.055838584899902 L 0 3.578678607940674 C 0 1.60222864151001 1.602230072021484 -9.5367431640625e-07 3.578680038452148 -9.5367431640625e-07 Z" stroke="none" fill="#979797"/>
+            </g>
+          </g>
+          <text id="rejected" transform="translate(0 6)" fill="#333" font-size="7" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">rejected</tspan></text>
+        </g>
+      </g>
+      <g id="Group_669" data-name="Group 669" transform="translate(219.995 971.792)">
+        <text id="Active_jobs" data-name="Active jobs" transform="translate(0.005 6.208)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Active jobs</tspan></text>
+        <text id="Last_30_days" data-name="Last 30 days" transform="translate(285.005 6.208)" fill="#3598db" font-size="7" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Last 30 days</tspan></text>
+      </g>
+      <g id="Group_649" data-name="Group 649" transform="translate(213.792 1030.005)">
+        <path id="Path_470" data-name="Path 470" d="M360.037,276.489h-.462v-.431H40.548v.431h-.057v143.5h.057v.433H359.575v-.433h.462ZM174.175,340.7H199.8v15.081H174.175Zm-.926,15.081H147.624V340.7h25.625ZM200.727,340.7h25.627v15.081H200.727Zm26.552,0H252.9v15.081H227.279Zm0-.864V324.755H252.9v15.079Zm-.926,0H200.727V324.755h25.627Zm-26.552,0H174.175V324.755H199.8Zm-26.552,0H147.624V324.755h25.625Zm-26.55,0H121.072V324.755H146.7Zm0,.864v15.081H121.072V340.7Zm0,15.945v15.081H121.072V356.643Zm.926,0h25.625v15.081H147.624Zm26.55,0H199.8v15.081H174.175Zm26.552,0h25.627v15.081H200.727Zm26.552,0H252.9v15.081H227.279Zm26.55,0h25.627v15.081H253.83Zm0-.864V340.7h25.627v15.081Zm0-15.945V324.755h25.627v15.079Zm0-15.945V308.81h25.627v15.079Zm-.926,0H227.279V308.81H252.9Zm-26.55,0H200.727V308.81h25.627Zm-26.552,0H174.175V308.81H199.8Zm-26.552,0H147.624V308.81h25.625Zm-26.55,0H121.072V308.81H146.7Zm-26.552,0H94.519V308.81h25.627Zm0,.866v15.079H94.519V324.755Zm0,15.943v15.081H94.519V340.7Zm0,15.945v15.081H94.519V356.643Zm0,15.945v15.079H94.519V372.588Zm.926,0H146.7v15.079H121.072Zm26.552,0h25.625v15.079H147.624Zm26.55,0H199.8v15.079H174.175Zm26.552,0h25.627v15.079H200.727Zm26.552,0H252.9v15.079H227.279Zm26.55,0h25.627v15.079H253.83Zm26.552,0h25.627v15.079H280.382Zm0-.864V356.643h25.627v15.081Zm0-15.945V340.7h25.627v15.081Zm0-15.945V324.755h25.627v15.079Zm0-15.945V308.81h25.627v15.079Zm0-15.943V292.867h25.627v15.079Zm-.926,0H253.83V292.867h25.627Zm-26.552,0H227.279V292.867H252.9Zm-26.55,0H200.727V292.867h25.627Zm-26.552,0H174.175V292.867H199.8Zm-26.552,0H147.624V292.867h25.625Zm-26.55,0H121.072V292.867H146.7Zm-26.552,0H94.519V292.867h25.627Zm-26.552,0H67.969V292.867H93.594Zm0,.864v15.079H67.969V308.81Zm0,15.945v15.079H67.969V324.755Zm0,15.943v15.081H67.969V340.7Zm0,15.945v15.081H67.969V356.643Zm0,15.945v15.079H67.969V372.588Zm0,15.945v15.079H67.969V388.532Zm.926,0h25.627v15.079H94.519Zm26.552,0H146.7v15.079H121.072Zm26.552,0h25.625v15.079H147.624Zm26.55,0H199.8v15.079H174.175Zm26.552,0h25.627v15.079H200.727Zm26.552,0H252.9v15.079H227.279Zm26.55,0h25.627v15.079H253.83Zm26.552,0h25.627v15.079H280.382Zm26.552,0h25.625v15.079H306.934Zm0-.866V372.588h25.625v15.079Zm0-15.943V356.643h25.625v15.081Zm0-15.945V340.7h25.625v15.081Zm0-15.945V324.755h25.625v15.079Zm0-15.945V308.81h25.625v15.079Zm0-15.943V292.867h25.625v15.079Zm0-15.945V276.922h25.625V292Zm-.926,0H280.382V276.922h25.627Zm-26.552,0H253.83V276.922h25.627ZM252.9,292H227.279V276.922H252.9Zm-26.55,0H200.727V276.922h25.627ZM199.8,292H174.175V276.922H199.8Zm-26.552,0H147.624V276.922h25.625Zm-26.55,0H121.072V276.922H146.7Zm-26.552,0H94.519V276.922h25.627Zm-26.552,0H67.969V276.922H93.594Zm-26.552,0H41.417V276.922H67.041Zm0,.866v15.079H41.417V292.867Zm0,15.943v15.079H41.417V308.81Zm0,15.945v15.079H41.417V324.755Zm0,15.943v15.081H41.417V340.7Zm0,15.945v15.081H41.417V356.643Zm0,15.945v15.079H41.417V372.588Zm0,15.945v15.079H41.417V388.532Zm0,15.943v15.079H41.417V404.475Zm.928,0H93.594v15.079H67.969Zm26.55,0h25.627v15.079H94.519Zm26.552,0H146.7v15.079H121.072Zm26.552,0h25.625v15.079H147.624Zm26.55,0H199.8v15.079H174.175Zm26.552,0h25.627v15.079H200.727Zm26.552,0H252.9v15.079H227.279Zm26.55,0h25.627v15.079H253.83Zm26.552,0h25.627v15.079H280.382Zm26.552,0h25.625v15.079H306.934Zm26.55,0h25.627v15.079H333.485Zm0-.864V388.532h25.627v15.079Zm0-15.945V372.588h25.627v15.079Zm0-15.943V356.643h25.627v15.081Zm0-15.945V340.7h25.627v15.081Zm0-15.945V324.755h25.627v15.079Zm0-15.945V308.81h25.627v15.079Zm0-15.943V292.867h25.627v15.079Zm0-15.945V276.922h25.627V292Z" transform="translate(-24.118 -275.23)" fill="#f5f5f5"/>
+        <text id="_10" data-name="10" transform="translate(2.554 142.916)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">10</tspan></text>
+        <text id="_20" data-name="20" transform="translate(2.554 127.598)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">20</tspan></text>
+        <text id="_30" data-name="30" transform="translate(2.554 112.12)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">30</tspan></text>
+        <text id="_40" data-name="40" transform="translate(2.554 95.364)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">40</tspan></text>
+        <text id="_50" data-name="50" transform="translate(2.554 78.939)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">50</tspan></text>
+        <text id="_60" data-name="60" transform="translate(2.554 64.595)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">60</tspan></text>
+        <text id="_70" data-name="70" transform="translate(2.554 47.649)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">70</tspan></text>
+        <text id="_80" data-name="80" transform="translate(2.554 32.967)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">80</tspan></text>
+        <text id="_90" data-name="90" transform="translate(2.554 17.475)" fill="#3598db" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">90</tspan></text>
+        <text id="_100" data-name="100" transform="translate(0.208 4.995)" fill="#3598db" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">100</tspan></text>
+        <path id="Intersection_6" data-name="Intersection 6" d="M0,99.078V36.4a19.8,19.8,0,0,1,2.891-.206c30.187,0,22.869,23.73,56.1,23.73s32.96-18.475,64.322-18.475c38.449,0,38.961,30.355,80.761,30.355S258.811-.664,318.492,0l.727,1.375v97.7Z" transform="translate(16.461 41.985)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle_1513" data-name="Rectangle 1513" width="319.218" height="109.746" transform="translate(16.462 15.985)" fill="none"/>
+        <path id="Intersection_7" data-name="Intersection 7" d="M0,84.945V8.312c52.55,5.311,42.815,46.729,72.819,39.3,18.566-4.595,25.108-4.13,34.686-3.666a178.552,178.552,0,0,0,25.065-.354C163.729,41.167,157.373.88,179.3.388c8.966-.2,15.552,2.413,22.187,5.028,9.593,3.781,19.29,7.562,36.436,2.83,28.666-7.914,30.3-12.317,81.293-2.987V84.945Z" transform="translate(16.461 59.873)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient-2)"/>
+        <path id="Path_205" data-name="Path 205" d="M-613.608-9.042C-674.628-9.71-684.383,62.8-727.12,62.8S-770.382,32.452-809.7,32.452c-32.067,0-31.785,18.469-65.766,18.469S-901.961,27.2-932.826,27.2" transform="translate(949.527 50.082)" fill="none" stroke="#8e61e9" stroke-width="2"/>
+        <path id="Path_206" data-name="Path 206" d="M-448.588,188.653c-52.453-9.6-53.773-5.262-82.6,2.6s-36.463-8.2-58.257-7.719-15.477,40.06-46.441,42.446-29.437-3.376-59.378,3.944-20.064-33.733-73.023-38.673" transform="translate(784.506 -123.285)" fill="none" stroke="#3598db" stroke-width="2"/>
+      </g>
+      <g id="Group_659" data-name="Group 659" transform="translate(219.995 1200.827)">
+        <text id="Job_title" data-name="Job title" transform="translate(0.005 6.173)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Job title</tspan></text>
+        <g id="Group_658" data-name="Group 658" transform="translate(0 27.198)">
+          <text id="MERN_stack_developer" data-name="MERN stack developer" transform="translate(0.005 5.975)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">MERN stack developer</tspan></text>
+          <text id="_506" data-name="506" transform="translate(257.005 5.975)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">506</tspan></text>
+          <text id="MEAN_stack_developer" data-name="MEAN stack developer" transform="translate(0.005 28.975)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">MEAN stack developer</tspan></text>
+          <text id="_114" data-name="114" transform="translate(257.005 28.975)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">114</tspan></text>
+          <text id="Django_developer" data-name="Django developer" transform="translate(0.005 51.975)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Django developer</tspan></text>
+          <text id="_678" data-name="678" transform="translate(257.005 52.975)" fill="#333" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">678</tspan></text>
+          <text id="React-native_front_end_developer" data-name="React-native front end developer" transform="translate(0.005 74.975)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">React-native front end developer</tspan></text>
+          <text id="_89" data-name="89" transform="translate(257.005 74.975)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">89</tspan></text>
+        </g>
+        <text id="Applications-2" data-name="Applications" transform="translate(257.005 6.173)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Applications</tspan></text>
+        <path id="Path_477" data-name="Path 477" d="M-17621,8.45h331.939" transform="translate(17621 7.034)" fill="none" stroke="#979797" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Group_657" data-name="Group 657" transform="translate(30.012 -671)">
+      <g transform="matrix(1, 0, 0, 1, 958.49, 887)" filter="url(#Rectangle_1516)">
+        <rect id="Rectangle_1516-2" data-name="Rectangle 1516" width="240" height="184" rx="8" transform="translate(36.5 70)" fill="#fff"/>
+      </g>
+      <text id="Applications-3" data-name="Applications" transform="translate(1013.823 988.902)" fill="#333" font-size="12" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Applications</tspan></text>
+      <g id="Group_656" data-name="Group 656" transform="translate(1013.823 1024.896)">
+        <g id="Group_651" data-name="Group 651" transform="translate(0 0)">
+          <text id="Approved" transform="translate(17.747 9.344)" fill="#333" font-size="10" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Approved</tspan></text>
+          <circle id="Ellipse_269" data-name="Ellipse 269" cx="5.5" cy="5.5" r="5.5" transform="translate(0.166 1.104)" fill="#51c46d"/>
+          <text id="_4_" data-name="4%" transform="translate(181.166 10.104)" fill="#333" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">4%</tspan></text>
+        </g>
+        <g id="Group_652" data-name="Group 652" transform="translate(0 25.545)">
+          <text id="Short-listed" transform="translate(17.747 9.344)" fill="#333" font-size="10" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Short-listed</tspan></text>
+          <circle id="Ellipse_269-2" data-name="Ellipse 269" cx="5.5" cy="5.5" r="5.5" transform="translate(0.166 1.559)" fill="#6ec5ff"/>
+          <text id="_13_2" data-name="13%" transform="translate(178.166 9.559)" fill="#333" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">13%</tspan></text>
+        </g>
+        <g id="Group_653" data-name="Group 653" transform="translate(0 51.09)">
+          <text id="On-hold" transform="translate(17.747 9.344)" fill="#333" font-size="10" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">On-hold</tspan></text>
+          <circle id="Ellipse_269-3" data-name="Ellipse 269" cx="5.5" cy="5.5" r="5.5" transform="translate(0.166 1.014)" fill="#fdca3b"/>
+          <text id="_27_" data-name="27%" transform="translate(175.166 10.014)" fill="#333" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">27%</tspan></text>
+        </g>
+        <g id="Group_654" data-name="Group 654" transform="translate(0 76.635)">
+          <text id="Rejected-2" data-name="Rejected" transform="translate(17.747 9.344)" fill="#333" font-size="10" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Rejected</tspan></text>
+          <path id="Path_476" data-name="Path 476" d="M5.378,0A5.378,5.378,0,1,1,0,5.378,5.378,5.378,0,0,1,5.378,0Z" transform="translate(0 1.344)" fill="#ec4551"/>
+          <text id="_6_" data-name="6%" transform="translate(181.166 10.469)" fill="#333" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">6%</tspan></text>
+        </g>
+      </g>
+      <g id="Group_655" data-name="Group 655" transform="translate(1013.823 1005.401)">
+        <path id="Path_482" data-name="Path 482" d="M2.689,0H27.562a2.689,2.689,0,0,1,0,5.378H2.689A2.689,2.689,0,0,1,2.689,0Z" fill="#51c46d"/>
+        <path id="Path_483" data-name="Path 483" d="M0,0H36.3V5.378H0Z" transform="translate(27.562)" fill="#6ec5ff"/>
+        <rect id="Rectangle_1521" data-name="Rectangle 1521" width="81" height="6" transform="translate(63.166 -0.401)" fill="#fdca3b"/>
+        <path id="Rectangle_1522" data-name="Rectangle 1522" d="M0,0H48a3,3,0,0,1,3,3V3a3,3,0,0,1-3,3H0A0,0,0,0,1,0,6V0A0,0,0,0,1,0,0Z" transform="translate(144.166 -0.401)" fill="#ec4551"/>
+      </g>
+      <text id="Last_30_days-2" data-name="Last 30 days" transform="translate(1154.988 985)" fill="#3598db" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Last 30 days</tspan></text>
+    </g>
+    <g id="Nav_dash" data-name="Nav dash" transform="translate(1025 237)">
+      <g id="Mask_Group_16" data-name="Mask Group 16" clip-path="url(#clip-path)">
+        <g id="Group_1902" data-name="Group 1902">
+          <g transform="matrix(1, 0, 0, 1, -36.5, -21)" filter="url(#Rectangle_2127)">
+            <path id="Rectangle_2127-2" data-name="Rectangle 2127" d="M25,0H216a25,25,0,0,1,25,25V145.333a16,16,0,0,1-16,16H16a16,16,0,0,1-16-16V25A25,25,0,0,1,25,0Z" transform="translate(36.5 21)" fill="#fff"/>
+          </g>
+          <text id="Fox_Hunt" data-name="Fox Hunt" transform="translate(12.93 81.333)" fill="#3598db" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fox Hunt</tspan></text>
+          <text id="John_Smith" data-name="John Smith" transform="translate(49.565 81.333)" fill="#3598db" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">John Smith</tspan></text>
+          <text id="Angular.js_Developer" data-name="Angular.js Developer" transform="translate(91.587 81.333)" fill="#3598db" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Angular.js Developer</tspan></text>
+          <g id="Group_1900" data-name="Group 1900" transform="translate(171.322 132)">
+            <text id="Advanced_Search" data-name="Advanced Search" transform="translate(0 4)" fill="#3598db" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Advanced Search</tspan></text>
+            <g id="Forward_arrow" data-name="Forward arrow" transform="translate(50.916 0.667)">
+              <path id="Path_1996" data-name="Path 1996" d="M2.358,0,1.929.429,3.552,2.052H0v.612H3.552L1.929,4.287l.429.429L4.716,2.358Z" transform="translate(0)" fill="#3598db"/>
+            </g>
+          </g>
+          <g id="Group_1901" data-name="Group 1901" transform="translate(12.93 56)">
+            <text id="Recent_Searches" data-name="Recent Searches" transform="translate(7.183 4)" fill="#979797" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Recent Searches</tspan></text>
+            <path id="Icon_material-history" data-name="Icon material-history" d="M4.373,4.5c-1.19,0-2.155,1.791-2.155,4H1.5l.931,1.729.017.062L3.416,8.5H2.7c0-1.72.749-3.111,1.676-3.111S6.049,6.78,6.049,8.5,5.3,11.611,4.373,11.611A1.458,1.458,0,0,1,3.19,10.7l-.34.631A1.874,1.874,0,0,0,4.373,12.5c1.19,0,2.155-1.791,2.155-4S5.563,4.5,4.373,4.5ZM4.134,6.722V8.944l1.025,1.129.172-.538-.838-.924V6.722Z" transform="translate(-1.5 -3.167)" fill="#979797"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_1485" data-name="Rectangle 1485" width="241" height="36" rx="18" fill="#fff"/>
+      <text id="Search_for_jobs" data-name="Search for jobs" transform="translate(64 23)" fill="#979797" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Search for jobs</tspan></text>
+      <path id="Path_2" data-name="Path 2" d="M1675.531,1899.556a3.791,3.791,0,0,1,3.754-3.829h.075a3.791,3.791,0,0,1,3.829,3.753v.075a3.791,3.791,0,0,1-3.754,3.829h-.075a3.791,3.791,0,0,1-3.829-3.754Zm9.419,6.662a.758.758,0,0,0,1.072-1.072l-2.374-2.374a5.242,5.242,0,0,0,1.072-3.216,5.327,5.327,0,0,0-5.294-5.36h-.066a5.328,5.328,0,0,0-5.36,5.294v.066a5.328,5.328,0,0,0,5.294,5.36h.066a5.245,5.245,0,0,0,3.216-1.072Z" transform="translate(-1471.971 -1882.435)" fill="#3598db"/>
+    </g>
+    <g id="Group_1460" data-name="Group 1460" transform="translate(0 -70)">
+      <g transform="matrix(1, 0, 0, 1, 988.5, 286)" filter="url(#Rectangle_1930)">
+        <g id="Rectangle_1930-2" data-name="Rectangle 1930" transform="translate(67.5 375)" fill="#fff" stroke="rgba(151,151,151,0.15)" stroke-width="1">
+          <rect width="337" height="290" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="336" height="289" rx="7.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_1457" data-name="Group 1457" transform="translate(-40 -55)">
+        <g id="Group_331" data-name="Group 331" transform="translate(1112.106 739.378)">
+          <rect id="Rectangle_1523" data-name="Rectangle 1523" width="34" height="35" rx="8" transform="translate(-0.106 -0.378)" fill="#e0fadc"/>
+          <path id="Path_349" data-name="Path 349" d="M16.063,2.633H12.65a2.44,2.44,0,0,0-4.6,0H4.633A1.638,1.638,0,0,0,3,4.266V15.7a1.638,1.638,0,0,0,1.633,1.633h11.43A1.638,1.638,0,0,0,17.7,15.7V4.266A1.638,1.638,0,0,0,16.063,2.633Zm-5.715,0a.816.816,0,1,1-.816.816A.819.819,0,0,1,10.348,2.633ZM8.135,13.483,6.021,11.368a.814.814,0,0,1,1.151-1.151l1.543,1.535,4.8-4.8A.814.814,0,1,1,14.667,8.1l-5.38,5.38a.813.813,0,0,1-1.151,0Z" transform="translate(6.574 7.786)" fill="#51c46d"/>
+        </g>
+        <text id="Task_Created" data-name="Task Created" transform="translate(1165.839 750.378)" fill="#333" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Task Created</tspan></text>
+        <text id="task_deatils_Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Donecwj_idonitdtni_intstn." data-name="task deatils Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donecwj
+idonitdtni  intstn." transform="translate(1164.092 759.789)" fill="#333" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="10">task deatils Lorem ipsum dolor sit amet, consectetur adipiscing </tspan><tspan x="0" y="25">elit. Donecwj</tspan></text>
+        <g id="Group_326" data-name="Group 326" transform="translate(1345.529 740.817)">
+          <text id="X_Time_ago" data-name="X Time ago" transform="translate(15.798 7.816)" fill="#979797" font-size="9" font-family="SegoeUI-Light, Segoe UI" font-weight="300" style="isolation: isolate"><tspan x="0" y="0">X Time ago</tspan></text>
+          <g id="history-24px">
+            <path id="Path_356" data-name="Path 356" d="M0,0H12.246V12.246H0Z" fill="none"/>
+            <path id="Path_357" data-name="Path 357" d="M7.6,3A4.6,4.6,0,0,0,2.878,7.591H1.964a.253.253,0,0,0-.179.434L3.209,9.453a.253.253,0,0,0,.362,0L5,8.024a.255.255,0,0,0-.184-.434H3.9A3.571,3.571,0,0,1,7.521,4.019,3.617,3.617,0,0,1,11.042,7.54,3.574,3.574,0,0,1,7.47,11.162a3.518,3.518,0,0,1-2.184-.755.51.51,0,0,0-.633.8,4.52,4.52,0,0,0,2.817.975,4.6,4.6,0,0,0,4.592-4.725A4.646,4.646,0,0,0,7.6,3ZM7.343,5.55a.385.385,0,0,0-.383.383V7.81a.516.516,0,0,0,.25.439L8.8,9.193a.383.383,0,0,0,.393-.658l-1.47-.873V5.927a.384.384,0,0,0-.383-.378Z" transform="translate(-0.837 -1.468)" fill="#979797"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_1458" data-name="Group 1458" transform="translate(-40 -55)">
+        <g id="Group_332" data-name="Group 332" transform="translate(1112.106 833.266)">
+          <rect id="Rectangle_1524" data-name="Rectangle 1524" width="34" height="35" rx="8" transform="translate(-0.106 -0.266)" fill="#d3eeff"/>
+          <path id="Path_351" data-name="Path 351" d="M13.246,9.9A2.449,2.449,0,1,0,10.8,7.449,2.439,2.439,0,0,0,13.246,9.9Zm-6.531,0A2.449,2.449,0,1,0,4.266,7.449,2.439,2.439,0,0,0,6.715,9.9Zm0,1.633c-1.9,0-5.715.955-5.715,2.857v1.225a.819.819,0,0,0,.816.816h9.8a.819.819,0,0,0,.816-.816V14.389C12.43,12.487,8.617,11.531,6.715,11.531Zm6.531,0c-.237,0-.506.016-.792.041.016.008.024.024.033.033a3.4,3.4,0,0,1,1.576,2.784v1.225a2.453,2.453,0,0,1-.147.816h4.229a.819.819,0,0,0,.816-.816V14.389C18.961,12.487,15.148,11.531,13.246,11.531Z" transform="translate(6.941 6.82)" fill="#4371ce"/>
+        </g>
+        <text id="Interview_coming_up" data-name="Interview coming up" transform="translate(1166.337 844.266)" fill="#333" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Interview coming up</tspan></text>
+        <text id="task_deatils_Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Donecwj_idonitdtni_intstn.-2" data-name="task deatils Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donecwj
+idonitdtni  intstn." transform="translate(1164.092 853.677)" fill="#333" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="10">task deatils Lorem ipsum dolor sit amet, consectetur adipiscing </tspan><tspan x="0" y="25">elit. Donecwj</tspan></text>
+        <g id="Group_326-2" data-name="Group 326" transform="translate(1348.794 834.705)">
+          <text id="X_Time_ago-2" data-name="X Time ago" transform="translate(15.798 7.816)" fill="#979797" font-size="9" font-family="SegoeUI-Light, Segoe UI" font-weight="300" style="isolation: isolate"><tspan x="0" y="0">X Time ago</tspan></text>
+          <g id="history-24px-2" data-name="history-24px">
+            <path id="Path_356-2" data-name="Path 356" d="M0,0H12.246V12.246H0Z" fill="none"/>
+            <path id="Path_357-2" data-name="Path 357" d="M7.6,3A4.6,4.6,0,0,0,2.878,7.591H1.964a.253.253,0,0,0-.179.434L3.209,9.453a.253.253,0,0,0,.362,0L5,8.024a.255.255,0,0,0-.184-.434H3.9A3.571,3.571,0,0,1,7.521,4.019,3.617,3.617,0,0,1,11.042,7.54,3.574,3.574,0,0,1,7.47,11.162a3.518,3.518,0,0,1-2.184-.755.51.51,0,0,0-.633.8,4.52,4.52,0,0,0,2.817.975,4.6,4.6,0,0,0,4.592-4.725A4.646,4.646,0,0,0,7.6,3ZM7.343,5.55a.385.385,0,0,0-.383.383V7.81a.516.516,0,0,0,.25.439L8.8,9.193a.383.383,0,0,0,.393-.658l-1.47-.873V5.927a.384.384,0,0,0-.383-.378Z" transform="translate(-0.837 -1.468)" fill="#979797"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_1459" data-name="Group 1459" transform="translate(-40 -55)">
+        <g id="Group_333" data-name="Group 333" transform="translate(1112.106 926.337)">
+          <rect id="Rectangle_1525" data-name="Rectangle 1525" width="34" height="35" rx="8" transform="translate(-0.106 -0.337)" fill="rgba(236,69,81,0.18)"/>
+          <path id="notification_important-24px" d="M10.424,19.053a1.624,1.624,0,0,0,1.625-1.625H8.8A1.624,1.624,0,0,0,10.424,19.053Zm6.768-3.845-1.053-1.053v-4.9a5.709,5.709,0,0,0-4.49-5.576V2.725a1.225,1.225,0,0,0-2.449,0V3.68a5.709,5.709,0,0,0-4.49,5.576v4.9L3.656,15.208a.817.817,0,0,0,.571,1.4H16.612a.817.817,0,0,0,.58-1.4Zm-5.952-1.87H9.607V11.705H11.24Zm0-4.082a.816.816,0,0,1-1.633,0V7.623a.816.816,0,1,1,1.633,0Z" transform="translate(6.16 6.47)" fill="#ec4551"/>
+        </g>
+        <text id="Deadline_alert" data-name="Deadline alert" transform="translate(1165.867 937.337)" fill="#333" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="0" y="0">Deadline alert</tspan></text>
+        <text id="task_deatils_Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Donecwj_idonitdtni_intstn.-3" data-name="task deatils Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donecwj
+idonitdtni  intstn." transform="translate(1164.092 946.748)" fill="#333" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="10">task deatils Lorem ipsum dolor sit amet, consectetur adipiscing </tspan><tspan x="0" y="25">elit. Donecwj</tspan><tspan x="0" y="40" xml:space="preserve">idonitdtni  intstn.</tspan></text>
+        <g id="Group_326-3" data-name="Group 326" transform="translate(1346.345 927.776)">
+          <text id="X_Time_ago-3" data-name="X Time ago" transform="translate(15.798 7.816)" fill="#979797" font-size="9" font-family="SegoeUI-Light, Segoe UI" font-weight="300" style="isolation: isolate"><tspan x="0" y="0">X Time ago</tspan></text>
+          <g id="history-24px-3" data-name="history-24px">
+            <path id="Path_356-3" data-name="Path 356" d="M0,0H12.246V12.246H0Z" fill="none"/>
+            <path id="Path_357-3" data-name="Path 357" d="M7.6,3A4.6,4.6,0,0,0,2.878,7.591H1.964a.253.253,0,0,0-.179.434L3.209,9.453a.253.253,0,0,0,.362,0L5,8.024a.255.255,0,0,0-.184-.434H3.9A3.571,3.571,0,0,1,7.521,4.019,3.617,3.617,0,0,1,11.042,7.54,3.574,3.574,0,0,1,7.47,11.162a3.518,3.518,0,0,1-2.184-.755.51.51,0,0,0-.633.8,4.52,4.52,0,0,0,2.817.975,4.6,4.6,0,0,0,4.592-4.725A4.646,4.646,0,0,0,7.6,3ZM7.343,5.55a.385.385,0,0,0-.383.383V7.81a.516.516,0,0,0,.25.439L8.8,9.193a.383.383,0,0,0,.393-.658l-1.47-.873V5.927a.384.384,0,0,0-.383-.378Z" transform="translate(-0.837 -1.468)" fill="#979797"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

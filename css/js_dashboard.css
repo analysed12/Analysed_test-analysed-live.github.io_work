@@ -1,0 +1,1245 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+
+body {
+  background: white;
+}
+.title {
+  position: relative;
+  right: -240;
+  bottom: -60;
+}
+
+.title h2 {
+  font-size: 38px;
+  font-weight: lighter;
+}
+
+.title p {
+  color: #3598db;
+  position: relative;
+  top: -10;
+}
+.main_body {
+  margin-left: 114px;
+  margin-right: 50px;
+}
+.sub_1 {
+  color: #3598db;
+}
+.col-md-2 {
+  height: 135px;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 30px 20px;
+}
+.jobs-applied {
+  position: relative;
+  right: -240;
+  bottom: -100;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 15%;
+  height: 13%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.jobs-applied p {
+  color: #888888;
+  font-weight: lighter;
+  position: relative;
+  right: -30;
+  bottom: -20;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.jobs-applied img {
+  position: relative;
+  right: -150;
+  bottom: 20;
+}
+
+.jobs-applied h3 {
+  font-weight: normal;
+  position: relative;
+  right: -50;
+  bottom: -30;
+  font-size: 25px;
+}
+
+.jobs-nearby {
+  position: relative;
+  right: -500;
+  bottom: -4;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 15%;
+  height: 13%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.jobs-nearby p {
+  color: #888888;
+  font-weight: lighter;
+  position: relative;
+  right: -30;
+  bottom: -20;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.jobs-nearby img {
+  position: relative;
+  right: -150;
+  bottom: 20;
+}
+
+.jobs-nearby h3 {
+  font-weight: normal;
+  position: relative;
+  right: -50;
+  bottom: -30;
+  font-size: 25px;
+}
+
+.shortlisted {
+  position: relative;
+  right: -760;
+  bottom: 92;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 15%;
+  height: 13%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.shortlisted p {
+  color: #888888;
+  font-weight: lighter;
+  position: relative;
+  right: -30;
+  bottom: -20;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.shortlisted img {
+  position: relative;
+  right: -150;
+  bottom: 20;
+}
+
+.shortlisted h3 {
+  font-weight: normal;
+  position: relative;
+  right: -50;
+  bottom: -30;
+  font-size: 25px;
+}
+
+.starred-jobs {
+  position: relative;
+  right: -1020;
+  bottom: 187;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 15%;
+  height: 13%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.starred-jobs p {
+  color: #888888;
+  font-weight: lighter;
+  position: relative;
+  right: -30;
+  bottom: -20;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.starred-jobs img {
+  position: relative;
+  right: -150;
+  bottom: 20;
+}
+
+.starred-jobs h3 {
+  font-weight: normal;
+  position: relative;
+  right: -50;
+  bottom: -30;
+  font-size: 25px;
+}
+
+.jobs-near-you {
+  position: relative;
+  right: -240;
+  bottom: 155;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 33%;
+  height: 90%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.jobs-near-you #title {
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  right: -30;
+  bottom: -20;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.jobs-near-you #setting {
+  position: relative;
+  right: -370;
+  bottom: -5;
+}
+
+.jobs-near-you #place {
+  color: #3598db;
+  font-weight: lighter;
+  position: relative;
+  right: -390;
+  bottom: 12;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.jobs-near-you #map {
+  position: relative;
+  right: -30;
+}
+
+.jobs-near-you table {
+  width: 100%;
+}
+
+.jobs-near-you th {
+  position: relative;
+  left: -30;
+  font-weight: lighter;
+  margin: 10px;
+}
+.jobs-near-you td {
+  position: relative;
+  right: -30;
+  bottom: -30;
+  font-weight: lighter;
+  padding: 8px;
+}
+
+.jobs-near-you hr {
+  position: relative;
+  bottom: -30;
+  right: -20;
+  width: 430px;
+}
+.profile-viewed {
+  position: relative;
+  right: -760;
+  bottom: 810;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 33%;
+  height: 85%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.profile-viewed #title {
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  right: -30;
+  bottom: -20;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.profile-viewed #setting {
+  position: relative;
+  right: -370;
+  bottom: -5;
+}
+
+.profile-viewed #days {
+  color: #3598db;
+  font-weight: lighter;
+  position: relative;
+  right: -390;
+  bottom: 12;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.profile-viewed #views {
+  font-weight: lighter;
+  position: relative;
+  right: -30;
+  bottom: -10;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.profile-viewed table {
+  width: 100%;
+}
+
+.profile-viewed th {
+  position: relative;
+  left: -30;
+  font-weight: lighter;
+  margin: 10px;
+}
+.profile-viewed td {
+  position: relative;
+  right: -50;
+  bottom: -30;
+  font-weight: lighter;
+  padding: 8px;
+}
+
+.profile-viewed hr {
+  position: relative;
+  bottom: -30;
+  right: -20;
+  width: 430px;
+}
+
+.recommend h2 {
+  position: relative;
+  right: -240;
+  bottom: 700;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.airbnb {
+  position: relative;
+  right: -240;
+  bottom: 680;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 15%;
+  height: 33%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.airbnb #share {
+  position: relative;
+  right: -115;
+  top: -10;
+}
+
+.airbnb #star {
+  position: relative;
+  right: -120;
+  top: -12;
+}
+
+.airbnb #logo {
+  position: relative;
+  right: -20;
+  bottom: -20;
+}
+
+.airbnb #name {
+  position: relative;
+  top: -15;
+  right: -70;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.airbnb #address {
+  position: relative;
+  top: -15;
+  right: -70;
+  font-weight: lighter;
+  font-size: smaller;
+  color: #888888;
+}
+
+.airbnb #role {
+  font-weight: lighter;
+  font-size: small;
+  position: relative;
+  bottom: -10;
+  right: -13;
+}
+
+.airbnb progress {
+  position: relative;
+  bottom: -20;
+  right: -13;
+  width: 85px;
+}
+
+.airbnb #days-left {
+  font-weight: lighter;
+  font-size: x-small;
+  color: #888888;
+  position: relative;
+  right: -120;
+}
+
+.airbnb #skills {
+  font-weight: lighter;
+  font-size: small;
+  color: #3598db;
+  position: relative;
+  right: -12;
+  bottom: -15;
+}
+
+.airbnb #type {
+  font-weight: lighter;
+  font-size: smaller;
+  color: #888888;
+  position: relative;
+  right: -12;
+  bottom: -55;
+}
+
+.airbnb input {
+  position: relative;
+  right: -110;
+  bottom: -35px;
+  border: 1px solid #3598db;
+  border-radius: 20px;
+  background: #fafbff;
+  color: #3598db;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 40%;
+  cursor: pointer;
+}
+
+.netflix {
+  position: relative;
+  right: -490;
+  bottom: 921;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 15%;
+  height: 33%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.netflix #share {
+  position: relative;
+  right: -115;
+  top: -10;
+}
+
+.netflix #star {
+  position: relative;
+  right: -120;
+  top: -12;
+}
+
+.netflix #logo {
+  position: relative;
+  right: -20;
+  bottom: -20;
+}
+
+.netflix #name {
+  position: relative;
+  top: -15;
+  right: -70;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.netflix #address {
+  position: relative;
+  top: -15;
+  right: -70;
+  font-weight: lighter;
+  font-size: smaller;
+  color: #888888;
+}
+
+.netflix #role {
+  font-weight: lighter;
+  font-size: small;
+  position: relative;
+  bottom: -10;
+  right: -13;
+}
+
+.netflix progress {
+  position: relative;
+  bottom: -20;
+  right: -13;
+  width: 85px;
+}
+
+.netflix #days-left {
+  font-weight: lighter;
+  font-size: x-small;
+  color: #888888;
+  position: relative;
+  right: -120;
+}
+
+.netflix #skills {
+  font-weight: lighter;
+  font-size: small;
+  color: #3598db;
+  position: relative;
+  right: -12;
+  bottom: -15;
+}
+
+.netflix #type {
+  font-weight: lighter;
+  font-size: smaller;
+  color: #888888;
+  position: relative;
+  right: -12;
+  bottom: -55;
+}
+
+.netflix input {
+  position: relative;
+  right: -110;
+  bottom: -35px;
+  border: 1px solid #3598db;
+  border-radius: 20px;
+  background: #fafbff;
+  color: #3598db;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 40%;
+  cursor: pointer;
+}
+
+.uber {
+  position: relative;
+  right: -740;
+  bottom: 1162;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 15%;
+  height: 33%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.uber #share {
+  position: relative;
+  right: -115;
+  top: -10;
+}
+
+.uber #star {
+  position: relative;
+  right: -120;
+  top: -12;
+}
+
+.uber #logo {
+  position: relative;
+  right: -20;
+  bottom: -20;
+}
+
+.uber #name {
+  position: relative;
+  top: -15;
+  right: -70;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.uber #address {
+  position: relative;
+  top: -15;
+  right: -70;
+  font-weight: lighter;
+  font-size: smaller;
+  color: #888888;
+}
+
+.uber #role {
+  font-weight: lighter;
+  font-size: small;
+  position: relative;
+  bottom: -10;
+  right: -13;
+}
+
+.uber progress {
+  position: relative;
+  bottom: -20;
+  right: -13;
+  width: 85px;
+}
+
+.uber #days-left {
+  font-weight: lighter;
+  font-size: x-small;
+  color: #888888;
+  position: relative;
+  right: -120;
+}
+
+.uber #skills {
+  font-weight: lighter;
+  font-size: small;
+  color: #3598db;
+  position: relative;
+  right: -12;
+  bottom: -15;
+}
+
+.uber #type {
+  font-weight: lighter;
+  font-size: smaller;
+  color: #888888;
+  position: relative;
+  right: -12;
+  bottom: -55;
+}
+
+.uber input {
+  position: relative;
+  right: -110;
+  bottom: -35px;
+  border: 1px solid #3598db;
+  border-radius: 20px;
+  background: #fafbff;
+  color: #3598db;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 40%;
+  cursor: pointer;
+}
+
+.recommend .view-more {
+  position: relative;
+  right: -1050;
+  top: -1280;
+}
+
+.recommend .view-more a {
+  color: #3598db;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.job-search h2 {
+  position: relative;
+  right: -240;
+  bottom: 1120;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.data-analysis {
+  position: relative;
+  right: -240;
+  bottom: 1080;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 13%;
+  height: 27%;
+  z-index: 9;
+  background-color: #eeecf7;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px white;
+}
+
+.data-analysis #name {
+  position: relative;
+  right: -45;
+  bottom: -55;
+  font-weight: lighter;
+}
+
+.data-analysis #logo {
+  position: relative;
+  right: -45;
+  bottom: -40;
+}
+
+.seo {
+  position: relative;
+  right: -460;
+  bottom: 1277;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 13%;
+  height: 27%;
+  z-index: 9;
+  background-color: #fbebe8;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px white;
+}
+
+.seo #name {
+  position: relative;
+  right: -74;
+  bottom: -57;
+  font-weight: lighter;
+}
+
+.seo #logo {
+  position: relative;
+  right: -45;
+  bottom: -40;
+}
+
+.python-developer {
+  position: relative;
+  right: -675;
+  bottom: 1475;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 13%;
+  height: 27%;
+  z-index: 9;
+  background-color: #e5e9ef;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px white;
+}
+
+.python-developer #name {
+  position: relative;
+  right: -40;
+  bottom: -57;
+  font-weight: lighter;
+}
+
+.python-developer #logo {
+  position: relative;
+  right: -45;
+  bottom: -40;
+}
+
+.web-developer {
+  position: relative;
+  right: -890;
+  bottom: 1673;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 13%;
+  height: 27%;
+  z-index: 9;
+  background-color: #fbfae7;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px white;
+}
+
+.web-developer #name {
+  position: relative;
+  right: -40;
+  bottom: -57;
+  font-weight: lighter;
+}
+
+.web-developer #logo {
+  position: relative;
+  right: -45;
+  bottom: -40;
+}
+
+.job-search .view-more {
+  position: relative;
+  right: -1160;
+  top: -1780;
+}
+
+.job-search .view-more a {
+  color: #3598db;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.upcoming-interview {
+  position: relative;
+  right: -240;
+  bottom: 1650;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 50%;
+  height: 60%;
+  z-index: 9;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 1px 5px 20px #888888;
+}
+
+.upcoming-interview #title {
+  font-weight: lighter;
+  font-size: medium;
+  position: relative;
+  right: -30;
+  bottom: -30;
+}
+
+.upcoming-interview input {
+  position: relative;
+  right: -500;
+  bottom: -9px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: #3598db;
+  color: white;
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 25%;
+  cursor: pointer;
+}
+
+.upcoming-interview table {
+  width: 250%;
+}
+
+.upcoming-interview th {
+  font-weight: lighter;
+  color: #888888;
+}
+
+.upcoming-interview #one img {
+  position: relative;
+  right: -20;
+  bottom: -10;
+}
+
+.upcoming-interview #name {
+  position: relative;
+  right: 90;
+  bottom: -4;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.upcoming-interview #company {
+  position: relative;
+  right: 260;
+  bottom: -20;
+  font-weight: lighter;
+  font-size: 10px;
+  color: #888888;
+}
+
+.upcoming-interview #calendar {
+  position: relative;
+  right: 390;
+  bottom: -3;
+}
+
+.upcoming-interview #date {
+  font-weight: lighter;
+  font-size: normal;
+  position: relative;
+  right: 410;
+}
+.upcoming-interview #clock {
+  position: relative;
+  right: 400;
+  bottom: -20;
+}
+.upcoming-interview #time {
+  font-weight: lighter;
+  color: #888888;
+  position: relative;
+  right: 810;
+  bottom: -20;
+}
+
+.upcoming-interview #role {
+  font-weight: lighter;
+  position: relative;
+  right: 730;
+}
+
+.upcoming-interview hr {
+  position: relative;
+  bottom: -90;
+  right: -35;
+  color: #888888;
+  width: 90%;
+}
+.upcoming-interview #two img {
+  position: relative;
+  right: -20;
+  bottom: -35;
+}
+
+.upcoming-interview #name1 {
+  position: relative;
+  right: 90;
+  bottom: -20;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.upcoming-interview #company1 {
+  position: relative;
+  right: 261;
+  bottom: -35;
+  font-weight: lighter;
+  font-size: 10px;
+  color: #888888;
+}
+
+.upcoming-interview #calendar1 {
+  position: relative;
+  right: 390;
+  bottom: -18;
+}
+
+.upcoming-interview #date1 {
+  font-weight: lighter;
+  font-size: normal;
+  position: relative;
+  right: 411;
+  bottom: -20;
+}
+.upcoming-interview #clock1 {
+  position: relative;
+  right: 400;
+  bottom: -37;
+}
+.upcoming-interview #time1 {
+  font-weight: lighter;
+  color: #888888;
+  position: relative;
+  right: 810;
+  bottom: -39;
+}
+
+.upcoming-interview #role1 {
+  font-weight: lighter;
+  position: relative;
+  right: 730;
+  bottom: -20;
+}
+.addFilesMyTasks1 {
+  display: flex;
+  /* right: 2%; */
+  box-shadow: 1px 3px 8px #00000033;
+  border-radius: 8px;
+  background-color: #3598db;
+  color: #fff;
+  padding: 8px 16px;
+  border: 1px solid #3598db;
+  align-items: right;
+  width: 210px;
+  height: 40px;
+  /* margin-right: 50px; */
+  margin-left: 360px;
+  margin-bottom: 50px;
+}
+#li_5 {
+  width: 776px;
+}
+.leftText {
+  padding-top: 20px;
+  height: 50px;
+  margin-left: 30px;
+}
+.rightText {
+  margin-left: 245px;
+}
+.rightText1 {
+  margin-left: 245px;
+}
+.img-map {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.img-map img {
+  width: 457px;
+}
+.loc_2 {
+  margin-left: 20px;
+}
+.head_1 {
+  font-size: 35px;
+  font-style: bold;
+}
+.more_m {
+  margin-top: 100px;
+}
+.more_m1 {
+  margin-top: 100px;
+}
+#cards {
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 10px;
+}
+#up-cards {
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.cards-description {
+  width: 130px;
+  font-size: 20px;
+}
+.cardImageDash {
+  margin-left: 20ox;
+}
+.row {
+  justify-content: space-around;
+}
+.jobs {
+  color: #333333;
+  font-size: 18px;
+  font-family: MetroM;
+  margin-left: 210px;
+}
+.job-num {
+  margin-left: 180px;
+}
+.job-num-2 {
+  margin-left: 112px;
+}
+.job-num-3 {
+  margin-left: 214px;
+}
+.comp-1 {
+  margin-left: 270px;
+}
+.comp-2 {
+  margin-left: 246px;
+}
+.comp-3 {
+  margin-left: 235px;
+}
+.comp-4 {
+  margin-left: 270px;
+}
+.jobs-1 {
+  color: #333333;
+  font-size: 18px;
+  font-family: MetroM;
+  margin-left: 220px;
+}
+.leftText1 {
+  margin: 30px 0px 0px 20px;
+  display: flex;
+}
+.s4 {
+  background-color: lightblue;
+}
+.last_t1 {
+  margin-left: 110px;
+  font-size: 18px;
+}
+.last_t2 {
+  margin-left: 194px;
+  font-size: 18px;
+}
+.last_t3 {
+  margin-left: 229px;
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .col-md-2 {
+    flex: 0 0 20.666667%;
+    max-width: 60.666667%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main_body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .searchButton {
+    margin-left: 24px;
+  }
+  .head_1 {
+    margin-left: 8px;
+  }
+  .sub_1 {
+    margin-left: 8px;
+  }
+  #li-1 {
+    width: 360px;
+    margin-left: 15px;
+  }
+  #map1 {
+    display: grid;
+    margin-left: 14px;
+    width: 361px;
+  }
+  .job-num-3 {
+    margin-left: 92px;
+  }
+  .job-num-2 {
+    margin-left: 170px;
+  }
+  .comp-2 {
+    margin-left: 159px;
+  }
+  .rightText {
+    margin-left: 55px;
+  }
+  .rightText1 {
+    margin-left: 41px;
+  }
+  .img-map img {
+    width: 327px;
+  }
+  #cards {
+    width: 360px;
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  .jobs {
+    margin-left: 90px;
+  }
+  .loc_2 {
+    margin-left: 14px;
+    width: 288px;
+    font-size: 20px;
+  }
+  .job-num {
+    margin-left: 50px;
+  }
+  .comp-1 {
+    margin-left: 188px;
+  }
+  .comp-3 {
+    margin-left: 145px;
+  }
+  .comp-4 {
+    margin-left: 190px;
+  }
+  .jobs-1 {
+    margin-left: 105px;
+  }
+  .head_11 {
+    margin-left: 21px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #job-list {
+    margin-left: 14px;
+    width: 361px;
+  }
+  .companyName,
+  .icons {
+    padding-top: 20px;
+  }
+  .more_m {
+    /* margin-top: 22px;
+    margin-left: 140px; */
+    position: relative;
+    top: 30px;
+    font-size: 22px;
+  }
+  #specific-job {
+    display: grid;
+    margin-left: 14px;
+    width: 360px;
+  }
+  .s1 img {
+    margin-left: 106px;
+  }
+  .o1 {
+    font-size: 22px;
+    margin-left: 108px;
+  }
+  #li_5 {
+    width: 360px;
+    margin-left: 14px;
+  }
+  .addFilesMyTasks1 {
+    margin-left: 43px;
+    width: 300px;
+    margin-top: 20px;
+    height: 55px;
+  }
+  .leftText1 {
+    height: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    display: grid;
+    font-weight: 900;
+  }
+  .leftText1 a {
+    position: relative;
+    left: -42px;
+  }
+  .s4 {
+    display: none;
+  }
+  #interview {
+    margin-top: 107px;
+    height: 150px;
+    display: table;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+  #b_9,
+  #b_8 {
+    width: 300px;
+  }
+  #temp3 {
+    position: relative;
+    top: -1004px;
+    left: 50px;
+  }
+  .btn-color {
+    background-color: #3598db;
+  }
+  .more_m1 {
+    position: relative;
+    top: -1073px;
+    font-size: 20px;
+    left: 241px;
+  }
+  .leftText {
+    font-size: 20px;
+  }
+}

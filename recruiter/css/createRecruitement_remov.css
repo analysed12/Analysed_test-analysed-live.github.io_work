@@ -1,0 +1,258 @@
+.input-padding-create-recruitment-1 {
+    height: 150px !important;
+}
+
+.right-side-image-box-right-add-client-1.create-rec {
+    flex-basis: 100%;
+}
+
+.input-padding-create-recruitment-12 {
+    padding-bottom: 150px !important;
+}
+
+.inputs-for-add-client-below-image-box-create-rec {
+    align-items: flex-start;
+}
+
+.inputs-for-add-client-below-image-box {
+    width: 100%;
+}
+
+.heading-for-general-information-right-side-add-client-container.okaniawa i {
+    color: #51C46D;
+    background-color: #D6F8D1;
+    padding: 20px 25px;
+}
+
+.heading-for-general-information-right-side-add-client-container.okaniawa-1 i {
+    color: #EC4551;
+    background-color: #EC45512E;
+    padding: 20px 25px;
+}
+
+.heading-for-general-information-right-side-add-client-container.okaniawa-2 i {
+    color: #8C60EB;
+    background-color: #8C60EB4F;
+    padding: 20px 15px;
+}
+
+.file-upload-create-recruitment-1 {
+    justify-content: space-between;
+}
+
+.file-upload-create-recruitment-1 span input {
+    display: none;
+}
+
+.default-button-for-recruiter-dashboard.file-upload {
+    padding: 10px;
+}
+
+.header_img_cr,
+.back_img_cr,
+.bg_img_cr {
+    display: none;
+}
+
+#browse {
+    position: relative;
+    left: 2px;
+    bottom: -14px;
+}
+
+#save_cr {
+    left: 20px;
+    height: 40px;
+}
+
+@media (min-width:610px) {
+
+    .file-upload-create-recruitment-1 label p,
+    .file-upload-create-recruitment-1 label label {
+        margin-top: -60px;
+    }
+
+    .main-right-bottom-container {
+        margin-top: -40px;
+    }
+
+    .save_button_addClient {
+        margin-left: 6px;
+        margin-top: 0px;
+    }
+
+    .sub-divs-image-box-right-side-add-client {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .create-rec-100-temp-p {
+        flex-basis: 45% !important;
+    }
+
+    .file-upload-create-recruitment-1 span {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .create-rec-100-temp-p {
+        flex-basis: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 609px) {
+
+    .header_img_cr,
+    .back_img_cr,
+    .bg_img_cr {
+        display: none;
+    }
+
+    .header_img_cr {
+        display: none;
+        position: relative;
+        top: -170px;
+        left: -96px;
+    }
+
+    .back_img_cr,
+    .back_img_cr1 {
+        display: none;
+        position: relative;
+        left: 63px;
+        top: 20px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .bg_img_cr {
+        display: none;
+        width: 409px;
+    }
+
+    #block h2 i {
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+        padding-top: 4px;
+        font-size: 20px;
+    }
+
+    #block h2 {
+        font-size: 25px;
+        padding-top: 82px;
+        margin-bottom: 0px;
+    }
+
+    #block1 {
+        position: relative;
+        top: 85px;
+        width: 346px;
+
+    }
+
+    #fields {
+        font-size: 15px;
+    }
+
+    .select-for-select-image-box-below-inputs_cr::after {
+        top: 46px;
+    }
+
+    #jd {
+        position: relative;
+        top: 1760px;
+
+    }
+
+    #browse {
+        top: 1789px;
+    }
+
+    #save_cr,
+    #save_cr1 {
+        position: relative;
+        top: 215px;
+        left: 40px;
+        width: 272px;
+    }
+
+    .header_img_cr1 {
+        position: relative;
+        top: -215px;
+        left: -56px;
+    }
+
+    .back_img_cr1 {
+        left: 13px;
+        top: 56px;
+    }
+
+    #header i {
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+        padding-top: 4px;
+        font-size: 20px;
+    }
+
+    #header {
+        font-size: 18px;
+        position: relative;
+        padding-top: 80px;
+    }
+
+    #fields {
+        font-size: 18px;
+    }
+
+    /* **********************y_code****************** */
+    .container-margin {
+        margin-left: -5px;
+    }
+
+    #block h2 {
+        margin-top: 40px;
+    }
+
+    .client-margin {
+        width: 320px;
+    }
+
+    #block h2 i {
+        height: 50px;
+        width: 50px;
+        padding: 16px;
+    }
+
+    #block1 {
+        top: 45px;
+    }
+
+    .loc-margin-top {
+        margin-top: -20px;
+    }
+
+    #browse {
+        top: 1740px;
+        left: 120px;
+    }
+
+    #save_cr {
+        left: 20px;
+        height: 40px;
+    }
+
+    /* **********************y_code_ends****************** */
+}
+
+#save_cr1 {
+    top: 115px;
+}
+
+.row-recruiter {
+    padding: 8px;
+}

@@ -1,0 +1,167 @@
+.schedule-meeting-main-container {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left-section-schedule-meeting {
+  flex-basis: 70%;
+}
+.heading-content-live-recording-schedule-interview {
+  font-size: 27px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.heading-content-live-recording-schedule-interview span {
+  font-size: 27px;
+  color: #979797;
+  font-weight: 400;
+}
+.schedule-meeting-call-image-1 {
+  text-align: center;
+  width: 90%;
+  margin: 0px auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 31px;
+}
+.queries-para-heading-left-container {
+  margin: 30px 0px 20px 0px;
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+}
+.default-button-for-recruiter-dashboard {
+  margin-right: 30px;
+}
+.default-button-for-recruiter-dashboard.unactive {
+  background-color: #fff;
+  color: #3598db;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.queries-schedule-meeting {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.single-query-schedule-meeting {
+  flex-basis: 49%;
+  margin: 20px 0px;
+  color: #333333;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+  padding: 15px;
+}
+#queries-schedule-meeting-1.active{
+  display: block;
+}
+.right-section-schedule-meeting {
+  flex-basis: 25%;
+  border-left: 1px solid #979797;
+  padding:30px;
+  height: 100%;
+}
+.meeting-info-single{
+    justify-content: space-between;
+    margin: 10px 0px;
+    color: #333333;
+    font-size: 18px;
+}
+.meeting-info-single h3{
+    font-size: 27px;
+    font-weight: normal;
+}
+.meeting-info-single span{
+    color: #3598db;
+    
+}
+.employment-and-current-salary-schedule-meeting{
+    justify-content: space-between;
+    color: #333333;
+    margin-top: 30px;
+}
+.border-bottom-schedule-meeting{
+    border-bottom: 1px solid #979797;
+    padding: 12px 0px;
+}
+.employment-and-current-salary-schedule-meeting span span{
+    color: #979797;
+}
+.employment-and-current-salary-schedule-meeting span p{
+    font-size: 18px;
+}
+.schedule-meeting-heading-right-container-default{
+    margin: 10px 0px;
+    color: #3598db;
+    font-weight: bold;
+}
+.skills-schedule-meeting-right-container .row-recruiter button{
+    border: 1px solid #333333;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin:8px;
+}
+.single-employment-history-right-container,.single-education-history-right-container-item{
+    justify-content: space-between;
+    font-size: 18px;
+    color: #333333;
+    margin: 15px 0px;
+}
+.single-employment-history-right-container p span{
+    color: #979797;
+    font-size: 16px;
+    margin: 8px 0px;
+}
+.single-education-history-right-container-item span p{
+    color: #979797;
+    font-size: 16px;
+    margin: 8px 0px;
+}
+.contact-info-right-container-schedule-meeting span{
+    font-size: 18px;
+    color: #333333;
+    margin: 15px 0px;
+    display: block;
+}
+.contact-info-right-container-schedule-meeting p{
+    margin: 4px 0px;
+}
+@media screen and (max-width:1500px){
+    .left-section-schedule-meeting {
+        flex-basis: 65%;
+      }
+      .right-section-schedule-meeting {
+        flex-basis: 30%;
+      }
+}
+@media screen and (max-width:1300px){
+    .left-section-schedule-meeting {
+        flex-basis: 60%;
+      }
+      .right-section-schedule-meeting {
+        flex-basis: 37%;
+      }
+}
+@media screen and (max-width:1000px){
+    .left-section-schedule-meeting {
+        flex-basis: 100%;
+      }
+      .right-section-schedule-meeting {
+        flex-basis: 100%;
+        border-left: none;
+        margin-top: 20px;
+      }
+      .default-button-for-recruiter-dashboard {
+        margin-top: 10px;
+      }
+}
+
+@media screen and (max-width:500px){
+    .single-query-schedule-meeting{
+        flex-basis: 100%!important;
+    }
+    .right-section-schedule-meeting {
+        padding: 10px;
+      }
+}

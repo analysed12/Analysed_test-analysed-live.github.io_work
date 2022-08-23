@@ -1,0 +1,242 @@
+a {
+  text-decoration: none;
+}
+.row-recruiter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.small_container-1 {
+  max-width: 80vw;
+  display: block;
+  margin: 80px 150px;
+  position: relative;
+  width: 60%;
+}
+.container-1 {
+  max-width: 100%;
+  margin-left: 80px;
+  position: relative;
+  padding: 0px 30px;
+  margin-top: 30px;
+}
+.nav_main-1 {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.nav_main-1 .input-field {
+  flex-basis: 60%;
+}
+.nav_main-1 .input-field input {
+  width: 80%;
+}
+.profileSection-dashboard_recruiter {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  box-shadow: 1px 3px 10px #00000033;
+  border: 1px solid #97979726;
+  padding: 50px 30px;
+  position: fixed;
+  top: 0%;
+  right: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+.profileSection-container-info-dashboard_recruiter {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+.top-row-profileSection-dashboard_recruiter {
+  justify-content: space-between;
+}
+.top-row-profileSection-dashboard_recruiter span:nth-child(1) img {
+  margin-right: 20px;
+}
+.top-row-profileSection-dashboard_recruiter span:nth-child(2) ul {
+  list-style: none;
+}
+.profile_picture_profileSection-dashboard-recruiter {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.heading_name_profileSection-dashboard_recruiter {
+  font-size: 27px;
+  color: #333333;
+}
+.aboutOrganisation_profileSection-dashboard_recruiter a {
+  font-size: 16px;
+  color: #979797;
+}
+.row-recruiter.messages-item p {
+  flex-basis: 80%;
+  color: #333333;
+  margin-left: 10px;
+}
+.row-recruiter.messages-item {
+  margin: 30px 0px 0px 0px;
+}
+.messagesSection-container-dashboard_recruiter {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.row-recruiter.recentActivity-item {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.row-recruiter.recentActivity-item span {
+  flex-basis: 90%;
+}
+@media screen and (max-width: 1700px) {
+  .small_container-1 {
+    margin: 80px 100px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .profileSection-dashboard_recruiter {
+    width: 30%;
+  }
+  .quickaccess-links-container {
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .applications-new-applications_active-jobs_recruiter {
+    width: 100%;
+    flex-basis: 95% !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .applications_active-jobs_recruiter_div,
+  .newapplications_active-jobs_recruiter_div {
+    flex-basis: 48%;
+  }
+  .chart-div_active-jobs_recruiter {
+    flex-basis: 95% !important;
+  }
+  .cardItemDash_recruiter {
+    flex-basis: 45% !important;
+    margin-bottom: 20px;
+  }
+  .cards_recruiter-items {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .quickaccess-links-container {
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .quickaccess-links-recruiter {
+    margin-bottom: 8px;
+  }
+  .cards_recruiter-items {
+    justify-content: space-around !important;
+  }
+
+  .upcoming_interviews_recruiter_div {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .small_container-1 {
+    max-width: 100%;
+    margin: 80px 100px;
+    width: 100%;
+  }
+  .cards_recruiter-items {
+    width: 80%;
+  }
+  .profileSection-dashboard_recruiter {
+    position: relative;
+    width: 80%;
+
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+  .nav_main-1 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .cardItemDash_recruiter {
+    flex-basis: 75% !important;
+    margin-bottom: 20px;
+  }
+  .chart-div_active-jobs_recruiter,
+  .upcoming_interviews_recruiter_div,
+  .applications-new-applications_active-jobs_recruiter {
+    width: 80%;
+    flex-basis: 80% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .profileSection-dashboard_recruiter {
+    position: relative;
+    width: 100%;
+  }
+  .nav_main-1 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .hamburger {
+    top: 0%;
+  }
+  .nav_main-1 .input-field {
+    flex-basis: 100%;
+  }
+  .container-1 {
+    margin-left: 0px;
+    padding: 0px 15px;
+  }
+  .small_container-1 {
+    margin: 40px 10px;
+    width: 95%;
+  }
+  .quickaccess-links-recruiter {
+    margin-top: 8px;
+  }
+  .cardItemDash_recruiter {
+    margin-top: 12px;
+    flex-basis: 95% !important;
+  }
+  .cards_recruiter-items{
+      width: 100%;
+  }
+  .chart-div_active-jobs_recruiter, .upcoming_interviews_recruiter_div, .applications-new-applications_active-jobs_recruiter{
+    width: 100%;
+    flex-basis: 100%!important;
+  }
+  .chart-div_active-jobs_recruiter {
+    flex-basis: 100%;
+  }
+  .applications-new-applications_active-jobs_recruiter {
+    flex-basis: 100% !important;
+  }
+  .applications_active-jobs_recruiter_div,
+  .newapplications_active-jobs_recruiter_div {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .upcoming_interview_top_span p {
+    margin-bottom: 8px;
+  }
+
+  .singleCompany_upcomingInterview span:last-child,
+  .tableheading_upcoming_interview span:last-child {
+    display: none;
+  }
+  .name_upcomingInterviews {
+    display: inline-block !important;
+  }
+}

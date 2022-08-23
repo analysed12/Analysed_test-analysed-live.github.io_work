@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    background: white;
+  }
+
+  .title p{
+    position:relative;
+    right:-250;
+    bottom:-60;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+
+}
+
+.title img{
+    position:relative;
+    float:right;
+    right:100;
+    width:300px;
+}
+
+.social p{
+    position:relative;
+    right:-250;
+    top:130;
+    color:grey;
+}
+
+.social .media img{
+    width:60px;
+    position:relative;
+    right:-250;
+    top:160;
+    padding:15px;
+}
+
+.box input{
+    position:relative;
+    right:-265;
+    bottom:-200;
+    border: 1px solid #3598db;
+    border-radius: 5px;
+    background: #fafbff;
+    color: #3598db;
+    padding:15px;
+    margin-bottom: 20px;
+    width: 60%;
+    z-index:1000;
+
+}
+
+.box .copy{
+    position:relative;
+    bottom:-200;
+    right:-290;
+    background-color: #3598db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border-radius:6px;
+}
+
+.referrals p{
+    position:relative;
+    right:-250;
+    bottom:-240;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+}
+.referral .div1,.referral1 .div1,.referral2 .div1{
+        display: flex;
+    height: 105px;
+    width: 945px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    box-shadow: 1px solid grey;
+    position: relative;
+    border-radius: 8px;
+    left: 250px;
+    top: 279px;
+}
+.referral1 .div1{
+    top: 329px;
+}
+.referral2 .div1{
+    top: 379px;
+}
+.p1,.p3,.p5,.p7,.p8{
+    color: grey;
+}
+.p1,.p2{
+        top: 24px;
+    left: 28px;
+}
+.p3,.p4{
+        top: 24px;
+    left: 72px
+}
+.p5,.p6{
+    top: 24px;
+    left: 118px;
+}
+.p7{
+     top: 24px;
+    left: 161px;
+}
+.img1{
+        position: relative;
+    left: 274px;
+    top: -25px;
+}
+.p8,.p9{
+    top: 24px;
+    left: 305px;
+}
+@media screen and (max-width: 609px){
+    .title{
+            white-space: nowrap;
+    position: relative;
+    left: -226px;
+    }
+    .title img{
+        display: none;
+    }
+    .title p{
+        font-size: 24px;
+    }
+    .social{
+        display: none;
+    }
+    .box{
+           left: -267px;
+    top: -114px;
+    position: relative;
+    }
+    .box #share{
+    height: 41px;
+    width: 105px;
+    bottom: -200;
+    right: -5px;
+    font-size: 15px;
+    position: absolute;
+    }
+    .referrals p{
+        right: -25;
+    bottom: -120;
+    }
+    .referral .div1,.referral1 .div1,.referral2 .div1{
+         height: 249px;
+    width: 341px;
+    left: 7px;
+    margin: 17px;
+    top: 153px;
+    }
+    .p1,.p2{
+           white-space: nowrap;
+    top: 115px;
+    left: 28px;
+    }
+    .p2{
+            top: 91px;
+    left: 115px;
+    }
+    .p3{
+        display: none;
+    }
+    .p4{
+        white-space: nowrap;
+    left: -65px;
+        top: 16px;
+    }
+    .p5{
+        left: -182px;
+    top: 50px;
+    }
+    .p6{
+        left: -130px;
+    top: 27px;
+    }
+    .p7{
+        left: -391px;
+    top: 148px;
+    }
+    .img1{
+            left: -290px;
+    top: 108px;
+    }
+    .p8{
+            left: -454px;
+    top: 81px;
+    }
+    .p9{
+        left: -395px;
+    top: 58px;
+    color: yellow;
+    }
+}

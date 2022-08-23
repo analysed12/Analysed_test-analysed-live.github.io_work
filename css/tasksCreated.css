@@ -1,0 +1,28 @@
+.taskassigned-taskcreated{
+    color: #333333;
+    font-size: 18px;
+    font-family: Metro;
+}
+.lighgrey-text-task-created{
+    color: #979797;
+    font-size: 18px;
+    font-family: Metro;
+}
+.skills-taskscreated{
+    margin: 10px 0px 20px 0px;
+}
+.skills-taskscreated span{
+    background: #EAF5FC;
+    border-radius: 5px;
+    color: #3598DB;
+    font-size: 18px;
+    font-family: Metro;
+    padding: 8px;
+    margin-top: 8px;
+    display: block;
+}
+@media screen and (max-width:1250px){
+    .tasks-created-p p img{
+        width: 15px;
+    }
+}

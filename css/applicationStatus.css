@@ -1,0 +1,99 @@
+.cards-section {
+  margin-top: 40px;
+  justify-content: flex-start!important;
+}
+.card-single-item-status {
+    margin:20px 8px;
+  box-shadow: 1px 2px 6px #00000026;
+  border-radius: 10px;
+  background-color: #fff;
+  flex-basis: 19%;
+  /* min-height: 350px; */
+  padding: 40px 20px;
+  position: relative;
+  /* max-width: 316px; */
+}
+.card-image-and-name img {
+  margin-right: 12px;
+}
+.name-and-span-color {
+  font-family: MetroM;
+}
+.name-and-span-color p {
+  color: #333333;
+  font-size: 24px;
+}
+.name-and-span-color span {
+  color: #979797;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.application-status-text {
+  margin: 15px 0px;
+}
+.application-status-text p {
+  font-size: 20px;
+  color: #333333;
+}
+.application-status-text img {
+  margin-right: 8px;
+}
+.grey-shade-application-desc {
+  color: #979797;
+  font-size: 16px;
+  /* margin: 8px 0px; */
+}
+.progress-bar {
+  flex-basis: 70%;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  height: 8px;
+  margin: 15px 0px;
+}
+.progress-bar span {
+  display: inline-block;
+  background: #3598db 0% 0% no-repeat padding-box;
+  box-shadow: 1px 2px 6px #00000029;
+  border-radius: 4px;
+  height: 8px;
+}
+.progress-text {
+  font-family: Metro;
+  color: #333333;
+  margin-left: 20px;
+}
+.seemore-button {
+  background: #3598db36 0% 0% no-repeat padding-box;
+  border: 1px solid #3598db;
+  border-radius: 5px;
+  text-decoration: none;
+  outline: none;
+  padding: 7px 14px;
+  color: #333333;
+  margin-top: 20px;
+  display: block;
+  width: 100px;
+}
+.main-link{
+    text-decoration: none;
+}
+@media screen and (max-width:1750px){
+    .card-single-item-status {
+        flex-basis: 23%;
+    }
+}
+@media screen and (max-width:1400px){
+    .card-single-item-status {
+        flex-basis: 30%;
+    }
+}
+@media screen and (max-width:1000px){
+    .card-single-item-status {
+        flex-basis: 45%;
+    }
+}
+@media screen and (max-width:700px){
+    .card-single-item-status {
+        flex-basis: 95%;
+    }
+}

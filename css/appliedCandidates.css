@@ -1,0 +1,77 @@
+.candidatesjobs-applied{
+    position: relative;
+}
+.candidate-status-jobs{
+    position: absolute;
+    padding: 8px;
+    right: 10px;
+    top: 20px;
+    border-radius: 8px;
+    color: #333333;
+    font-family: Metro;
+}
+.candidate-status-jobs.reviewed{
+    background: #FDE8E2;
+}
+.candidate-status-jobs.Contacting{
+    background: #E5E2FD;
+}
+.candidate-status-jobs.Hired{
+    background: #E2FDE2;
+}
+.skill-job-candiate{
+    color: #979797;
+    font-size: 18px;
+    margin: 6px 0px 17px 0px;
+    font-family: Metro;
+}
+.candidate-desc{
+    list-style:none;
+    color:#333333;
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-family: Metro;
+}
+.candidate-desc li {
+margin: 5px 0px;
+}
+.seemorebutton-social{
+    justify-content: flex-start!important;
+    position: relative;
+    margin-bottom: 30px;
+}
+.seemorebutton-social .seemoreButton{
+    padding: 8px;
+    color: #333333;    
+    font-size: 18px;
+    font-family: Metro;
+    background: #3598DB36;
+    border: 1px solid #3598DB;
+    border-radius: 5px;
+}
+.seemorebutton-social .social-media-icons{
+    position: absolute;
+    right: 10px;
+}
+.social-media-icons a{
+    margin: 0px 0px 0px 15px;
+}
+.label-applied-candidates{
+    display: block;
+    margin: 10px 0px 7px 0px;
+    font-size: 20px;
+    color: #333333;
+    font-family: MetroM;
+}
+.input-applied-candidates{
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: Metro;
+    border: 1px solid #D7D7D7;
+    background: #FAFBFF;
+    padding: 8px 14px;
+    color: #979797;
+    width: 100%;
+    border-radius: 4px;
+}

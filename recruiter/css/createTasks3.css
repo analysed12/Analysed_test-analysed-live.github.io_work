@@ -1,0 +1,82 @@
+.cardsSection-createTasks{
+    justify-content: space-between;
+    width: 100%;
+}
+.card-item-createTasks-single{
+    width: 20vw;
+    padding:30px 20px;
+    flex-basis: 23%;
+    box-shadow: 1px 6px 10px #0000004A;
+    background: #fff;
+    border-radius: 8px;
+}
+.organization-heading-createTasks{
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 8px;
+    /* font-weight: bold; */
+    width: 60%;
+}
+.card-item-createTasks-heading{
+    align-items: flex-start;
+}
+.select-button-createTasks{
+    background: #3598DB;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-left: -32px;
+    margin-right: -32px;
+    cursor: pointer;
+    width: 84px;
+    height: 38px;
+}
+.blue-color-location-createTasks{
+    color: #3598DB;
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+.experience-and-meritsCreateTasks{margin-top: 20px;}
+.experience-and-meritsCreateTasks span:nth-child(2){
+    margin-left: 20px;
+}
+.experience-light-text-createTasks{
+    color: #979797;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1200px){
+
+    .card-item-createTasks-single{
+        flex-basis: 48%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:1374px){
+    .card-item-createTasks-single{
+        width: 10%;
+        flex-basis: 32%;
+        margin-top: 20px;
+    }
+    .select-button-createTasks{
+        margin-left: -12px;
+    }
+}
+@media screen and (max-width:650px){
+    .experience-and-meritsCreateTasks span:nth-child(2){
+        margin-left: 0px;
+    }
+    .select-button-createTasks{
+        margin-left: -60px;
+    }
+}
+@media screen and (max-width:500px){
+    .card-item-createTasks-single{
+        flex-basis: 77%;
+
+    }
+}

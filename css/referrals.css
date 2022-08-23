@@ -1,0 +1,432 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: white;
+
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        'Calibri',
+        'Trebuchet MS',
+        sans-serif;
+}
+
+.searchButton {
+    margin-left: 115px !important;
+}
+
+.rp {
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        'Calibri',
+        'Trebuchet MS',
+        sans-serif;
+}
+
+body {
+    max-height: 100vh;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+div.leftnav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 65px;
+    list-style-type: none;
+    background-color: #2d3e50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.leftnav li i {
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.leftnav li:nth-of-type(1) {
+    margin-top: 50px;
+}
+
+.mainright {
+    margin-left: 5%;
+    width: 100%;
+}
+
+.rightdiv {
+    width: 98%;
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+}
+
+.rightdiv .topnav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.topnav .topleftnav p {
+    font-size: 22px;
+}
+
+.topnav .topmidnav {
+    display: flex;
+    height: 40px;
+    border-radius: 50px;
+    width: 380px;
+    align-items: center;
+    box-shadow: 2px 2px 6px #888888;
+}
+
+.topmidnav .navsearch input {
+    border: none;
+    width: 330px;
+    outline: none;
+    margin-left: 15px;
+    padding: 10px 0 10px 10px;
+}
+
+.topmidnav i {
+    color: #3598db;
+}
+
+.toprightnav {
+    display: flex;
+    align-items: center;
+
+}
+
+.toprightnav i {
+    margin-right: 20px;
+    color: #3598db;
+}
+
+.toprightnav img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.toprightnav p {
+    margin-right: 10px;
+}
+
+/* *****************referandearn******************* */
+.referandearn {
+    margin-top: 80px;
+    margin-left: 14%;
+}
+
+.referandearn>p {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.creditshare {
+    margin-top: 70px;
+    display: flex;
+}
+
+.credits {
+    font-weight: 500;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 6px #888888;
+    width: 220px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.credits p {
+    padding: 20px 10px 25px 18px;
+}
+
+.credits span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #3598db;
+    padding: 25px 20px;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.share {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.share p {
+    font-family: "sans-sarif" !important;
+    font-size: 13px;
+    opacity: .6;
+}
+
+.sharelinks {
+    display: flex;
+    margin-left: -20px;
+}
+
+.sharelinks i {
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 20px;
+    color: #3598db;
+
+}
+
+.sharedesign {
+    margin-top: -120px;
+    margin-left: 220px;
+}
+
+.sharedesign img {
+    width: 320px;
+}
+
+.actuallink {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.actuallink .copylink {
+    display: flex;
+    align-items: center;
+    width: 850px;
+}
+
+#copylinkshare {
+    display: none;
+}
+
+.copylink a {
+    width: 850px;
+    height: 65px;
+}
+
+.actuallink a {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 25px 100px 20px 30px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #3598db;
+}
+
+.copy {
+    display: flex;
+    margin-left: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #41a2e2;
+    color: white;
+}
+
+.copy i {
+    margin-right: 10px;
+}
+
+.referrals {
+    margin-left: 14%;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    width: 73%;
+}
+
+.ref {
+    width: 100%;
+    display: flex;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 6px #888888;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.rf {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.name,
+.email,
+.sent {
+    margin-left: 50px;
+}
+
+.sent {
+    display: flex;
+}
+
+.senthrough {
+    margin-left: 100px !important;
+    margin-top: 5px;
+}
+
+.sent i {
+    font-size: 26px;
+    color: #349ce1;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.p {
+    font-size: 14px;
+    opacity: .6;
+}
+
+.status {
+    margin-left: 350px;
+}
+
+.b {
+    font-weight: 500;
+    margin-top: 5px;
+    width: 90px;
+}
+
+.name .b {
+    width: 120px;
+}
+
+.y {
+    color: #ffbd07;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.g {
+    color: #51c46d;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.margin {
+    padding: 50px 0;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .status {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .senthrough {
+        margin-left: 0px !important;
+    }
+
+    .referandearn {
+        margin-left: 30px;
+    }
+
+    .rp {
+        margin-top: -50px !important;
+        font-size: 24px !important;
+    }
+
+    .creditshare {
+        margin-top: 40px;
+    }
+
+    .credits {
+        font-size: 20px;
+        width: 182px;
+        height: 68px;
+    }
+
+    .credits p {
+        padding: 22px 10px 25px 18px;
+    }
+
+    .share,
+    .sharedesign,
+    .copylink a {
+        display: none !important;
+    }
+
+    .copylink {
+        width: 183px !important;
+    }
+
+    .copylinkshare {
+        display: block !important;
+        padding: 20px 30px;
+        border-radius: 10px;
+        background-color: #41a2e2;
+        color: white;
+        margin-right: 0px;
+    }
+
+    .copy {
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 6px #888888;
+    }
+
+    .referrals {
+        margin-left: 30px;
+    }
+
+    .ref {
+        padding-left: 40px;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .name .p {
+        display: none;
+    }
+
+    .name,
+    .senton,
+    .email,
+    .sent,
+    .status {
+        display: flex;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .p,
+    .y {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .senton {
+        order: 4;
+    }
+
+    .name {
+        order: 1;
+    }
+
+    .email {
+        order: 2;
+    }
+
+    .status {
+        order: 3
+    }
+
+    .sent {
+        order: 5
+    }
+}

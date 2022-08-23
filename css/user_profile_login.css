@@ -1,0 +1,288 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+
+#m1{
+    width: 280px;
+    height: 833px;
+    background: #FFFFFF ;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+}
+#m2{
+border-radius: 8px 8px 0px 0px;
+opacity: 1;
+}
+.v1{
+    color: #333333;
+    font-size: 16px;
+    font-family: MetroM;
+    margin-top: 50px;
+    line-height: 0.3;
+}
+.v2{
+    color: #3598DB;
+    font-size: 14px;
+    font-family: Metro;
+}
+.v3{
+    color: #979797;
+    font-size: 14px;
+    font-family: Metro;
+}
+.v4{
+    color: #333333;
+    font-size: 14px;
+    font-family: Metro;
+    line-height: 0.7;
+    
+}
+.v6{
+    color: #333333;
+    font-size: 14px;
+    font-family: Metro;
+    line-height: 0.7;
+    padding-bottom: 10px;
+}
+.v5{
+    border: 3px solid #2D3E50;
+border-radius: 6px;
+text-align: center;
+background-color: #FFFFFF;
+color: #333333;
+height: 25px;
+}
+.s1{
+    border-radius: 8px;
+    text-align: center;
+    height: 69px;
+    width: 69px;
+    margin-left: 130px;
+}
+.s2{
+    color: #333333;
+    font-size: 16px;
+    font-family: Metro;
+    
+}
+.t1{
+    /* margin-left:1800px;
+    margin-bottom: 10px; */
+    /* margin-right: 80px; */
+    margin-top: -2%;
+}
+.l1{
+    color: #979797;
+    font-size: 12px;
+    font-family: Metro;
+
+}
+#k1{
+    border: 1px solid #E0FADC;
+    background-color: #E0FADC;
+}
+#k2{
+    border: 1px solid #D3EEFF;
+    background-color: #D3EEFF;
+}
+#k3{
+    border: 1px solid #8C60EB4F;
+    background-color: #8C60EB4F;
+}
+#k4{
+    border: 1px solid #FFC73C3F;
+    background-color: #FFC73C3F;
+}
+#k5{
+    border: 1px solid #D3EEFF;
+    background-color: #D3EEFF;
+}
+#myBtn1{
+    width:61px;
+}
+#myBtn2{
+    width:82px;
+}
+#myBtn3{
+    width:88px;
+}
+.main_b{
+    margin-left: 20px;
+    margin-right: 28px;
+}
+
+
+.categories-mytasks-1-active{
+    margin-left: 7%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #979797;
+    font-size: 16px;
+}
+.x1{
+    border: 3px solid #fff;
+text-align: center;
+background-color: #FFFFFF;
+height: 50px;
+width:  200px;
+font-family: Metro;
+font-size: 16px;
+}
+#ac{
+    color: #3598DB;
+    border-bottom: 3px solid #3598DB;
+}
+#nac{
+    color:#979797;
+}
+
+.left_Calendar_main,
+.right_Calendar_main {
+  margin-left: 180px;
+  padding: 12px;
+  margin-top: -10px;
+}
+.selection-body_Calendar_main {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.month_year-selection-body,.status-selection-body{
+  position: relative;
+}
+.month_year-selection-body::before{
+  font-size: 14px;
+  position: absolute;
+  color: #0ebeff;
+  right: 55%;
+  top:10px;
+  pointer-events: none;
+  z-index: 2;
+}
+.month_year-selection-body::after{
+  font-size: 14px;
+  position: absolute;
+  color: #0ebeff;
+  right: 10px;
+  top:10px;
+  pointer-events: none;
+}
+.month-selection-body,.year-selection-body,.allStatus-selection-body{
+    border:1px solid #3598DB;
+    border-radius: 7px;
+    background-color: white;
+    min-width: 120px;
+    color:#3598DB ;
+    font-size: 14px;
+    padding: 5px 13px;
+    position: relative;
+}
+.status-selection-body::after {
+  font-size: 14px;
+  position: absolute;
+  color: #0ebeff;
+  right: 10px;
+  top:10px;
+  pointer-events: none;
+}
+.selection-body_Calendar_main,.month_year-selection-body{
+    position: relative;
+}
+.main-container_Calendar {
+  width: 100%;
+}
+.weekDays-main-container_Calendar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+  color: #3598db;
+  font-size: 16px;
+}
+.dates_weekDays-main-container_Calendar {
+  width: 100%;
+}
+.dates_weekDays-main-container_Calendar table {
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.right_Calendar_main{
+  padding: 40px 30px;
+}
+.weekDays_rowForDates_week {
+  /*padding: 14px 10px 94px 30px;*/
+  padding: 14px 40px 70px 40px;
+  color: #333333;
+  cursor: pointer;
+  font-weight: 500;
+  border-right: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  position: relative;
+}
+.weekDays_rowForDates_week:last-child{
+    border-right: none;
+}
+.weekDays_rowForDates_week .span-class{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+.last-row{
+    border-bottom: none;
+}
+
+.sign-out{
+    width: 23px;
+    height: 23px;
+    background: var(--unnamed-color-ec45512e) 0% 0% no-repeat padding-box;
+    background: #EC45512E 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+    margin: 0px 3px;
+    color:  #EC4551;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    margin-right: -3px;
+}
+.sign-in{
+    width: 23px;
+    height: 23px;
+    background: #D3EEFF 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+    margin: 0px 3px;
+    color:  #0F9D58;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    margin-right: -3px;
+}
+.span-class .fa-sign-out-alt{
+    width: 10px;
+    height: 11px;
+}
+.span-class .fa-sign-in-alt{
+    width: 10px;
+    height: 11px;
+}

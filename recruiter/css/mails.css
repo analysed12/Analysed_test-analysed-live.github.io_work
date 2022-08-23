@@ -1,0 +1,418 @@
+.bread-crumbs_Mytools-recruiter{
+	color: #3598db;
+}
+.bread-crumbs_Mytools-recruiter a{
+	color: #3598db;
+}
+.container{
+  overflow-x: hidden;
+}
+.elements1{
+  display: none;
+}
+.section1{
+	/* display: flex; */
+	height: 100%;
+	width: 250px;
+	border: 1px solid lightgrey;
+}
+.new_mail{
+	position: relative;
+	height: 30px;
+	width: 120px;
+	    margin: -25px;
+    left: 78px;
+    top: 41px;
+    padding: 1px;
+	border-radius: 50px;
+	background-color: white;
+	color: #3598db;
+	border:1px solid #3598db;
+}
+.new_mail a{
+	text-decoration: none;
+	background-color: white;
+	color:#3598db;
+}
+.new_mail a i{
+	color: #3598db;
+	padding: 5px;
+}
+.elements{
+	display: flex;
+	position: relative;
+	    top: 83px;
+    left: -27px;
+    border-bottom: 1px solid grey;
+}
+.elements ul a{
+	text-decoration: none;
+	list-style: none;
+	color: darkgray;
+
+}
+.elements ul li{
+	padding: 8px;
+
+}
+.elements ul li:hover{
+	background-color: rgb(211,211,211);
+
+}
+.inbox, .starred{
+	position: relative;
+    top: -28px;
+    left: 77px;
+    width: 40px;
+    height: 20px;
+    background-color: #3598db;
+    color: white;
+    border-radius: 50px;
+    border:1px solid #3598db;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+}
+.starred{
+	position: relative;
+    top: -43px;
+    left: 77px;
+}
+.inbox p, .starred p{
+	position: relative;
+	left: 8px;
+}
+ .starred p{
+ 	left: 14px;
+ }
+ .sec1{	
+    position: relative;
+    top: -15px;
+ }
+  .sec2{	
+    position: relative;
+    top: -29px;
+ }
+  .sec3{	
+    position: relative;
+    top: -25px;
+ }
+  .sec4{	
+    position: relative;
+    top: -22px;
+ }
+ .label{
+ 	    position: relative;
+    top: 300px;
+    left: -94px;
+    white-space: nowrap;
+ }
+ .label p{
+ 	    position: relative;
+    top: -28px;
+    left: 35px;
+    color: grey;
+}
+.add_ac{
+	position: relative;
+	top: 496px;
+    left: -145px;
+
+}
+.but1{
+	color: #3598db;
+    background: white;
+    border: none;
+    white-space: nowrap;
+    position: relative;
+    left: 47px;
+}
+/*.section2{
+	display: flex;
+	position: absolute;
+	height: 75%;
+	width: 250px;
+	border: 1px solid lightgrey;
+}*/
+.section2{
+	display: flex;
+	position: relative;
+	width: 450px;
+	height: 100%;
+	/*border: 1px solid lightgrey;*/
+	left: 250px;
+  top: -700.5px;
+  white-space: nowrap;
+  overflow:hidden ;
+  text-overflow: ellipsis;
+  margin-right: 9px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+.mail{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	border-bottom: 1px solid gray;
+	padding-bottom: 3px;
+	margin-top: -15px;
+flex-direction: column;
+
+	
+}
+.msg{
+	/*white-space: nowrap;*/
+  	/*overflow:hidden ;*/
+  	/*text-overflow: ellipsis;*/
+  	position: relative;
+    left: -122px;
+    
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.row{
+    width: 372px;
+    height: auto;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 16px;
+    /* Hidden by default */
+  /*z-index: 1;*/
+  margin-left: 10px;
+
+}
+.column{
+  float: left;
+  padding: 4px;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+.column p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.column span{
+  margin-top: 5px;
+  font-size: 16px;
+  font-size: 16px;
+  
+}
+.col-2{
+  color: #297fb8;
+  margin-left: 39px;
+}
+.col-span-2{
+  color: black;
+  margin-left: 38px;
+}
+.col-3{
+    color: #979797;
+    margin-left: 160px;
+
+}
+.col-3 span{
+    color: black;
+}
+.section3{
+	display: flex;
+	position: relative;
+	width: 740px;
+	height: 100%;
+	/*border: 1px solid lightgrey;*/
+	margin-top: -1400px;
+  margin-left: 814px;
+}
+.mail_des{
+	position: absolute;
+}
+.header{
+	margin: 0;
+	padding: 0;
+	width: 740px;
+	height: 80px;
+	border: 1px solid lightgrey;
+}
+.col_1{
+	margin-top: 15px;
+	margin-left: 10px; 
+}
+.col_span_1{
+	white-space: nowrap;
+	position: relative;
+	top: -39px;
+	left: 80px;
+}
+.col_span_2{
+	position: relative;
+	top: -39px;
+	left: 440px;
+}
+.col_2{
+	    position: relative;
+    top: -68px;
+    left: 604px;
+}
+.col_3{
+	 position: relative;
+	    top: -113px;
+    left: 657px;
+}
+.mail_area{
+	margin: 50px;
+}
+.col_span_4{
+	margin-top: 90px;
+  overflow: auto;
+}
+.col_5{
+  margin-top: 50px;
+}
+.col_span_5{
+	margin-top: 70px;
+
+}
+/*.text_area{
+	position: absolute;
+	top: 413px;
+}
+.text{
+	width: 740px;
+	height: 110px;
+}*/
+.inputforMessages-send-messages-myMessages{
+       margin-top: 436px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #3598db;
+background: #FFFFFF;
+box-shadow: 1px 3px 10px #00000033;
+border: 1px solid #3598DB;
+border-radius: 3px;
+justify-content: space-between;
+padding: 10px 30px;
+}
+.inputforMessages-send-messages-myMessages input{
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color:#3598DB;
+}
+.paperclip-and-sendButton-inputforMessages i{
+    margin-right: 8px;
+    display: inline-block;
+    color:#3598DB;
+}
+
+@media screen and (max-width: 609px){
+  .elements, .label,.add_ac,.section3{
+    display: none;
+  }
+
+  /* changes in btn */
+  .new_mail{
+  margin: -92px;
+  left: 243px;
+  top: 101px;
+  border-radius: 10px;
+  background-color:#3598db ;
+  color: white;
+  border:1px solid #3598db;
+  width:168pt;
+  height: 48pt;
+  }
+  .elements1{
+      display: flex;
+    width: 120px;
+    height: 30px;
+    position: relative;
+    left: 39px;
+    margin-top: 10px;
+    margin-left: 57px;
+  }
+  /* changes in btn */
+  #dropdown {
+    border-radius: 10px;
+    width: 168.78pt;
+    height: 48pt;
+    position: relative;
+    right: 114px;
+}
+  .new_mail a{
+  background-color:#3598db ;
+  color:white;
+  }
+.new_mail a i{
+  color: white;
+  }
+  .section1,.section3{
+    border:none;
+  }
+  .section2{
+    border:none;
+    margin-left: -239px;
+    margin-top: -55px;
+  }
+  .row{
+    width: 352px;
+
+  }
+}
+@media screen and (max-width: 320px){
+  .section2{
+    margin-top: -161px;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .bread-crumbs_Mytools-recruiter{
+    margin-top: 0;
+  }
+  .new_mail{
+    margin: -10px -45px 0 -45px !important;
+    padding: 3px 1px;
+    height: 40px;
+    width: 150px;
+    border: 3px solid #3598db;
+  }
+  .elements{
+    left: 5px;
+  }
+  .section1{
+    border-width: 0px 4px 4px 0px !important;
+  }
+  .inbox,.starred{
+    margin-left: 50px;
+  }
+  .label{
+    top: 100px;
+    left: 5px;
+  }
+  .add_ac{
+    left: 6px;
+    top: 200px;
+  }
+  .but1{
+    font-size: 20px;
+  }
+  .section3{
+    width: 0;
+  }
+}
+
+

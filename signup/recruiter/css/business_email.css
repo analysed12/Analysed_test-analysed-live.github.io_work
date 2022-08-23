@@ -1,0 +1,86 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+}
+
+@font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+
+@font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+#signupquestion {
+    width: 396px;
+    height: 27px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 27px/32px var(--unnamed-font-family-metropolis);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-3598db);
+    text-align: left;
+    font: normal normal normal 25px/29px MetroM;
+    letter-spacing: 0px;
+    color: #3598DB;
+    opacity: 1;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#inputEmail4 {
+    width: 358px;
+    height: 53px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-3598db);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #3598DB;
+    border-radius: 7px;
+    opacity: 1;
+    margin-left: 25%;
+}
+
+::placeholder {
+    color: #3598DB;
+}
+
+#getstarted-btn {
+    width: 194px;
+    height: 56px;
+    background: var(--unnamed-color-3598db) 0% 0% no-repeat padding-box;
+    background: #3598DB 0% 0% no-repeat padding-box;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    opacity: 1;
+    border: none;
+    margin-left: 55%;
+    color: white;
+}
+
+#getstarted-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#recruiterheading {
+    position: absolute;
+    top: 50px;
+    left: 77px;
+    width: 196px;
+    height: 57px;
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-45)/57px CeraB;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-3598db);
+    text-align: left;
+    font: normal normal bold 40px/57px CeraB;
+    letter-spacing: 0px;
+    color: #3598DB;
+    opacity: 1;
+}

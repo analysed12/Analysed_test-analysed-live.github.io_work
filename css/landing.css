@@ -1,0 +1,75 @@
+@font-face {
+     font-family: CeraB;
+     src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+     font-family: CeraM;
+     src: url(../fonts/CeraPRO-Medium.ttf);
+}
+
+@font-face {
+     font-family: Metro;
+     src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+
+@font-face {
+     font-family: MetroM;
+     src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+body{
+     background-image: url("../img/background.png");
+     background-size: 1700px;  
+     background-repeat: no-repeat;
+}
+.analysed img
+{
+     margin-top: 24px;
+     margin-left: 200px;
+     opacity: 1;
+}
+.refer {
+     margin-top: -45px;
+     margin-left:795px ;
+    font: normal normal bold 18px/22px MetroM;
+    word-spacing: 50px;
+ color:#3598DB;
+    opacity: 1;
+}
+.refer button{
+     width: 108px;
+     height: 40px;
+     font: normal normal bold 18px/22px MetroM;
+     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+     border: 1px solid var(--unnamed-color-3598db);
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     box-shadow: 2px 3px 10px #00000033;
+     border: 2px solid #3598DB;
+     border-radius: 8px;
+     opacity: 1;
+}
+.virtual
+{
+     margin-top: 250px;
+     margin-left: 150px;
+     width: 589px;
+     height: 181px;
+     font: normal normal normal 15px/26px Metro;
+     color: #FFFFFF;
+     background-repeat: no-repeat;
+     opacity: 1;
+}
+.image
+{
+     margin-top: -400px;
+     margin-left: 900px;
+     
+     opacity: 1;
+}
+.chatbot
+{
+      margin-top: -150px;
+      margin-left: 1200px;
+
+      opacity: 1;
+}
