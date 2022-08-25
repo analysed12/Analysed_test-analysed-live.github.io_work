@@ -5,7 +5,7 @@
 ?>
 <title>Dashboard</title>
 <link rel="stylesheet" href="./css/Candidates_specific.css">
-<link rel="stylesheet" href="./css/candidate_list_remo.css">
+<link rel="stylesheet" href="./css/candidate_list_new.css">
 
 <body>
     <?php include('header.php') ?>

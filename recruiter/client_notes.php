@@ -14,7 +14,7 @@ session_start();
 ?>
 <?php include('header.php') ?>
 <title>Dashboard</title>
-<link rel="stylesheet" href="./css/client_notes_remove.css">
+<link rel="stylesheet" href="./css/client_notes2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <body>

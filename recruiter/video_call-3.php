@@ -1,5 +1,5 @@
 <?php include('header.php')?>
-<link rel="stylesheet" href="./css/video_call-3.css">
+<link rel="stylesheet" href="./css/video_call-3_nam.css">
 <title>Analysed</title>
 <div class="container">
     <div class="small_container">

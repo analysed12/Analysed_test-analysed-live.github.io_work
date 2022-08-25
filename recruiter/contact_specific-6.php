@@ -98,7 +98,7 @@ if(isset($_POST['btnsearch']))
 ?>
 
 <title>Contact specific</title>
-<link rel="stylesheet" href="./css/contact_specific-6_running.css">
+<link rel="stylesheet" href="./css/contact_specific-6-1 (1).css">
 
 <body>
     <div class="container container-adjust">

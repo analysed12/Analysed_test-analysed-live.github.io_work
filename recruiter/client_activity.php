@@ -14,7 +14,7 @@ session_start();
 ?>
 <?php include('header.php') ?>
 <title>Dashboard</title>
-<link rel="stylesheet" href="css/client_activity_remove.css">
+<link rel="stylesheet" href="css/client_activity_shubham.css">
 
 <body>
     <div class="container">

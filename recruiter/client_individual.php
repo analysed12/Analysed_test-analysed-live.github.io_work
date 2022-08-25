@@ -18,7 +18,7 @@ session_start();
 
 <?php include('header.php') ?>
 <title>Dashboard</title>
-<link rel="stylesheet" href="./css/client_individual_remo_harsh.css">
+<link rel="stylesheet" href="./css/client_individual_s.css">
 
 <body>
     <div class="container">

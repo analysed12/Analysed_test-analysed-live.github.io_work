@@ -61,7 +61,7 @@ if (isset($_POST['next'])) {
                     </h2>
                 </div>
                 <?php
-                                $sql=mysqli_query($conn,"select * from candidates where candidate_id='".$c_id."'");
+                                $sql=mysqli_query($conn,"select * from candidates where candidate_id='".isset($c_id)."'");
                                 $check=mysqli_num_rows($sql)>0;
                                 if($check){
                                     while($row=mysqli_fetch_assoc($sql)){

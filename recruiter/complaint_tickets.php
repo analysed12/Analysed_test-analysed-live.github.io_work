@@ -1,6 +1,6 @@
 <?php include('header.php')?>
 <?php include ('connection1.php')?>
-<link rel="stylesheet" href="./css/complaint_tickets_remove.css">
+<link rel="stylesheet" href="./css/complaint_tickets_shubham.css">
 <title>Complaints</title>
 <div class="container">
     <div class="small_container">

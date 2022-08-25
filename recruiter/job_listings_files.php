@@ -11,7 +11,7 @@
 
 <title>Dashboard</title>
 
-<link rel="stylesheet" href="css/job_listings_files_remo.css">
+<link rel="stylesheet" href="css/job_listings_files_naman.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="

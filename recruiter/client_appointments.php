@@ -15,7 +15,7 @@ session_start();
 
 <?php include('header.php') ?>
 <title>Dashboard</title>
-<link rel="stylesheet" href="./css/client_appointments.css">
+<link rel="stylesheet" href="./css/client_appointments_new.css">
 
 <body>
     <div class="container">

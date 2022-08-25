@@ -9,7 +9,7 @@
 ?>
 
 <title>job listing individual</title>
-<link rel="stylesheet" href="css/job_listings_individuals_remo.css">
+<link rel="stylesheet" href="css/job_listings_individuals_naman.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />

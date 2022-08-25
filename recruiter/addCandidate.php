@@ -1,5 +1,5 @@
 <?php include('header.php')?>
-<link rel="stylesheet" href="./css/addCandidate.css" />
+<link rel="stylesheet" href="./css/addCandidate_sakshi.css" />
 <div class="container">
     <div class="addcan_breadcrumb_container">
         <ul class="addcan_breadcrumb_container_ul">

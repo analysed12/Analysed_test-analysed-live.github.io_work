@@ -1,0 +1,326 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.small_container{
+    margin-left: -1%;
+    margin-right: -2%;
+}
+.Dashboard-main-container{
+    display: flex;
+    margin-left: 4%;
+    margin-top: 0%;
+    margin-right:-5%;
+}
+.left-side-container-DashboardJ{
+  flex-basis: 77%;
+  margin-right: 3%;
+}
+.right-side-container-DashboardJ {
+    flex-basis: 27%;
+    border-left: 2px solid #979797;
+    padding-left: 2%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-left: -10%;
+}
+.live-recording-class {
+  font-size: 1.3rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.fa-dot-circle-o{
+    color:#D72121;
+    font-size:24px;
+    margin-right:10px;
+}
+.live-recording-class span {
+  font-size: 22px;
+  color: #979797;
+  font-weight: 400;
+}
+.video-call-meet-image{
+  text-align: center;
+  width: 90%;
+  margin: -4px ;
+  display: block;
+  cursor: pointer;
+  border-radius: 31px;
+  margin-left: -3%;
+}
+.queries-container {
+    margin: 5% 0 2% 0%;
+    font-size: 1.2rem;
+    color: #333333;
+    font-weight: bold;
+}
+.skills-container{
+    display: flex;
+     cursor: pointer;
+}
+.skill-content{
+    width: 9vw;
+    height: 42px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    margin-right: 3%;
+}
+.skill-content p{
+    color: #3598DB;
+    padding: 15px 27%;
+
+}
+.queries-details-container{
+    margin-top: 30px;
+    /* justify-content: space-between; */
+    margin-left: -1%;
+}
+.query-box-container{
+    margin: 20px 0px;
+    color: #333333;
+    padding: 18px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+    width: 29vw;
+    margin-left: 2%;
+}
+.query-box-container p{
+font-size: 0.9rem;
+}
+.meet-info-name{
+    color: black;
+    font-size: 1.5rem;
+}
+.meet-info-span-class{
+    margin-left: 70%;
+    margin-top: -7%;
+}
+.meet-info-1{
+    margin-top: 10px;
+}
+.meet-info-role{
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #3598DB;
+}
+.meet-info-1 span{
+    color: black;
+    font-size: 0.9rem;
+}
+.meet-info-span-class-role{
+    margin-left: 73%;
+    margin-top: -6%;
+}
+.meet-info-span-class-location{
+    margin-left: 75%;
+    margin-top: -5%;
+}
+.meet-info-2{
+     margin-top: 50px;
+ }
+ .span-1{
+    margin-left: 19%;
+    margin-top: -38px;
+ }
+ .span-1 span{
+    color: #979797;
+ }
+ .span-2{
+    margin-left: 190px;
+    margin-top: -43px;
+ }
+ .span-2 span{
+    color: #979797;
+    margin-bottom: 7px;
+ }
+ .span-1 p{
+    margin-top: 8px;
+ }
+ .span-2 p{
+    margin-top: 8px;
+ }
+ .hr-class{
+    border-top: 2px solid #979797;
+    color: #979797;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+ }
+ .skills-class{
+    color: #3598DB;
+    font-size: 1.4rem;
+ }
+ .skills{
+    display: flex;
+ }
+.skills-box{
+    margin-top: 15px;
+    border: 1px solid var(--unnamed-color-333333);
+    border: 1px solid #333333;
+    border-radius: 6px;
+    opacity: 1;
+    width: 70px;
+    height: 34px;
+    margin-right: 5%;
+    display: block;
+}
+.skills-box p{
+    padding: 10px 10px;
+    font-size: 0.9rem;
+}
+.employment-history{
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+.employment-history-class-1{
+    color: #979797;
+    margin-bottom: 8px;
+}
+.education{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.location-info{
+    margin-left: 100px;
+    margin-top: -35px;
+}
+.education-info-span-class{
+    color: #979797;
+    margin-top: 8px;
+}
+.contact-info{
+    margin-top: 20px;
+    
+    font-size: 0.9rem;
+}
+.contact-info-class{
+    margin-bottom: 8px;
+}
+.skill-content a{
+    text-decoration: none;
+    color: #3598DB;;
+}
+.skills-container .active{
+    background: var(--unnamed-color-3598db) 0% 0% no-repeat padding-box;
+    background: #3598DB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    color: white;
+}
+.skills-container .active a{
+    color: white;
+}
+@media screen  and (max-width:650px){
+    
+     .video-call-meet-image{
+        position: relative;
+        width: 353px;
+        left: -4px;
+
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+      }
+    .right-side-container-DashboardJ{
+        position: relative;
+        border-left: none;
+    top: 527px;
+    left: 50px;
+    left: -334px;
+    }
+    .skills-container{
+        display: inline-block;
+        width: 0px;
+        height: 33px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 8px;
+        opacity: 1;
+        margin-right: 3%;
+        padding: px;
+        margin: 5px;
+        margin-left: 65px;
+    }
+    .skill-content{
+        position: relative;
+        width: 51vw;
+    height: 42px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    margin-right: 3%;
+    margin: 4px;
+    }
+    .skills-box {
+        position: relative;
+        margin-top: 15px;
+        border: 1px solid var(--unnamed-color-333333);
+        border: 1px solid #333333;
+        border-radius: 6px;
+        opacity: 1;
+        width: 74px;
+        height: 35px;
+        margin-right: 5%;
+        display: block;
+    }
+    #image_vc-4{
+        position: relative;
+         left: -4px;
+    }
+    .query-box-container {
+        margin: 20px 0px;
+        color: #333333;
+        padding: 18px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 6px;
+        opacity: 1;
+        width: 40vw;
+        margin-left: 3%;
+    }
+    .queries-details-container {
+        margin-top: 179px;
+        /* justify-content: space-between; */
+        margin-left: -1%;
+    }
+    #right-side-vc-4{
+        
+            position: relative;
+            top: 1440px;
+            left: -343px;
+            height: 940px;
+        }
+    
+    .left-side-container-DashboardJ{
+        flex-basis: 77%;
+        margin-right: 16%;
+      }
+}
+
+@media screen and (min-width:1400px) {
+    .meet-info{
+        margin-bottom: 20px;
+    }
+    .meet-info-1{
+        margin-bottom: 20px;
+    }
+    .span-2{
+        float: right;
+        margin-right: 100px;
+    }
+}
