@@ -2,7 +2,7 @@
    include 'connection1.php';
    session_start();
 ?>
-ok
+
 <?php include('header1.php')?>
 <link rel="stylesheet" href="/css/aboutOrganization.css">
 <title>Analysed</title>
