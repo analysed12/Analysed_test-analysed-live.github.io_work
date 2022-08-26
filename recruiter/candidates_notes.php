@@ -22,7 +22,7 @@ if(isset($_SESSION['firstname']) && isset($_POST['submit']))
 <?php include('candidates_status_header.php') 
   // $candidate_id = $_GET['c_id'];
   ?>
- <link rel="stylesheet" href="./css/candidates_notes.css">
+ <link rel="stylesheet" href="./css/candidates_notes1.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <body>
   
@@ -114,8 +114,8 @@ if(isset($_SESSION['firstname']) && isset($_POST['submit']))
   </select></span></div>
   <div class="files-added" id="result">
     <?php
-    $c_id=$_GET['c_id'];
-  $sql=mysqli_query($conn,"select * from notes where firstname='$firstname'");
+    $c_id=isset($_GET['c_id']);
+  // $sql=mysqli_query($conn,"select * from notes where firstname='$firstname'");
 
   $check=mysqli_num_rows($sql)>0;
   if($check){

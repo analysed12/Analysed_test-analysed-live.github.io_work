@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./css/profile.css">
+<link rel="stylesheet" href="./css/profile_remove.css">
 <title>Profile</title>
 
 <?php include('header.php') ?>
