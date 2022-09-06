@@ -198,10 +198,10 @@
         navbarLinks.classList.toggle('active')
     })
 
-    $(".less").toggle(function() {
-        $(this).text("Show less").siblings(".added").show();
-    }, function() {
-        $(this).text("Show more").siblings(".added").hide();
-    });
+    // $(".less").toggle(function() {
+    //     $(this).text("Show less").siblings(".added").show();
+    // }, function() {
+    //     $(this).text("Show more").siblings(".added").hide();
+    // });
     </script>
 </body>

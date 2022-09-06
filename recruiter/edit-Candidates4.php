@@ -28,7 +28,7 @@ if (isset($_POST['next'])) {
 }
 </style>
 <?php include('header.php')?>
-<link rel="stylesheet" href="./css/addClient.css">
+<!-- <link rel="stylesheet" href="./css/addClient.css"> -->
 <link rel="stylesheet" href="./css/addCandidates1_remo.css">
 <!-- <link rel="stylesheet" href="../signup/recruiter/css/index.css"> -->
 <title>Analysed</title>

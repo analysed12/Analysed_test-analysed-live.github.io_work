@@ -169,7 +169,7 @@ $j_id=$_GET['job_id'];
                                 <div class="card-body" style="align:center"><br><br>
 
                                     <div id="ti" style="display:none;">
-                                        <img src="img/tickimgg.png" width="100" height="95">
+                                        <img src="" width="100" height="95">
                                     </div>
 
                                     <form method="post">
@@ -190,7 +190,7 @@ $j_id=$_GET['job_id'];
 
 
                     </div><br><br>
-                    <button class="nextMyTasks" id="myBtn">Next <img src="img/arrow-right.jpg" width="15"
+                    <button class="nextMyTasks" id="myBtn">Next <img src="" width="15"
                             height="20"></button>
                     <br>
                     <!-- cards -->

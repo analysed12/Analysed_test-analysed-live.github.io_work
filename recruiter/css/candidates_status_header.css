@@ -129,29 +129,73 @@
   color: #3598db;
 }
 
+/* shubham's code start */
+
+@media screen and (min-width: 650px) {
+  .small_container {
+    margin: 0px !important;
+    max-width: 100vw !important;
+  }
+
+  .button {
+    direction: rtl;
+    margin-right: 80px;
+  }
+
+  .status {
+    float: right;
+    margin: 0px;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 900px) {
+    .button {
+      margin: 100px 0px;
+      display: flex;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .button button {
+      margin: 0px;
+    }
+
+    .status {
+      margin: 20px 0px !important;
+    }
+  }
+}
+
+/* shubham's code end */
+
 @media screen and (max-width: 650px) {
   .profile-img {
     margin-left: -25px;
   }
+
   .profile-img h1 {
     position: relative;
     font-size: 29px;
     width: 200px;
   }
+
   .profile-img h2 {
     position: relative;
     width: 200px;
     font-size: 19px;
   }
+
   .profile-img h4 {
     position: relative;
     width: 200px;
     font-size: 22px;
   }
+
   .button {
     position: relative;
     display: flex;
   }
+
   .button button {
     position: relative;
     margin-left: 8px;
@@ -243,4 +287,3 @@
   } */
   /* ===================================================== */
 }
-

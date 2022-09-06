@@ -5,7 +5,7 @@ session_start();
 <?php include('header.php') ?>
 <title>Job Listing Activity Eval-1</title>
 <link rel="stylesheet" href="css/job_listing_activity_eval-1_remov.css">
-<link rel="stylesheet" href="job_listings_files2.css">
+<!-- <link rel="stylesheet" href="job_listings_files2.css"> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />

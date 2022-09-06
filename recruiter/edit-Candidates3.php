@@ -18,7 +18,7 @@ $c_id=$_GET['c_id'];
 ?>
 <?php include('header.php')?>
 <link rel="stylesheet" href="./css/addCandidates1_remo.css">
-<link rel="stylesheet" href=".css/index.css">
+<link rel="stylesheet" href="./css/index_remo1.css">
 
 <style>
 .container {

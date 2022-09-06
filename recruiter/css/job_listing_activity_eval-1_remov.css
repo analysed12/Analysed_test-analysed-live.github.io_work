@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: CeraB;
   src: url(../fonts/CeraPro-Bold.ttf);
 }
@@ -31,7 +31,7 @@
 @font-face {
   font-family: MetroMI;
   src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
-}
+} */
 
 .options {
   margin-top: 50px;

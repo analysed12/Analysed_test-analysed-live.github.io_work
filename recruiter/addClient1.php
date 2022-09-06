@@ -95,9 +95,9 @@ $_SESSION['contract_fee']      = $_POST['contract_fee'];
             <!-- <button class="save_button_addClient default-button-for-recruiter-dashboard">Save</button> -->
             <div class="header_img_1">
                 <!--Extra part added, required for responsiveness -->
-                <a href="./dashboard.php"> <img src="img/client_back.JPG" class="back_img_1"></a>
+                <a href="./dashboard.php"> <img src="img/cir2.JPG" class="back_img_1"></a>
                 <!-- back to dashboard pg-->
-                <img src="img/client_header.JPG" class="bg_img_1">
+                <img src="img/cir1.JPG" class="bg_img_1">
             </div>
             <div class="row-recruiter container-for-add-client-main actual-container">
                 <div class="left-side-row-for-add-client-container-1">

@@ -14,10 +14,10 @@ const startingFunctionaddClient = () => {
     RoleInfo.classList.remove('active');
     PaymentInfo.classList.remove('active');
 
-    JobInfoDiv.style.display = 'block'
-    SkillsInfoDiv.style.display = 'none'
-    RoleInfoDiv.style.display = 'none'
-    PaymentInfoDiv.style.display = 'none'
+    // JobInfoDiv.style.display = 'block';
+    // SkillsInfoDiv.style.display = 'none';
+    // RoleInfoDiv.style.display = 'none';
+    // PaymentInfoDiv.style.display = 'none';
 }
 
 document.onload = startingFunctionaddClient();

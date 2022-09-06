@@ -77,7 +77,7 @@
             <input type="text" name="searchForJobs" id="inputSearch" class="searchForJobs"
                 placeholder="Search for Jobs" />
 
-            <button class="searchButton">
+            <button class="searchButton" id="searchBtnn">
                 <a href="searchJobs.php"> <img src="./img/search-icon-blue.png" /></a>
             </button>
         </div>

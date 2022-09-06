@@ -181,7 +181,7 @@ if(isset($_POST['btnall']))
                         <div class="col-4 sort-by-container">
                             <span class="sortByMyTasks" style="margin-left:40px">Sort By: </span>
                             <span class="recentMyTasks"><a href="/" class="active-breadcrumb-link">Recent </a></span>
-                            <span class="sortByMyTasks" style="color:black">Priority &nbsp;<img src="img/dropdown.png"
+                            <span class="sortByMyTasks" style="color:black">Priority<img src="img/dropdown.png"
                                     width="15" height="10" style="font:right" /></span>
                         </div>
                     </div><br>

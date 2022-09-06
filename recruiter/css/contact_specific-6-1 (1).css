@@ -398,13 +398,14 @@ input[type="checkbox"]:focus + label::before {
 }
 .row {
   width: 813px;
-  height: auto;
+  height: fit-content;
+  margin-top: 10px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 1px 3px 10px #00000033;
   border-radius: 8px;
   opacity: 1;
-  margin-top: 20px;
+  padding: 15px 15px;
 }
 .column {
   float: left;
@@ -563,53 +564,124 @@ input[type="checkbox"]:focus + label::before {
     margin-left: 7px;
   }
 }
-@media screen and (max-width:1000px) {
+.added{
+  margin-top:80px;
+  margin-left: -750px;
+}
+.edit{
+margin-left: 2px;
+}
 
-  html, body{
-    overflow-x: hidden;
+
+@media screen and (min-width:1200px) {
+  .active-breadcrumb-link {
+    margin-left: 8px;
   }
-  body{
-    position: relative;
+  .unactive-breadcrumb-link {
+    margin-left: 8px;
   }
-  .bread-crumbs_Mytools-recruiter {
-    margin-top: 40px;
-  
+  .small_container {
+    max-width: 100vw !important;
   }
-  .profile-img {
-    margin-top: 40px;
-    margin-left: 60px;
+  .button {
+    direction: rtl;
+    margin-right: 75px;
   }
-  .options {
-    margin-left: 70px;
+  .left-side-container-1 {
+    margin: -260px 260px 0px 230px;
   }
-  .search-box {
-  margin-left: 70px;
+  .status {
+    float: right;
+    margin: -260px 0px 0px 0px;
   }
-  .sortbyText {
-    margin-top: 33px;
-    margin-left: 40px;
+  .row{
+    margin: auto;
+  }
+  .added {
+    margin-top: 73px;
+    margin-left: -660px;
 }
-.button button {
-  margin-left: 1008px;
+
+ 
+  @media screen and (max-width:1470px) {
+    .options {
+      margin-left: 0px;
+    }
+    .left-side-container-1 {
+      margin: -260px 260px 0px 70px;
+    }
+    .row{
+      width: 802px;
+      height: 230px;
+      margin-top: 130px;
+    }
+    .profile-img{
+      margin-bottom: 35px;
+    }
+    .button button{
+      margin-top: -150px;
+    }
+
+  }
+  @media screen and (max-width:1280px) {
+    .options {
+     margin-left: -12px;
+    }
+    .left-side-container-1 {
+      width: 72%;
+      margin: -177px 0px 0px 125px;
+    }
+    .status {
+      margin: 2px 0px 0px 0px;
+    }
+    .row{
+      height: 220px;
+      margin-left: -138px;
+      margin-top: 65px;
+      width: 795px;
+    }
+  }
 }
-.row {
-  width: 802px;
+
+@media screen and (min-width:1470px) {
+  .profile-img{
+    margin-bottom: 35px;
+  }
+  .button button{
+    margin-top: -150px;
+  }
+  .active-breadcrumb-link {
+    margin-left: 8px;
+  }
+  .unactive-breadcrumb-link {
+    margin-left: 8px;
+  }
+  .small_container {
+    max-width: 100vw !important;
+  }
+  .button {
+    direction: rtl;
+    margin-right: 75px;
+  }
+  .left-side-container-1 {
+    margin: -260px 260px 0px 230px;
+  }
+  .status {
+    float: right;
+    margin: -260px 0px 0px 0px;
+  }
+  .row{
+    margin: auto;
+    height: 230px;
+    margin-top: 130px;
 }
-.profileInNav {
-  flex-basis: 5%;
+.added {
+  margin-top: 73px;
+  margin-left: -660px;
 }
-.status {
-  margin-left: 969px;
 }
-element.style {
-  position: relative;
-  margin: -10px;
-}
-.status {
-  margin-left: 1057px;
-  position: relative;
-}
-.button button {
-  margin-left: 1084px;
-}
+@media screen and (min-width:2100px) {
+  .row{
+    margin-top: 155px;
+  }
 }

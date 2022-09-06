@@ -416,7 +416,7 @@
   cursor: pointer;
   border: none;
   border-radius: 0px 40px 40px 0px;
-  margin-right: 10px;
+  margin-right: 40px;
   position: relative;
 }
 
@@ -426,24 +426,41 @@
   left: 128px;
 }
 
-/* *****************y_code**************** */
-@media (min-width:651px) {
+/* shubham's code start */
+
+@media screen and (min-width:650px) {
+
   .container {
-    max-width: 75vw !important;
-    margin-left: 15vw !important;
+    max-width: 90vw !important;
+    margin-left: 80px !important;
   }
 
-  .nav_main {
-    width: 85vw;
-    margin-left: -6vw;
+  .main_body {
+    margin: 0px;
   }
 
-  .searchbutton {
-    margin-right: 0px !important;
+  .task_5,
+  .task_1 {
+    justify-content: flex-start;
+  }
+
+  .row {
+    margin: 0px !important;
+  }
+
+  .input-field1 {
+    margin-left: 0px;
+    width: 550px;
+    max-width: 100%;
+  }
+
+  .col-3 {
+    left: 0px;
+    max-width: fit-content !important;
   }
 }
 
-/* *****************y_code_ends**************** */
+/* shubham's code end */
 
 @media screen and (max-width:650px) {
   .main_body {
@@ -495,6 +512,7 @@
 
   #myBtn {
     position: relative;
+    right: 190px;
     width: 70px;
   }
 
@@ -508,6 +526,13 @@
 
   .task_5 {
     justify-content: space-around;
+  }
+
+  .addFilesMyTasks {
+    position: relative;
+    top: 123px;
+    left: -47px;
+
   }
 
   #upload-container {
@@ -552,45 +577,4 @@
     left: 0 !important;
     width: 60% !important;
   }
-
-  /* *****************y_code**************** */
-
-  #c1,
-  #c2 {
-    width: 320px;
-    height: 375px;
-    margin-right: 15px;
-  }
-
-  #cl3 {
-    margin-left: -140px;
-  }
-
-  .searchButton {
-    margin-right: 0px;
-    padding-right: 10px;
-  }
-
-  .input-field1 {
-    margin-top: 25px;
-    width: 375px;
-  }
-
-  .filter_input {
-    padding: 5px 20px 5px 15px !important;
-  }
-
-  #tt {
-    margin-top: -10px;
-  }
-
-  #mp1 {
-    margin-left: 67%;
-  }
-
-  .task_1 {
-    margin-top: -30px;
-  }
-
-  /* *****************y_code_ends**************** */
 }

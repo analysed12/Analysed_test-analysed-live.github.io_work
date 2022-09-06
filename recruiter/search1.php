@@ -8,9 +8,9 @@
 
 <?php include('./recruiter_header.php') ?>
 <link rel="stylesheet" type="text/css" href="./css/search1.css">
-<link rel="stylesheet" href="css/candidate_list.css">
+<link rel="stylesheet" href="css/candidate_list_remo (1).css">
 <link rel="stylesheet" href="./css/contact_list.css">
-<link rel="stylesheet" href="css/job_listings.css">
+<link rel="stylesheet" href="css/job_listings_rem.css">
 <link rel="stylesheet" href="css/client_list.css">
 
 <div class="container">

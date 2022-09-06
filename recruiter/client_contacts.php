@@ -16,7 +16,7 @@ session_start();
 <?php include('header.php') ?>
 <title>Dashboard</title>
 <link rel="stylesheet" href="./css/client_contacts_naman.css">
-<link rel="stylesheet" href="./css/header_remove1.css">
+<link rel="stylesheet" href="./css/header_remove.css">
 <link rel="stylesheet" href="./css/index_remov.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

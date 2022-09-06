@@ -335,14 +335,14 @@ if (isset($_POST['submit'])) {
 		  loader.load()
 			.catch(function (error) { console.error(error); });
 		</script>-->
-		<script src="https://lex-web-mx-codebuilddeploy-1k71slxns-webappbucket-rseursdbynux.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>
-		<script>
+		<!-- <script src="https://lex-web-mx-codebuilddeploy-1k71slxns-webappbucket-rseursdbynux.s3.amazonaws.com/lex-web-ui-loader.min.js"></script> -->
+		<!-- <script>
 		  var loaderOpts = {
 			baseUrl: 'https://lex-web-mx-codebuilddeploy-1k71slxns-webappbucket-rseursdbynux.s3.amazonaws.com/'
 		  };
 		  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
 		  loader.load()
 			.catch(function (error) { console.error(error); });
-		</script>
+		</script> -->
     </body>
 </html>

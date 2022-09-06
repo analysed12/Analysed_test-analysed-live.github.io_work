@@ -34,7 +34,7 @@
 }
 
 .main_body {
-  margin-left: 200px;
+  margin-left: 95px;
 }
 
 .head_txt {
@@ -161,7 +161,6 @@
   margin-top: -10px;
 }
 
-
 @media (min-width:651px) {
   .container:nth-of-type(1) {
     max-width: 92vw !important;
@@ -191,19 +190,120 @@
   .addFilesMyTasks1 {
     margin-left: 71vw;
   }
+}
+
+/* shubham's code start */
+
+@media screen and (min-width:651px) {
+
+  .container:nth-of-type(1) {
+    margin-left: 80px !important;
+  }
+
+  .main_body {
+    margin-left: 95px;
+  }
+
+  .row {
+    margin: 0px !important;
+  }
+
+  .container:nth-of-type(2) {
+    margin: 0px !important;
+    padding: 0px !important;
+    max-width: 100% !important;
+  }
 
   .input-field1 {
-    width: 40vw !important;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: -15px;
   }
 
   .box_1 {
-    margin-left: 10px;
+    margin: 5px 0px;
   }
 
   .searchForJobs1 {
-    width: 27vw;
+    padding: 5px 3vw !important;
+  }
+
+  @media screen and (max-width:1260px) {
+    .container>.row {
+      display: block;
+    }
+
+    .row>div {
+      margin: 20px 0px;
+      max-width: 70% !important;
+    }
+
+    .col-5>.sortByMyTasks:nth-child(1) {
+      margin-left: -130px;
+    }
+  }
+
+  @media screen and (max-width:1170px) {
+    .singletask_myTasks {
+      width: 90vw;
+    }
+  }
+
+  @media screen and (max-width:1040px) {
+    .button-div_myTasks>p>span {
+      margin-left: -60px;
+    }
+  }
+
+  @media screen and (max-width:990px) {
+    .main_body {
+      width: 90vw;
+    }
+
+    .singletask_myTasks {
+      width: 85vw;
+    }
+
+    .singletask-span-2 {
+      margin-left: -75px;
+    }
+
+    .button-div_myTasks {
+      display: block;
+      width: 70px;
+    }
+  }
+
+  @media screen and (max-width:885px) {
+
+    .singletask_myTasks>img {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width:805px) {
+    .singletask-span-4 {
+      margin-left: -20px;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .container:nth-of-type(1) {
+      margin-left: 0px !important;
+    }
+
+    .main_body {
+      margin-left: 0px;
+    }
+
+    .singletask_myTasks {
+      width: 100vw;
+    }
   }
 }
+
+/* shubham's code end */
 
 @media screen and (max-width:650px) {
   form {

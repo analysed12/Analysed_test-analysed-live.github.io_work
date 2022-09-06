@@ -33,9 +33,9 @@ session_start();            //session has been started
             <!--<button type = "submit" class="save_button_addClient default-button-for-recruiter-dashboard">Save</button>-->
             <div class="header_img">
                 <!--Extra part added, required for responsiveness -->
-                <a href="./dashboard.php"> <img src="img/client_back.JPG" class="back_img"></a>
+                <a href="./dashboard.php"> <img src="img/cir2.JPG" class="back_img"></a>
                 <!-- back to dashboard pg-->
-                <img src="img/client_header.JPG" class="bg_img">
+                <img src="img/cir1.JPG" class="bg_img">
             </div>
 
             <div class="row-recruiter container-for-add-client-main actual-container">

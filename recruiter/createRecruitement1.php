@@ -6,42 +6,39 @@
 
 // posting all data from personal information page to global variables using $_Session['']
 
-   $_SESSION['Position']  = $_POST['Position'];
-   $_SESSION['Industry']  = $_POST['Industry'];
-   $_SESSION['Jobtype']  = $_POST['Jobtype'];
-   $_SESSION['client_company']  = $_POST['client_company'];
-   $_SESSION['Contact_at_client_company']  = $_POST['Contact_at_client_company'];
-   $_SESSION['Business_Development_Manager']  = $_POST['Business_Development_Manager'];
-   $_SESSION['Status']  = $_POST['Status'];
-   $_SESSION['Priority']  = $_POST['Priority'];
-   $_SESSION['Job_reference_number']  = $_POST['Job_reference_number'];
-   $_SESSION['Designation']  = $_POST['Designation'];
-   $_SESSION['Recruiters_name']  = $_POST['Recruiters_name'];
-   $_SESSION['Number_of_openings']  = $_POST['Number_of_openings'];
-   $_SESSION['Start_Date']  = $_POST['Start_Date'];
-   $_SESSION['End_Date']  = $_POST['End_Date'];
-   $_SESSION['Joblocation1']  = $_POST['Joblocation1'];
-   $_SESSION['Joblocation2']  = $_POST['Joblocation2'];
-   $_SESSION['Joblocation3']  = $_POST['Joblocation3'];
-   $_SESSION['Starting_time']  = $_POST['Starting_time'];
-   $_SESSION['Ending_time']  = $_POST['Ending_time'];
-   $_SESSION['Client_margin']  = $_POST['Client_margin'];
-   $_SESSION['Contact_information_for_the_advert']  = $_POST['Contact_information_for_the_advert'];
-   $_SESSION['advert_contact_no']  = $_POST['advert_contact_no'];
+   $_SESSION['Position']  = isset($_POST['Position']);
+   $_SESSION['Industry']  = isset($_POST['Industry']);
+   $_SESSION['Jobtype']  = isset($_POST['Jobtype']);
+   $_SESSION['client_company']  = isset($_POST['client_company']);
+   $_SESSION['Contact_at_client_company']  = isset($_POST['Contact_at_client_company']);
+   $_SESSION['Business_Development_Manager']  = isset($_POST['Business_Development_Manager']);
+   $_SESSION['Status']  = isset($_POST['Status']);
+   $_SESSION['Priority']  = isset($_POST['Priority']);
+   $_SESSION['Job_reference_number']  = isset($_POST['Job_reference_number']);
+   $_SESSION['Designation']  = isset($_POST['Designation']);
+   $_SESSION['Recruiters_name']  = isset($_POST['Recruiters_name']);
+   $_SESSION['Number_of_openings']  = isset($_POST['Number_of_openings']);
+   $_SESSION['Start_Date']  = isset($_POST['Start_Date']);
+   $_SESSION['End_Date']  = isset($_POST['End_Date']);
+   $_SESSION['Joblocation1']  = isset($_POST['Joblocation1']);
+   $_SESSION['Joblocation2']  = isset($_POST['Joblocation2']);
+   $_SESSION['Joblocation3']  = isset($_POST['Joblocation3']);
+   $_SESSION['Starting_time']  = isset($_POST['Starting_time']);
+   $_SESSION['Ending_time']  = isset($_POST['Ending_time']);
+   $_SESSION['Client_margin']  = isset($_POST['Client_margin']);
+   $_SESSION['Contact_information_for_the_advert']  = isset($_POST['Contact_information_for_the_advert']);
+   $_SESSION['advert_contact_no']  = isset($_POST['advert_contact_no']);
 
 
 // method to insert any files in database
     $td="../img/";
-    $tf=$td.basename($_FILES["file"]["name"]);
+    $tf=$td.basename(isset($_FILES["file"]["name"]));
 
-    $_SESSION['job_description']  = basename($_FILES["file"]["name"]);
+    $_SESSION['job_description']  = basename(isset($_FILES["file"]["name"]));
 
-    $move= move_uploaded_file($_FILES["file"]["tmp_name"] , $tf);
+    $move= move_uploaded_file(isset($_FILES["file"]["tmp_name"] , $tf));
 
-    if (!($move)) {
-
-        echo "something wrong";
-    }
+    
 
 ?>
 
@@ -96,9 +93,9 @@
         <!--<button class="save_button_addClient default-button-for-recruiter-dashboard">Save</button>-->
         <div class="header_img_cr1">
             <!--Extra part added, required for responsiveness -->
-            <a href="./dashboard.php"> <img src="img/client_back.JPG" class="back_img_cr1"></a>
+            <a href="./dashboard.php"> <img src="img/cir2.JPG" class="back_img_cr1"></a>
             <!-- back to dashboard pg-->
-            <img src="img/cr1.JPG" class="bg_img_cr">
+            <img src="img/cir1.JPG" class="bg_img_cr">
         </div>
 
         <form action="createRecruitement2.php" method="post" enctype="multipart/form-data">

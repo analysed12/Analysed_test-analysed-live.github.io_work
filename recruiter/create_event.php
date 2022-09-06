@@ -6,7 +6,7 @@
 
 <title>Dashboard</title>
 <link rel="stylesheet" href="./css/create_event_remove.css">
-<link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.13.css" />
+<!-- <link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.13.css" /> -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js"></script>
 

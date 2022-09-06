@@ -53,7 +53,7 @@ session_start();            //session has been started
                                     <p class="candidate-status-jobs Hired">Hired</p>
                                     <?php } ?>
 
-                                    <img src="upload/<?php echo $row["image"]; ?>" alt="">
+                                    <img src="img/<?php echo $row["image"]; ?>" alt="">
                                     <h3 class="job-headingnname"><?php echo $row["firstname"]; ?></h3>
                                     <!-- <p class="skill-job-candiate"><?php echo $row["position"]; ?></p> -->
                                     <ul class="candidate-desc">

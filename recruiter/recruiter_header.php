@@ -16,7 +16,7 @@ if (!isset($_SESSION['email']))
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="./css/candidate_list.css">
+<link rel="stylesheet" href="./css/candidate_list_remo (1).css">
 <link rel="stylesheet" href="./css/contact_list.css">
 
 <style type="text/css">
@@ -110,7 +110,7 @@ if (!isset($_SESSION['email']))
                 <input type="text" name="searchForJobs"
                     value="<?php if(isset($_GET['searchForJobs'])){echo $_GET['searchForJobs'];} ?>" id="inputSearch"
                     class="searchForJobs" placeholder="Search for Jobs" />
-                <button class="searchButton" id="searchBtn">
+                <button class="searchButton" id="searchBtnn">
                     <img src="./img/search-icon-blue.png" />
                 </button>
             </div>

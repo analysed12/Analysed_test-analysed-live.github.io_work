@@ -43,7 +43,7 @@ $conn=mysqli_connect(LOCALHOST,DB_USERNAME,DB_PASSWORD,DB_NAME) or die(mysqli_er
 <body>
     <br>
     <div class="back_img"> <!--Extra part for responsiveness -->
-      <a href="my_task_11.php"> <img src="img/task_back.JPG" id="task_back"></a>
+      <a href="my_task_11.php"> <img src="" id="task_back"></a>
     </div>
     <div class="main_body">
         <span class="a1">Create Tasks</span><br>
@@ -166,8 +166,8 @@ $conn=mysqli_connect(LOCALHOST,DB_USERNAME,DB_PASSWORD,DB_NAME) or die(mysqli_er
                 </div>
             </div><br><br><br>
             <div class="last_img">  <!-- extra img part -->
-             <a href="my_task_11.php"> <img src="img/task_1.JPG" id="last_img"></a>
-             <img src="img/task_13.JPG">
+             <a href="my_task_11.php"> <img src="" id="last_img"></a>
+             <img src="">
             </div>
             </form>
           </div>

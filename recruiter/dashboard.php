@@ -317,7 +317,7 @@
             var data = google.visualization.arrayToDataTable([
                 ['Year', 'Approved', 'Shortlist'],
 
-
+                
                 //PHP Code
 
                 <?php
@@ -353,8 +353,4 @@
         <script src="./js/dashboard.js"></script>
 
 
-        <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-        </script>
+      

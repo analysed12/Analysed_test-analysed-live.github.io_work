@@ -334,6 +334,312 @@
   opacity: 1;
 }
 
+/* shubham's code start */
+
+@media screen and (min-width:650px) {
+
+  .search {
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+  }
+
+  .last_edited {
+    margin-top: 15px !important;
+    height: fit-content;
+  }
+
+  .small_container {
+    max-width: 100vw !important;
+  }
+
+  .bread-crumbs_Mytools-recruiter {
+    margin-top: -20px !important;
+  }
+
+  .profile-img {
+    margin-top: 40px !important;
+  }
+
+  .button {
+    direction: rtl;
+    margin-right: 80px;
+  }
+
+  .status {
+    float: right;
+    height: fit-content !important;
+    margin: 0px !important;
+  }
+
+  .options {
+    margin: 0px 0px 0px 64px;
+  }
+
+  .form input {
+    width: 130px;
+  }
+
+  .form i {
+    margin-left: 35px;
+    font-size: x-large;
+  }
+
+  .files {
+    display: grid;
+    width: 790px;
+  }
+
+  .search {
+    margin-top: -155px;
+  }
+
+  .files .uploaded,
+  .files .delete {
+    margin-top: -70px;
+  }
+
+  .sort-by {
+    margin-top: 60px;
+  }
+
+  .radio input {
+    width: 21px;
+  }
+
+  .main-notes {
+    height: 240px;
+  }
+
+  .main-notes .edit {
+    float: right;
+    margin: -35px 20px 0px 0px;
+  }
+
+  @media screen and (max-width:1500px) {
+    .main-notes {
+      max-width: 60%;
+      height: 260px;
+    }
+
+    .main-notes p {
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width:1400px) {
+    .profile-img {
+      margin-left: 0px;
+    }
+
+    .options {
+      margin: 0px 0px 0px 24px;
+    }
+
+    .status {
+      margin-top: 20px !important;
+    }
+
+    .search {
+      margin-left: 155px;
+    }
+
+    .add {
+      margin-left: 560px;
+    }
+
+    .radio,
+    .sort {
+      margin-left: 720px;
+    }
+
+    .sort-by {
+      margin-left: -40px;
+    }
+  }
+
+  @media screen and (max-width:1360px) {
+
+    .button {
+      margin-bottom: 60px;
+    }
+
+    .options {
+      display: flex;
+      margin: -65px 0px 0px 0px;
+      overflow-x: scroll;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+
+    .search {
+      margin-top: 30px;
+      margin-left: 0px;
+    }
+
+    .add {
+      margin-left: 420px;
+    }
+
+    .sort-by {
+      margin-left: -190px;
+    }
+  }
+
+  @media screen and (max-width:1225px) {
+
+    .add {
+      margin: 20px;
+    }
+
+    .sort {
+      margin-top: -120px;
+      margin-left: 660px;
+    }
+
+    .radio {
+      margin-left: 650px;
+    }
+
+    .files {
+      width: 710px;
+    }
+
+    .files img {
+      display: none;
+    }
+
+    .files .uploaded {
+      margin-left: 475px;
+    }
+
+    .delete>span,
+    .download {
+      margin-left: 250px;
+    }
+  }
+
+  @media screen and (max-width:1165px) {
+
+    .sort,
+    .radio {
+      margin: 20px 210px;
+    }
+
+    .files {
+      display: block;
+      height: fit-content;
+      width: fit-content;
+      text-align: center;
+    }
+
+    .files>div {
+      margin: 0px !important;
+    }
+
+    .main-notes {
+      height: 300px;
+      width: 56%;
+    }
+
+    .main-notes .last_edited {
+      margin-left: 20px;
+      margin-top: 35px !important;
+    }
+
+    .main-notes img {
+      margin-left: 140px;
+    }
+
+    .main-notes .addedby {
+      margin-left: 200px;
+    }
+
+    .main-notes .type {
+      margin-left: 300px;
+    }
+
+    .main-notes .timespent {
+      margin-left: 450px;
+    }
+
+    .main-notes .edit {
+      margin: -42px 5px 0px 0px;
+      display: grid;
+    }
+
+    .main-notes .addedon {
+      margin-left: 40px;
+    }
+
+    .main-notes p {
+      margin-left: 150px;
+    }
+  }
+
+  @media screen and (max-width:1070px) {
+    .profile-img {
+      margin-left: 0px !important;
+    }
+
+    .options {
+      margin-left: 26px;
+    }
+
+    .main-notes {
+      margin-left: 190px;
+    }
+
+    .main-notes img {
+      display: none;
+    }
+
+    .main-notes .addedby {
+      margin-top: -40px;
+      margin-left: 140px;
+    }
+
+    .main-notes .type {
+      margin-top: -39px;
+      margin-left: 240px;
+    }
+
+    .main-notes .timespent {
+      margin-left: 390px;
+    }
+
+    .main-notes .addedon {
+      margin-left: 20px;
+    }
+
+    .main-notes p {
+      height: fit-content;
+      margin-left: 140px;
+    }
+  }
+
+  @media screen and (max-width:960px) {
+    .status {
+      margin-top: 40px !important;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .status {
+      display: none;
+    }
+
+    .main-notes {
+      max-width: 70%;
+      width: 70%;
+      margin: 20px 0px 0px 190px;
+    }
+  }
+}
+
+/* shubham's code end */
+
+
 @media screen and (max-width: 650px) {
 
   .sort,

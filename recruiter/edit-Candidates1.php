@@ -6,7 +6,7 @@
 <?php include('header.php')?>
 <!-- <link rel="stylesheet" href="./css/addClient.css"> -->
 <link rel="stylesheet" href="./css/addCandidates1_remo.css">
-<link rel="stylesheet" href="./css/index1.css">
+<!-- <link rel="stylesheet" href="./css/index1.css"> -->
 <title>Analysed</title>
 <style>
 #imageUpload {

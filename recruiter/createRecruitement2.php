@@ -4,12 +4,12 @@
     session_start();      //session has been started
 
     // posting all data from personal information page to global variables using $_Session['']
-   $_SESSION['skills']  = $_POST['skills'];
-   $_SESSION['Qualifications']  = $_POST['Qualifications'];
-   $_SESSION['Eligibility_criteria']  = $_POST['Eligibility_criteria'];
-   $_SESSION['Experience_requirement']  = $_POST['Experience_requirement'];
-   $_SESSION['Relevant_experience']  = $_POST['Relevant_experience'];
-   $_SESSION['Irrelevant_experience']  = $_POST['Irrelevant_experience'];
+   $_SESSION['skills']  = isset($_POST['skills']);
+   $_SESSION['Qualifications']  = isset($_POST['Qualifications']);
+   $_SESSION['Eligibility_criteria']  = isset($_POST['Eligibility_criteria']);
+   $_SESSION['Experience_requirement']  = isset($_POST['Experience_requirement']);
+   $_SESSION['Relevant_experience']  = isset($_POST['Relevant_experience']);
+   $_SESSION['Irrelevant_experience']  = isset($_POST['Irrelevant_experience']);
 ?>
 
 
@@ -64,9 +64,9 @@
         <!--<button class="save_button_addClient default-button-for-recruiter-dashboard">Save</button>-->
         <div class="header_img_cr1">
             <!--Extra part added, required for responsiveness -->
-            <a href="./dashboard.php"> <img src="img/client_back.JPG" class="back_img_cr1"></a>
+            <a href="./dashboard.php"> <img src="" class="back_img_cr1"></a>
             <!-- back to dashboard pg-->
-            <img src="img/cr1.JPG" class="bg_img_cr">
+            <img src="img/cir1.JPG" class="bg_img_cr">
         </div>
 
         <form action="createRecruitement3.php" method="post" enctype="multipart/form-data">

@@ -292,8 +292,8 @@ session_start();        //session has been started
                                 <td>Chris Turner</td>
                                 <td>9876543210</td>
                                 <td>ABC Technical Support</td>
-                                <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
-                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td>
+                                <!-- <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
+                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td> -->
                                 <td><button type="submit" name="btnfilter" class="start-appt-btn"> Start
                                         Appointment</button></td>
 
@@ -305,8 +305,8 @@ session_start();        //session has been started
                                 <td>Chris Turner</td>
                                 <td>9876543210</td>
                                 <td>ABC Technical Support</td>
-                                <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
-                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td>
+                                <!-- <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
+                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td> -->
                                 <td><button type="submit" name="btnfilter" class="start-appt-btn"> Start
                                         Appointment</button></td>
 
@@ -318,8 +318,8 @@ session_start();        //session has been started
                                 <td>Chris Turner</td>
                                 <td>9876543210</td>
                                 <td>ABC Technical Support</td>
-                                <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
-                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td>
+                                <!-- <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
+                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td> -->
                                 <td><button type="submit" name="btnfilter" class="start-appt-btn"> Start
                                         Appointment</button></td>
 
@@ -331,8 +331,8 @@ session_start();        //session has been started
                                 <td>Chris Turner</td>
                                 <td>9876543210</td>
                                 <td>ABC Technical Support</td>
-                                <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
-                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td>
+                                <!-- <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
+                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td> -->
                                 <td><button type="submit" name="btnfilter" class="start-appt-btn"> Start
                                         Appointment</button></td>
 
@@ -344,8 +344,8 @@ session_start();        //session has been started
                                 <td>Chris Turner</td>
                                 <td>9876543210</td>
                                 <td>ABC Technical Support</td>
-                                <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
-                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td>
+                                <!-- <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td> -->
+                                <!-- <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td> -->
                                 <td><button type="submit" name="btnfilter" class="start-appt-btn"> Start
                                         Appointment</button></td>
                             </tr>
@@ -356,8 +356,8 @@ session_start();        //session has been started
                                 <td>Chris Turner</td>
                                 <td>9876543210</td>
                                 <td>ABC Technical Support</td>
-                                <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
-                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td>
+                                <!-- <td><img src="./img/edit-icon.png" alt="" height=30 width=30 /></td>
+                                <td><img src="./img/delete-icon.png" alt="" height=30 width=30 /></td> -->
                                 <td><button type="submit" name="btnfilter" class="start-appt-btn"> Start
                                         Appointment</button></td>
                             </tr>

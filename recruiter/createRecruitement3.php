@@ -6,30 +6,27 @@
 
 // posting all data from personal information page to global variables using $_Session['']
 
-   $_SESSION['Roles_and_responsibilities']  = $_POST['Roles_and_responsibilities'];
-   $_SESSION['Growth_oppurtunities']  = $_POST['Growth_oppurtunities'];
-   $_SESSION['Learning_oppurtunities']  = $_POST['Learning_oppurtunities'];
-   $_SESSION['Employeee_endorsements']  = $_POST['Employeee_endorsements'];
-   $_SESSION['Employee_benefits']  = $_POST['Employee_benefits'];
-   $_SESSION['Reputation_of_organisation']  = $_POST['Reputation_of_organisation'];
-   $_SESSION['advert_Job_description']  = $_POST['advert_Job_description'];
-   $_SESSION['Transportation']  = $_POST['Transportation'];
+   $_SESSION['Roles_and_responsibilities']  = isset($_POST['Roles_and_responsibilities']);
+   $_SESSION['Growth_oppurtunities']  = isset($_POST['Growth_oppurtunities']);
+   $_SESSION['Learning_oppurtunities']  = isset($_POST['Learning_oppurtunities']);
+   $_SESSION['Employeee_endorsements']  = isset($_POST['Employeee_endorsements']);
+   $_SESSION['Employee_benefits']  = isset($_POST['Employee_benefits']);
+   $_SESSION['Reputation_of_organisation']  = isset($_POST['Reputation_of_organisation']);
+   $_SESSION['advert_Job_description']  = isset($_POST['advert_Job_description']);
+   $_SESSION['Transportation']  = isset($_POST['Transportation']);
 
 
 
 
 // method to insert any files in database
     $td="../img/";
-    $tf=$td.basename($_FILES["Workspace_view"]["name"]);
+    $tf=$td.basename(isset($_FILES["Workspace_view"]["name"]));
 
-    $_SESSION['Workspace_view']  = basename($_FILES["Workspace_view"]["name"]);
+    $_SESSION['Workspace_view']  = basename(isset($_FILES["Workspace_view"]["name"]));
 
-    $move= move_uploaded_file($_FILES["Workspace_view"]["tmp_name"] , $tf);
+    $move= move_uploaded_file(isset($_FILES["Workspace_view"]["tmp_name"] , $tf));
 
-    if (!($move)) {
-
-        echo "something wrong";
-    }
+    
 ?>
 
 <style>
@@ -82,9 +79,9 @@
         <!--<button class="save_button_addClient default-button-for-recruiter-dashboard">Save</button>-->
         <div class="header_img_cr1">
             <!--Extra part added, required for responsiveness -->
-            <a href="./dashboard.php"> <img src="img/client_back.JPG" class="back_img_cr1"></a>
+            <a href="./dashboard.php"> <img src="" class="back_img_cr1"></a>
             <!-- back to dashboard pg-->
-            <img src="img/cr1.JPG" class="bg_img_cr">
+            <img src="img/cir1.JPG" class="bg_img_cr">
         </div>
 
 

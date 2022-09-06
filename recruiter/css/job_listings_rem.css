@@ -914,3 +914,18 @@ p .active {
     font-size: 18px;
 } */
 }
+
+/*************** NAMAN_CODE ****************/
+
+@media screen and (min-width:1000px) {
+  .input-field-job-list a span{
+    margin-left: 2px;
+  }
+  .sortByMyTasks {
+    margin:0%;
+  }
+  .sortByMyTasks img{
+    margin-left: 4px;
+  }
+}
+/**************** NAMAN_CODE_END *************/

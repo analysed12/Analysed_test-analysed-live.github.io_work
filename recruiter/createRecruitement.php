@@ -21,9 +21,9 @@
         </div>
         <div class="header_img_cr">
             <!--Extra part added, required for responsiveness -->
-            <a href="./dashboard.php"> <img src="img/client_back.JPG" class="back_img_cr"></a>
+            <a href="./dashboard.php"> <img src="img/cir2.JPG" class="back_img_cr"></a>
             <!-- back to dashboard pg-->
-            <img src="img/cr1.JPG" class="bg_img_cr">
+            <img src="img/cir1.JPG" class="bg_img_cr">
         </div>
         <form action="createRecruitement1.php" method="post" enctype="multipart/form-data">
             <!-- redirecting to skills & exp page with data of Job Description -->

@@ -113,3 +113,7 @@
         margin-top: 10px !important;
     }
 }
+.single-container-cards-DasboardJobs a img{
+    width: 30px;
+    height: 30px;
+}

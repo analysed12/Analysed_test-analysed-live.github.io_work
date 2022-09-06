@@ -54,7 +54,7 @@
 
                         <div class="single-container-cards-DasboardJobs">
                             <a href="#">
-                                <img src="./<?php echo $company_logo ?>" width="130" height="130" style="margin: 25px"
+                                <img src="./img/<?php echo $company_logo ?>" width="130" height="130" style="margin: 25px"
                                     alt="">
                                 <h3 class="job-headingnname"><?php echo $job_title; ?></h3>
                                 <div class="row-flex-jobs-j companyname-and-salary">

@@ -42,8 +42,8 @@ notiMail.addEventListener("click", notifDiv);
 // })
 
  const targetDiv = document.querySelector("#details");
-    const btn = document.getElementById("searchBtn");
-    btn.onclick = () => {
+    const btnn = document.querySelector("#searchBtnn");
+    btnn.onclick = () => {
       if (targetDiv.style.display !== 'none') {
         targetDiv.style.display = 'none'
       } else {

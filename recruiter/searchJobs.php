@@ -283,4 +283,4 @@ document.getElementById('contacts_searchListItem').onclick = function() {
 };
 </script>
 
-<script src="./js/searchJobs.js"></script>
+<!-- <script src="./js/searchJobs.js"></script> -->

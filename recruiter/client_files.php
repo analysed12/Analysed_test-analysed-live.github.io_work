@@ -34,7 +34,7 @@ if( isset($_POST['submit']))
 <?php include('header.php') ?>
 <title>Dashboard</title>
 <link rel="stylesheet" href="./css/client_files_remove.css">
-<link rel="stylesheet" href="./css/header_remove1.css">
+<link rel="stylesheet" href="./css/header_remove.css">
 <link rel="stylesheet" href="./css/index_remov.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <style type="text/css">
@@ -181,7 +181,7 @@ if( isset($_POST['submit']))
 }
 </style>
 <title>Dashboard</title>
-<link rel="stylesheet" href="./css/client_files.css">
+<link rel="stylesheet" href="./css/client_files_remove.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

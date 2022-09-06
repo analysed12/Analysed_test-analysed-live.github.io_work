@@ -15,9 +15,9 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-<link
+<!-- <link
     href="https://blogfonts.com/css/aWQ9MTc2OSZzdWI9NzY5JmM9bSZ0dGY9bWV0cm9wb2xpcy5yZWd1bGFyLm90ZiZuPW1ldHJvcG9saXMtcmVndWxhcg/Metropolis Regular.otf"
-    rel="stylesheet" type="text/css" />
+    rel="stylesheet" type="text/css" /> -->
 <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>

@@ -120,7 +120,7 @@ session_start();            //session has been started
             </div>
 
             <script>
-            const filterHeading3 = document.querySelector('#filterHeading3');
+            const filterHeading3 = document.querySelector('.filter-heading');
 
             const categoryDiv3 = document.querySelector('#categoryDiv3');
 

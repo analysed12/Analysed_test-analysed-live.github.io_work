@@ -365,9 +365,9 @@ function checkdelete() {
 }
 </script>
 <script>
-$(document).ready(function() {
-    $("#form1 #select-all").click(function() {
-        $("#form1 input[type='checkbox']").prop('checked', this.checked);
-    });
-});
+// $(document).ready(function() {
+//     $("#form1 #select-all").click(function() {
+//         $("#form1 input[type='checkbox']").prop('checked', this.checked);
+//     });
+// });
 </script>
