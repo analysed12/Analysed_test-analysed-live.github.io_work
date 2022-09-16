@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="./css/profile.css">
+<link rel="stylesheet" href="./css/profile_new.css">
 <title>Profile</title>
 
-<?php include('header.php') ?>
+<?php include('include/header.php') ?>
 <div class="container">
 <section class="profileContainer small_Container">
     <div class="leftArea-profileContainer">

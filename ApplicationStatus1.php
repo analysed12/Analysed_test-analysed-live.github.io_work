@@ -1,10 +1,10 @@
 
   <title>Dashboard</title>
     <link rel="stylesheet" href="./css/applicationStatus.css">
-    <link rel="stylesheet" href="./css/applicationStatus1.css">
+    <link rel="stylesheet" href="./css/applicationStatus1_sk.css">
     <link rel="stylesheet" href="./css/myTasksNew.css">
   <body>
-    <?php include('header.php') ?>
+    <?php include('include/header.php') ?>
     <div class="container">
       <div class="small_container">
         <div class="name-and-image-top-div row-flex-jobj">

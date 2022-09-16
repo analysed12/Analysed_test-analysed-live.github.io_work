@@ -1,4 +1,4 @@
-<?php include('header.php')?>
+<?php include('include/header.php')?>
 
 <link rel="stylesheet" href="css/js_search_result.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
@@ -41,9 +41,9 @@
           <input
             name="searchForJobs"
             id="inputSearch"
-            class="searchForJobs2"
-            placeholder="Machine Lea"
-          />&emsp;&emsp;&emsp;
+            class="searchForJobs"
+            placeholder="Machine Lear"
+          />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
           <button class="searchButton1" >
             <img src="./img/search-icon-blue.png" height="20px" width="20px" />
           </button>
@@ -56,10 +56,10 @@
             <button class="addFilesMyTasks1" id="myBtn1" >&nbsp; Events </button>&emsp;&emsp;
             <button class="addFilesMyTasks1" id="myBtn1" > Courses </button>
         </div><br><br><br>
-        <div class="card" style="width:95%;height:1100px">
+        <div class="card" style="width:1000px;height:1100px">
             <p id="val1"><b>People </b></p><br>
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/prof.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -71,7 +71,7 @@
             </div>  
 
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/Ellipse 148-2.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -83,7 +83,7 @@
             </div>  
 
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/Profile3.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -95,7 +95,7 @@
             </div>  
 
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/prof.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -107,7 +107,7 @@
             </div>  
             
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/prof.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -119,7 +119,7 @@
             </div>  
             
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/prof.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -131,7 +131,7 @@
             </div>  
             
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/prof.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -143,7 +143,7 @@
             </div>  
             
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/prof.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -155,7 +155,7 @@
             </div>  
 
             <div class="row">
-                <div class="col-2">&emsp;&emsp;
+                <div class="col-2">&emsp;&emsp;&emsp;&emsp;
                     <img src="img/prof.png" height="71px" width="71px">
                 </div>
                 <div class="col-10">
@@ -167,7 +167,7 @@
         </div>
 
         <br><br>
-        <a href="#" class="previous">&laquo; Previous</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="#" class="previous">&laquo; Previous</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
         <span id="down-text">
             <a href="#" class="mid">1 </a>
             <a href="#" class="coming">2</a>

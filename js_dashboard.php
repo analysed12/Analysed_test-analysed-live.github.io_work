@@ -39,7 +39,7 @@ include('conn.php'); ?>
 
 
 <title>Dashboard</title>
-<link rel="stylesheet" href="css/js_dashboard.css">
+<link rel="stylesheet" href="css/js_dashboard_sk.css">
 <body>
 <?php
         $jobseeker_ID = $_SESSION['jobSeekerID'];

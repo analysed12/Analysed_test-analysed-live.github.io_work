@@ -1,7 +1,7 @@
 <title>Dashboard</title>
-    <link rel="stylesheet" href="./css/applicationStatus.css">
+    <link rel="stylesheet" href="./css/applicationStatus_shu.css">
   <body>
-    <?php include('header.php') ?>
+    <?php include('include/header.php') ?>
     <div class="container">
       <div class="small_container">
         <div class="heading_dash">

@@ -6,8 +6,8 @@
 
 ?>
 
-<?php include('header.php')?>
-<link rel="stylesheet" href="css/company_my_task.css">
+<?php include('include/header.php')?>
+<link rel="stylesheet" href="css/company_my_task_new.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>

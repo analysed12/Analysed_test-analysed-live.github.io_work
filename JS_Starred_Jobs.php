@@ -8,7 +8,7 @@ session_start();             //session has been started
 ?>
 
 <!--TOP HEADER-->
-<?php include('header.php')?>
+<?php include('include/header.php')?>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
@@ -36,7 +36,7 @@ session_start();             //session has been started
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/js_nearby_jobs.css">
+<link rel="stylesheet" href="css/js_nearby_jobs_shu.css">
 <!-- <link rel="stylesheet" href="./css/js_more_jobs.css"> -->
 <body>
 
@@ -53,7 +53,7 @@ session_start();             //session has been started
 
          <div class="row">
             <div class="col-2">
-                    <label id="b1" >Sort by:&emsp;&emsp;<a href="/" class="active-breadcrumb-link">Recent</a> </label>
+                    <label id="b1" >Sort by:&emsp;<a href="/" class="active-breadcrumb-link">Recent</a> </label>
             </div>
             <div class="col-3">
                     <label id="b2">Applicants: Low to High <img src="./img/dropdown.png" height="10" weight="15"></label>
@@ -131,7 +131,7 @@ session_start();             //session has been started
 
 
             <div class="col-4 mb-3" id="card1">
-              <div class="card" style="height:auto;width:250px" id="temp2">
+              <div class="card" style="height:315px;width:250px" id="temp2">
                 <div class="icons">
                   <img src="img/share-icon.png" height="27" width="29">&emsp;
                   <img src="img/star-color.png" height="27" width="29">
@@ -153,9 +153,9 @@ session_start();             //session has been started
                     <progress value="<?php echo $remain_days; ?>" max="<?php echo $actual_days; ?>" ></progress>
                     <span class="days"> <?php echo $remain_days; ?> days left</span >
                 </div><br>
-                <!-- <div class="skills" style="margin-left:20px;">
+                <div class="skills" style="margin-left:20px;">
                     <p style="font-size:13px;line-height:2px ;"> <i><?php echo $skills; ?></i></p>
-                </div> -->
+                </div>
 
                 <br>
                 <div class="last_job_content" style="margin-left:20px;">
@@ -213,13 +213,13 @@ session_start();             //session has been started
             ?>
 
             <div class="col-4 mb-3">
-              <div class="card" style="height:auto;width:250px" id="temp2">
+              <div class="card" style="height:315px;width:250px" id="temp2">
                 <div class="icons">
                     <img src="img/share-icon.png" height="27" width="29">&emsp;
                     <img src="img/star-color.png" height="27" width="29">
                 </div>
                 <div class="row" style="margin-left:10px;">
-                    <div class="col-3 img">
+                    <div class="col-3">
                       <!-- <img src="img/Airbnb-logo.png" height="55" width="55"/> -->
                       <?php echo '<img src="data:image;base64,'.base64_encode($workspace_view).' "  style="width: 50px; height: 50px;" >' ;   ?>
                     </div>
@@ -235,7 +235,7 @@ session_start();             //session has been started
                     <progress value="<?php echo $remain_days; ?>" max="<?php echo $actual_days; ?>" ></progress>
                     <span class="days"> <?php echo $remain_days; ?> days left</span >
                 </div><br>
-                <div class="skill_2" style="margin-left:20px;">
+                <div class="skills" style="margin-left:20px;">
                     <p style="font-size:13px;line-height:2px ;"> <i><?php echo $skills; ?></i></p>
                 </div>
 
@@ -263,14 +263,14 @@ session_start();             //session has been started
         </div>
 
         <div class="col-3 mb-4">
-          <form action="" method="POST" class="form">
+          <form action="" method="POST">
             <p id="f1">Filters <img src="img/filter_list-24px.svg" height="20" width="20"  /> <br><br>
             <span style="color:#3598DB">Change location</span>
-            <br><input type="text" name="location" placeholder=" Type Location" class="loc"><br><br>
+            <br><input type="text" name="location" placeholder=" &emsp;Type Location" class="loc"><br><br>
             Pay type salary<br>
             <div class="sal2">
-                <input type="text" name="minsal" style="float: left; " placeholder=" Min" class="f2" >
-                <input type="text" name="maxsal" style="float:right;" placeholder=" Max" class="f3" ></p>
+                <input type="text" name="minsal" style="float: left; " placeholder=" &emsp;Min" class="f2" >
+                <input type="text" name="maxsal" style="float:right;" placeholder="&emsp; Max" class="f3" ></p>
             </div>
             <p id="f1" style="margin-top:20px">Industry</p>
             <select title="Status" name="chooseindustry" class="sel">
@@ -313,7 +313,7 @@ session_start();             //session has been started
             </div>
             
             <br><input type="text" name="skill" placeholder=" &emsp;Enter skills" class="loc"><br><br>
-            <!-- <button class="addFilesMyTasks1" id="btnapply" name="btnapply"> Apply </button> -->
+            <button class="addFilesMyTasks1" id="btnapply" name="btnapply"> Apply </button>
           </form>
         </div>
       </div>

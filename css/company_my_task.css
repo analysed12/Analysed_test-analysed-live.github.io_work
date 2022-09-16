@@ -26,12 +26,8 @@
     font-family: MetroMI;
     src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
   }
-  body{
-    width: 93% !important;
-  }
 .main_body{
-    margin-left: 10%;
-    margin-right: 0 !important;
+    margin-left: 200px;
 }
 .sub_1{
     color: #3598DB;
@@ -109,7 +105,7 @@ padding-right: 20px;
     font-family: Metro;
     color: #FF5763;
     background-color: #FFE3E5;
-    /* width: 146px; */
+    width: 146px;
     height: 30px;
     background: #FFE3E5 0% 0% no-repeat padding-box;
     border-radius: 8px;
@@ -132,29 +128,4 @@ progress::-webkit-progress-value {
     background-color: #F5F5F5;
     border-radius: 4px 4px 4px 4px;
     border: #F5F5F5;
-}
-
-/********************* NAMAN_CODE ***************************/
-
-@media screen and (min-width:1000px){
-  .sortByMyTasks{
-    margin: 0 10px !important;
-  }
-  .searchForJobs{
-    width: 20vw !important;
-  }
-  #car1{
-    max-width: 99%;
-  }
-  .cont_1{
-    margin: 30px 0px 30px 5px;
-  }
-  .col-6{
-    margin-bottom: 4%;
-  }
-}
-@media screen and (min-width:1400px){
-  .main_body{
-    margin-left: 20%;
-  }
 }

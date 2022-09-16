@@ -1,5 +1,5 @@
 <?php include('include/header.php')?>
-<link rel="stylesheet" href="./css/complaint_tickets.css">
+<link rel="stylesheet" href="./css/complaint_tickets_new.css">
 <title>Complaints</title>
 <div class="container">
     <div class="small_container">

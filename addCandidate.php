@@ -1,5 +1,4 @@
 <?php include('header1.php')?>
-<!-- <?php include('header.php')?> -->
 <link rel="stylesheet" href="./css/addCandidate.css" />
 <div class="container">
     <div class="addcan_breadcrumb_container">
@@ -27,19 +26,19 @@
                     <br>
                     <div class="addcan_uploadcontent">
                         <div class="addcan_uploadcontent1">
-                            <div class="addcan_uploadimg"><img src="img/Icon metro-upload.png"></div>
-                            <div class="addcan_uploadtext">
-                                <p>Drag and drop a document and watch me go! </p>
-                                <br>
-                                <p> or </p>
-                            </div>
+                        <div class="addcan_uploadimg"><img src="img/Icon metro-upload.png"></div>
+                        <div class="addcan_uploadtext">
+                        <p>Drag and drop a document and watch me go! </p>
+                        <br>
+                        <p> or </p>
+                        </div>
                         </div>
                         <div class="file-input">
                             <input type="file" id="file" class="file">
                             <label for="file">Upload</label>
                         </div>
-
-
+                        
+                        
                     </div>
                 </div>
                 <div class="addcan_right_container">
@@ -55,17 +54,16 @@
                         <p>Convert it to </p>
                         <br>
                         <select class="addcan_select">
-
-                            <option selected disabled>Select a Company Template </option>
-
-                            <select>
-                                <br>
-                                <br>
-                                <a href="addCandidates1.php"><button class="addcan_button">Proceed to add details of new
-                                        candidate</button></a>
-                                <div>
-                                </div>
-                    </div>
+                        
+                        <option selected disabled>Select a Company Template </option>
+                        
+                        <select>
+                        <br>
+                        <br>
+                        <a href="addCandidates1.php"><button class="addcan_button">Proceed to add details of new candidate</button></a>
+                    <div>
                 </div>
             </div>
         </div>
+    </div>
+</div>

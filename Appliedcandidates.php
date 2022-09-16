@@ -8,6 +8,7 @@ session_start();            //session has been started
     <link rel="stylesheet" href="./css/DashboardJobs.css">
     <link rel="stylesheet" href="./css/appliedCandidates.css">
     <link rel="stylesheet" href="./css/shortlistedJobs.css">
+   
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

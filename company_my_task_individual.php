@@ -1,8 +1,8 @@
-<?php include('header.php')?>
+<?php include('include/header.php')?>
 
 <html>
 <head>
-  <link rel="stylesheet" href="css/company_my_task_individual.css">
+  <link rel="stylesheet" href="css/company_my_task_individual_new.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
@@ -39,7 +39,7 @@
     <div class="head_ele">
         <div class="content_1"><b>Task Name | MCQ  
             <span class="sub_1">Instructions</span></b>
-            <span class="sub_2" style="margin-left: 25%;">Added by XYZ</span>
+            <span class="sub_2" style="margin-left: 250px;">Added by XYZ</span>
         </div><br>
         <div class="sub_2">Which Job | Which Company</div><br><br>
         <div class="sub_2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -59,7 +59,7 @@
         <div class="content_1"><b>Expected output</b></div><br><br>
         <div class="row">
             <div class="col-6">
-                <div class="card" style="width:99%;height:250px">
+                <div class="card" style="width:460px;height:250px">
                   <div id="box_1">
                     <p class="content_2">Example input</p>
                     <p id="box_2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="card" style="width:99%;height:250px">
+                <div class="card" style="width:460px;height:250px">
                   <div id="box_1">
                     <p class="content_2">Example input</p>
                     <p id="box_2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -108,7 +108,7 @@
                     <p class="val_2">Hrs&emsp; &emsp; &nbsp; Min&nbsp;&emsp; &emsp;  Sec</p>
                 </div>
                 <br>
-                <div class="card" style="width:99%;height:auto">
+                <div class="card" style="width:460px;height:500px">
                     <p class="bot1"><b>Assigned to</b>
                     <span class="b2">Newest first</span>&emsp;
                     <span class="sub_2">Alphabetical</span>
@@ -116,8 +116,8 @@
                     <br>
                     
                     <p style="display:flex">
-                        <button class="addFilesMyTasks1"  > &emsp;All </button>&emsp;
-                        <button class="addFilesMyTasks2"  > &emsp;In progress </button>&emsp;
+                        <button class="addFilesMyTasks1"  > &emsp;All </button>&emsp;&emsp;
+                        <button class="addFilesMyTasks2"  > &emsp;In progress </button>&emsp;&emsp;
                         <button class="addFilesMyTasks3"  >&nbsp; Waiting for review </button>
                     </p>
 

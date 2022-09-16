@@ -1,5 +1,5 @@
-<?php include ('header.php')?>
-<link rel="stylesheet" href="./css/schedule.css">
+<?php include ('include/header.php')?>
+<link rel="stylesheet" href="./css/schedule_sak.css">
 <div class="container">
         <div class="small_container" >
             <div class="heading_dash" style="margin-bottom: 50px;">

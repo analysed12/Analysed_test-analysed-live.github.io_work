@@ -2,7 +2,7 @@
    include 'conn.php';
    // session_start();
 ?>
-<link rel="stylesheet" href="./css/index_js_remove.css">
+<link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="./css/Candidates_specific.css">
 <link rel="stylesheet" href="./css/candidate_list.css">
 <link rel="stylesheet" href="css/contact_list.css">

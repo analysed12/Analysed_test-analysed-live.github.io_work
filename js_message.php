@@ -1,5 +1,5 @@
 <?php include ('include/header.php')?>
-<link rel="stylesheet" href="css/js_message.css">
+<link rel="stylesheet" href="css/js_message_new.css">
 <!-- <link rel="stylesheet" href="./css/js_message_1.css"> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
